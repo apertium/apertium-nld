@@ -1,0 +1,15 @@
+DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>" "<:>";
+SOFT-DELIMITERS = "<,>";
+
+SETS
+
+LIST BOS = (>>>) (sent);
+LIST EOS = (<<<) (sent);
+
+LIST N = n ; 
+LIST PrnPers = (prn pers);
+LIST Inf = inf;
+
+SECTION
+
+REMOVE Inf IF (-1 PrnPers);
