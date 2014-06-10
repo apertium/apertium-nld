@@ -10,6 +10,7 @@
 /apertium-nld.nld.rlx -text
 /apertium-nld.nld.tsx -text
 /apertium-nld.pc.in -text
+/apertium-nld.post-nld.dix -text
 /autogen.sh -text
 /configure.ac -text
 /modes.xml -text
