@@ -6,10 +6,75 @@ SETS
 LIST BOS = (>>>) (sent);
 LIST EOS = (<<<) (sent);
 
-LIST N = n ; 
+LIST N = n ;
+LIST Prn = prn;
 LIST PrnPers = (prn pers);
 LIST Inf = inf;
+LIST Pr = pr;
+LIST Adj = adj;
+LIST Cnjsub = cnjsub;
+LIST Det = det;
+LIST DetPos = (det pos);
+LIST Vbmod = vbmod;
+LIST Vaux = vaux;
+LIST DetDem = (det dem);
+LIST DetDef = (det def);
+LIST Verb = vblex vbmod vaux vbhaver vbser;
+LIST Imp = imp;
+LIST DetHet = (det def nt sg);
+
+SET PrnNotPers = (prn) - PrnPers;
 
 SECTION
 
 REMOVE Inf IF (-1 PrnPers);
+
+REMOVE Adj IF (-1 Pr) (1 Pr);
+
+REMOVE Cnjsub IF (1 EOS);
+
+# unsafe
+REMOVE ("haar"i n) IF (1 N);
+
+# unsafe
+SELECT DetPos IF (1 N);
+
+REMOVE N IF (-1 PrnNotPers) (NOT -1 DetHet);
+
+SELECT N IF (-1 DetPos) (1 EOS);
+
+SELECT N IF (*-1 Adj BARRIER Det) (NOT 1 N);
+
+#SELECT Inf IF (*-1 (NOT Vbmod) BARRIER Vbmod) (1 EOS);
+
+#SELECT Inf IF (-2 ("om"i)) (-1 ("te"i));
+
+SELECT Det IF (1 N);
+
+REMOVE Pr IF (1 EOS);
+
+REMOVE Pr IF (1 Pr);
+
+REMOVE DetDem IF (1 DetDef);
+
+REMOVE DetDem IF (1 Prn);
+
+REMOVE ("er"i pr) IF (1 Verb) (NOT 1 N);
+
+REMOVE (det def nt sg) IF (NOT *1 N BARRIER Verb)
+
+REMOVE (prn dem sg) IF (-1 (n pl));
+
+#REMOVE N IF (0 (np));
+
+REMOVE (vblex pp) IF (-1 Det) (0 N);
+
+
+
+SECTION
+
+# remove all imperative readings that have not been explicitly selected
+REMOVE Imp IF;
+
+# remove noun reading of "bij"
+#REMOVE ("bij"i n) IF;

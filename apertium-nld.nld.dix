@@ -123,25 +123,25 @@
       <e><re>[0-9]+</re><p><l>ste</l><r>ste<s n="num"/><s n="ord"/></r></p></e>
     </pardef>
 
-  
+
    <!-- SECTION: Interjections -->
 
    <pardef n="hallo__ij">
     <e>       <p><l></l><r><s n="ij"/></r></p></e>
    </pardef>
-  
+
    <!-- SECTION: Prepositions -->
 
    <pardef n="van__pr">
     <e>       <p><l></l><r><s n="pr"/></r></p></e>
    </pardef>
-  
+
    <!-- SECTION: Conjunctions -->
 
    <pardef n="en__cnjcoo">
     <e>       <p><l></l><r><s n="cnjcoo"/></r></p></e>
    </pardef>  
- 
+
    <pardef n="omdat__cnjsub">
     <e>       <p><l></l><r><s n="cnjsub"/></r></p></e>
    </pardef>  
@@ -248,7 +248,7 @@
       <e>       <p><l>het</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
 
       <e>       <p><l>wij</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
-	  <e r="LR"><p><l>we</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>we</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
 
       <e>       <p><l>jullie</l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
 
@@ -6882,7 +6882,7 @@
 
 
 
-  
+
     <pardef n="do/od__adj_sint">
       <e>       <p><l>de</l><r>od<s n="adj"/><s n="sint"/><s n="attr"/></r></p></e>
       <e>       <p><l>dere</l><r>od<s n="adj"/><s n="sint"/><s n="comp"/><s n="attr"/></r></p></e>
@@ -6912,7 +6912,7 @@
       <e r="RL"><p><l></l>          <r><s n="cmp"/></r></p></e>
       <e r="LR"><p><l></l>          <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
     </pardef>
-	<!-- SECTION: NOUNS -->
+    <!-- SECTION: NOUNS -->
     <pardef n="Olympische Spelen__n_m">
       <e>       <p><l></l><r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>s</l><r><s n="n"/><s n="m"/><s n="pl"/><j/>s<s n="gen"/></r></p></e>
@@ -8484,7 +8484,7 @@
       <e><p><l>'s</l><r><s n="n"/><s n="f"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
     </pardef>    
 
-	<pardef n="o/og__n_nt">
+    <pardef n="o/og__n_nt">
       <e>       <p><l>og</l><r>og<s n="n"/><s n="nt"/><s n="sg"/></r></p><par n="cmp"/></e>
       <e><p><l>ogs</l><r>og<s n="n"/><s n="nt"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
       <e>       <p><l>gen</l><r>og<s n="n"/><s n="nt"/><s n="pl"/></r></p><par n="cmp-R"/></e>
@@ -10821,7 +10821,7 @@
 
 
 
-	<!-- SECTION: ADJECTIVES -->
+    <!-- SECTION: ADJECTIVES -->
 
     <pardef n="ga/af__adj_sint">
       <e>       <p><l>ve</l><r>af<s n="adj"/><s n="sint"/><s n="attr"/></r></p></e>
@@ -11693,24 +11693,24 @@
 
     <pardef n="Frankrijk__np">
       <e>       <p><l/><r><s n="np"/><s n="top"/><s n="nt"/><s n="sg"/></r></p></e>
-	  <e>       <p><l>s</l><r><s n="np"/><s n="top"/><s n="nt"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
+      <e>       <p><l>s</l><r><s n="np"/><s n="top"/><s n="nt"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
     </pardef>
     <pardef n="Afrika__np">
       <e>       <p><l/><r><s n="np"/><s n="top"/><s n="nt"/><s n="sg"/></r></p></e>
-	  <e>       <p><l>'s</l><r><s n="np"/><s n="top"/><s n="nt"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
+      <e>       <p><l>'s</l><r><s n="np"/><s n="top"/><s n="nt"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
     </pardef>
     <pardef n="Nederlands__np">
       <e>       <p><l/><r><s n="np"/><s n="top"/><s n="nt"/><s n="sg"/></r></p></e>
-	  <e>       <p><l>'</l><r><s n="np"/><s n="top"/><s n="nt"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
+      <e>       <p><l>'</l><r><s n="np"/><s n="top"/><s n="nt"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
     </pardef>
     <pardef n="Oostzee__np">
       <e>       <p><l/><r><s n="np"/><s n="top"/><s n="mf"/><s n="sg"/></r></p></e>
-	  <e>       <p><l>s</l><r><s n="np"/><s n="top"/><s n="mf"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
+      <e>       <p><l>s</l><r><s n="np"/><s n="top"/><s n="mf"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
     </pardef>
 
     <pardef n="Europese_Unie__np">
       <e>       <p><l/><r><s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
-	  <e>       <p><l>s</l><r><s n="np"/><s n="top"/><s n="f"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
+      <e>       <p><l>s</l><r><s n="np"/><s n="top"/><s n="f"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
     </pardef>
 
     <pardef n="Verenigde_Naties__np">
@@ -11743,32 +11743,32 @@
 
     <pardef n="van_der_Merwe__np">
       <e>       <p><l/><r><s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></r></p></e>
-	  <e>       <p><l>s</l><r><s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
+      <e>       <p><l>s</l><r><s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
     </pardef>
     <pardef n="Botha__np">
       <e>       <p><l/><r><s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></r></p></e>
-	  <e>       <p><l>'s</l><r><s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
+      <e>       <p><l>'s</l><r><s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
     </pardef>
     <pardef n="Hughes__np">
       <e>       <p><l/><r><s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></r></p></e>
-	  <e>       <p><l>'</l><r><s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
+      <e>       <p><l>'</l><r><s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
     </pardef>
     <pardef n="Wikipedia__np">
       <e>       <p><l/><r><s n="np"/><s n="al"/><s n="mfn"/><s n="sg"/></r></p></e>
-	  <e>       <p><l>'s</l><r><s n="np"/><s n="al"/><s n="mfn"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
+      <e>       <p><l>'s</l><r><s n="np"/><s n="al"/><s n="mfn"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
     </pardef>
 
     <pardef n="Apertium__np">
       <e>       <p><l/><r><s n="np"/><s n="al"/><s n="mfn"/><s n="sg"/></r></p></e>
-	  <e>       <p><l>s</l><r><s n="np"/><s n="al"/><s n="mfn"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
+      <e>       <p><l>s</l><r><s n="np"/><s n="al"/><s n="mfn"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
     </pardef>
     <pardef n="Linux__np">
       <e>       <p><l/><r><s n="np"/><s n="al"/><s n="mfn"/><s n="sg"/></r></p></e>
-	  <e>       <p><l>'</l><r><s n="np"/><s n="al"/><s n="mfn"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
+      <e>       <p><l>'</l><r><s n="np"/><s n="al"/><s n="mfn"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
     </pardef>
     <pardef n="NAVO__np">
       <e>       <p><l/><r><s n="np"/><s n="al"/><s n="mfn"/><s n="sg"/></r></p></e>
-	  <e>       <p><l>'s</l><r><s n="np"/><s n="al"/><s n="mfn"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
+      <e>       <p><l>'s</l><r><s n="np"/><s n="al"/><s n="mfn"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
     </pardef>
 
 
@@ -11782,25 +11782,25 @@
     <!-- SECTION: Prepositions -->
 
     <e lm="aan"><i>aan</i><par n="van__pr"/></e>
-	<e lm="er"><i>er</i><par n="van__pr"/></e>
-	<e lm="ondanks"><i>ondanks</i><par n="van__pr"/></e>
+    <e lm="er"><i>er</i><par n="van__pr"/></e>
+    <e lm="ondanks"><i>ondanks</i><par n="van__pr"/></e>
     <e lm="vanwege"><i>vanwege</i><par n="van__pr"/></e>
     <e lm="achter"><i>achter</i><par n="van__pr"/></e>
     <e lm="beneden"><i>beneden</i><par n="van__pr"/></e>
     <e lm="bij"><i>bij</i><par n="van__pr"/></e>
-	<e lm="waarbij"><i>waarbij</i><par n="van__pr"/></e>
+    <e lm="waarbij"><i>waarbij</i><par n="van__pr"/></e>
     <e lm="binnen"><i>binnen</i><par n="van__pr"/></e>
     <e lm="boven"><i>boven</i><par n="van__pr"/></e>
     <e lm="buiten"><i>buiten</i><par n="van__pr"/></e>
     <e lm="door"><i>door</i><par n="van__pr"/></e>
     <e lm="in"><i>in</i><par n="van__pr"/></e>
-	<e lm="dankzij"><i>dankzij</i><par n="van__pr"/></e>
+    <e lm="dankzij"><i>dankzij</i><par n="van__pr"/></e>
     <e lm="langs"><i>langs</i><par n="van__pr"/></e>
     <e lm="met"><i>met</i><par n="van__pr"/></e>
     <e lm="na"><i>na</i><par n="van__pr"/></e>
     <e lm="naar"><i>naar</i><par n="van__pr"/></e>
     <e lm="naast"><i>naast</i><par n="van__pr"/></e>
-	<e lm="daarnaast"><i>daarnaast</i><par n="van__pr"/></e>
+    <e lm="daarnaast"><i>daarnaast</i><par n="van__pr"/></e>
     <e lm="om"><i>om</i><par n="van__pr"/></e>
     <e lm="onder"><i>onder</i><par n="van__pr"/></e>
     <e lm="op"><i>op</i><par n="van__pr"/></e>
@@ -11809,10 +11809,10 @@
     <e lm="rondom"><i>rondom</i><par n="van__pr"/></e>
     <e lm="sinds"><i>sinds</i><par n="van__pr"/></e>
     <e lm="te"><i>te</i><par n="van__pr"/></e>
-	<e lm="ten"><i>ten</i><par n="van__pr"/></e>
-	<e lm="ter"><i>ter</i><par n="van__pr"/></e>
-	<e lm="daarin"><i>daarin</i><par n="van__pr"/></e>
-	<e lm="per"><i>per</i><par n="van__pr"/></e>
+    <e lm="ten"><i>ten</i><par n="van__pr"/></e>
+    <e lm="ter"><i>ter</i><par n="van__pr"/></e>
+    <e lm="daarin"><i>daarin</i><par n="van__pr"/></e>
+    <e lm="per"><i>per</i><par n="van__pr"/></e>
     <e lm="tegen"><i>tegen</i><par n="van__pr"/></e>
     <e lm="tegenover"><i>tegenover</i><par n="van__pr"/></e>
     <e lm="tot"><i>tot</i><par n="van__pr"/></e>
@@ -11883,7 +11883,7 @@
 
 
     <e lm="alhoewel"><i>alhoewel</i><par n="dus__cnjadv"/></e>
-	<e lm="doordat"><i>doordat</i><par n="dus__cnjadv"/></e>
+    <e lm="doordat"><i>doordat</i><par n="dus__cnjadv"/></e>
     <e lm="indien"><i>indien</i><par n="dus__cnjadv"/></e>
     <e lm="bijvoorbeeld"><i>bijvoorbeeld</i><par n="dus__cnjadv"/></e>
     <e lm="daarvoor"><i>daarvoor</i><par n="dus__cnjadv"/></e>
@@ -12005,21 +12005,21 @@
 
     <e lm="deze"><i>d</i><par n="d/eze__prn"/></e>
     <e lm="die"><i>d</i><par n="d/ie__prn"/></e>
-	
-	<e lm="alles"><i>alles</i><par n="alles__prn"/></e>
-	<e lm="hetzelfde"><i>hetzelfde</i><par n="hetzelfde__prn"/></e>
+
+    <e lm="alles"><i>alles</i><par n="alles__prn"/></e>
+    <e lm="hetzelfde"><i>hetzelfde</i><par n="hetzelfde__prn"/></e>
     <e lm="zichzelf"><i>zichzelf</i><par n="zelf__prn"/></e>
-	<e lm="zelf"><i>zelf</i><par n="zelf__prn"/></e>
-	<e lm="zich"><i>zich</i><par n="zelf__prn"/></e>
-	<e lm="men"><i>men</i><par n="beide__prn"/></e>
-	<e lm="dezelfde"><i>dezelfde</i><par n="alle__prn"/></e>
-	<e lm="elkaar"><i>elkaar</i><par n="beide__prn"/></e>
-	<e lm="niets"><i>niets</i><par n="mens__prn"/></e>
-	<e lm="allerlei"><i>allerlei</i><par n="allerlei__prn"/></e>
+    <e lm="zelf"><i>zelf</i><par n="zelf__prn"/></e>
+    <e lm="zich"><i>zich</i><par n="zelf__prn"/></e>
+    <e lm="men"><i>men</i><par n="beide__prn"/></e>
+    <e lm="dezelfde"><i>dezelfde</i><par n="alle__prn"/></e>
+    <e lm="elkaar"><i>elkaar</i><par n="beide__prn"/></e>
+    <e lm="niets"><i>niets</i><par n="mens__prn"/></e>
+    <e lm="allerlei"><i>allerlei</i><par n="allerlei__prn"/></e>
 
     <e lm="alle"><i>alle</i><par n="alle__prn"/></e>
     <!--<e lm="de ander"><i>de<b/>ander</i><par n="alle__prn"/></e>-->
-	<e lm="ander"><i>ander</i><par n="alle__prn"/></e>
+    <e lm="ander"><i>ander</i><par n="alle__prn"/></e>
 
     <e lm="mekaar"><i>mekaar</i><par n="beide__prn"/></e>
     <e lm="beide"><i>beide</i><par n="beide__prn"/></e>
@@ -12136,10 +12136,10 @@
     <e lm="toe"><i>toe</i><par n="hoe__adv"/></e>
     <e lm="waarom"><i>waarom</i><par n="hoe__adv"/></e>
     <e lm="waar"><i>waar</i><par n="hoe__adv"/></e>
-	
-	<e lm="met name"><i>met<b/>name</i><par n="es__adv"/></e>
-	<e lm="ervoor"><i>ervoor</i><par n="es__adv"/></e>
-	<e lm="met behulp van"><i>met<b/>behulp<b/>van</i><par n="es__adv"/></e>
+
+    <e lm="met name"><i>met<b/>name</i><par n="es__adv"/></e>
+    <e lm="ervoor"><i>ervoor</i><par n="es__adv"/></e>
+    <e lm="met behulp van"><i>met<b/>behulp<b/>van</i><par n="es__adv"/></e>
 
 
     <e lm="helemaal aan het begin"><i>helemaal<b/>aan<b/>het<b/>begin</i><par n="es__adv"/></e>
@@ -12409,7 +12409,7 @@
     <e lm="eerdaags"><i>eerdaags</i><par n="es__adv"/></e>
     <e lm="eerder"><i>eerder</i><par n="es__adv"/></e>
     <e lm="eergister"><i>eergister</i><par n="es__adv"/></e>
-	<e lm="voordat"><i>voordat</i><par n="es__adv"/></e>
+    <e lm="voordat"><i>voordat</i><par n="es__adv"/></e>
     <e lm="eergisteren"><i>eergisteren</i><par n="es__adv"/></e>
     <e lm="eerlijkheidshalve"><i>eerlijkheidshalve</i><par n="es__adv"/></e>
     <e lm="eerst"><i>eerst</i><par n="es__adv"/></e>
@@ -13279,8 +13279,8 @@
     <e lm="zoal"><i>zoal</i><par n="es__adv"/></e>
     <e lm="zodanig"><i>zodanig</i><par n="es__adv"/></e>
     <e lm="zodoende"><i>zodoende</i><par n="es__adv"/></e>
-	<e lm="vanwege"><i>vanwege</i><par n="es__adv"/></e>
-	<e lm="gedurende"><i>gedurende</i><par n="es__adv"/></e>
+    <e lm="vanwege"><i>vanwege</i><par n="es__adv"/></e>
+    <e lm="gedurende"><i>gedurende</i><par n="es__adv"/></e>
     <e lm="zoek"><i>zoek</i><par n="es__adv"/></e>
     <e lm="zogenaamd"><i>zogenaamd</i><par n="es__adv"/></e>
     <e lm="zojuist"><i>zojuist</i><par n="es__adv"/></e>
@@ -13380,363 +13380,363 @@
 
 
     <!-- SECTION: Adjectives -->
-	
-	
-	<e lm="ander"><i>ander</i><par n="nipt__adj"/></e>
-	<e lm="naast"><i>naast</i><par n="nipt__adj"/></e>
-	<e lm="afkomstig"><i>afkomstig</i><par n="nipt__adj"/></e>
-	<e lm="jarig"><i>jarig</i><par n="eng__adj_sint"/></e>
-	<e lm="vierkant"><i>vierkant</i><par n="eng__adj_sint"/></e>
-	<e lm="genaamd"><i>genaamd</i><par n="nipt__adj"/></e>
-	<e lm="single"><i>single</i><par n="cash__adj"/></e>
-	<e lm="toenmalig"><i>toenmalig</i><par n="eng__adj_sint"/></e>
-	<e lm="extra"><i>extra</i><par n="cash__adj"/></e>
-	<e lm="dergelijk"><i>dergelijk</i><par n="nipt__adj"/></e>
+
+
+    <e lm="ander"><i>ander</i><par n="nipt__adj"/></e>
+    <e lm="naast"><i>naast</i><par n="nipt__adj"/></e>
+    <e lm="afkomstig"><i>afkomstig</i><par n="nipt__adj"/></e>
+    <e lm="jarig"><i>jarig</i><par n="eng__adj_sint"/></e>
+    <e lm="vierkant"><i>vierkant</i><par n="eng__adj_sint"/></e>
+    <e lm="genaamd"><i>genaamd</i><par n="nipt__adj"/></e>
+    <e lm="single"><i>single</i><par n="cash__adj"/></e>
+    <e lm="toenmalig"><i>toenmalig</i><par n="eng__adj_sint"/></e>
+    <e lm="extra"><i>extra</i><par n="cash__adj"/></e>
+    <e lm="dergelijk"><i>dergelijk</i><par n="nipt__adj"/></e>
 
 
     <e lm="veel"><i></i><par n="/veel__adj_sint"/></e>
-	<e lm="geboren"><i>geboren</i><par n="nipt__adj"/></e>
-	<!--<e lm="opgemeten"><i>opgemeten</i><par n="nipt__adj"/></e>-->
-	<e lm="slordig"><i>slordig</i><par n="eng__adj_sint"/></e>
-	<e lm="gemeten"><i>gemeten</i><par n="nipt__adj"/></e>
-	<e lm="overgroot"><i>overgro</i><par n="blo/ot__adj_sint"/></e>
-	<e lm="mogelijk"><i>mogelijk</i><par n="eng__adj_sint"/></e>
-	<e lm="uiterlijk"><i>uiterlijk</i><par n="eng__adj_sint"/></e>
-	<e lm="natuurlijk"><i>natuurlijk</i><par n="eng__adj_sint"/></e>
-	<e lm="onafhankelijk"><i>onafhankelijk</i><par n="eng__adj_sint"/></e>
-	<e lm="makkelijk"><i>makkelijk</i><par n="eng__adj_sint"/></e>
-	<e lm="christelijk"><i>christelijk</i><par n="eng__adj_sint"/></e>
-	<e lm="specifiek"><i>specifiek</i><par n="eng__adj_sint"/></e>
-	<e lm="antiek"><i>antiek</i><par n="eng__adj_sint"/></e>
-	<e lm="electrisch"><i>electrisch</i><par n="eng__adj_sint"/></e>
-	<e lm="moeilijk"><i>moeilijk</i><par n="eng__adj_sint"/></e>
-	<e lm="verantwoordelijk"><i>verantwoordelijk</i><par n="eng__adj_sint"/></e>
-	<e lm="typisch"><i>typisch</i><par n="fors__adj_sint"/></e>
-	<e lm="omvattend"><i>omvattend</i><par n="eng__adj_sint"/></e>
-	<e lm="basisch"><i>basisch</i><par n="fors__adj_sint"/></e>
-	<e lm="wereldwijd"><i>wereldwijd</i><par n="eng__adj_sint"/></e>
-	<e lm="uitgestrekt"><i>uitgestrekt</i><par n="eng__adj_sint"/></e>
-	<e lm="Nedersaksisch"><i>Nedersaksisch</i><par n="fors__adj_sint"/></e>
-	<e lm="afhankelijk"><i>afhankelijk</i><par n="eng__adj_sint"/></e>
-	<e lm="electronisch"><i>electronisch</i><par n="fors__adj_sint"/></e>
-	<e lm="nazi"><i>nazi</i><par n="nipt__adj"/></e>
-	<e lm="mannelijk"><i>mannelijk</i><par n="eng__adj_sint"/></e>
-	<e lm="landelijk"><i>landelijk</i><par n="eng__adj_sint"/></e>
-	<e lm="middel"><i>middel</i><par n="nipt__adj"/></e>
-	<e lm="verder"><i>verder</i><par n="nipt__adj"/></e>
-	<e lm="leidend"><i>leidend</i><par n="eng__adj_sint"/></e>
-	<e lm="onmiddellijk"><i>onmiddellijk</i><par n="eng__adj_sint"/></e>
-	<e lm="architectonisch"><i>architectonisch</i><par n="fors__adj_sint"/></e>
-	<e lm="plotseling"><i>plotseling</i><par n="eng__adj_sint"/></e>
-	<e lm="aanzienlijk"><i>aanzienlijk</i><par n="eng__adj_sint"/></e>
-	<e lm="werkelijk"><i>werkelijk</i><par n="eng__adj_sint"/></e>
-	<e lm="continentaal"><i>continenta</i><par n="ka/al__adj_sint"/></e>
-	<e lm="apostelijk"><i>apostelijk</i><par n="eng__adj_sint"/></e>
-	<e lm="Sovjets"><i>Sovjets</i><par n="eng__adj_sint"/></e>
-	<e lm="gevaarlijk"><i>gevaarlijk</i><par n="eng__adj_sint"/></e>
-	<e lm="Mediterraans"><i>Mediterraans</i><par n="fors__adj_sint"/></e>
-	<e lm="mechanisch"><i>mechanisch</i><par n="fors__adj_sint"/></e>
-	<e lm="aanvankelijk"><i>aanvankelijk</i><par n="eng__adj_sint"/></e>
-	<e lm="invloedrijk"><i>invloedrijk</i><par n="eng__adj_sint"/></e>
-	<e lm="horizontaal"><i>horizonta</i><par n="ora/al__adj"/></e>
-	<e lm="aangrenzend"><i>aangrenzend</i><par n="eng__adj_sint"/></e>
-	<e lm="krachtig"><i>krachtig</i><par n="eng__adj_sint"/></e>
-	<e lm="verticaal"><i>vertica</i><par n="ora/al__adj"/></e>
-	<e lm="onmogelijk"><i>onmogelijk</i><par n="eng__adj_sint"/></e>
-	<e lm="tertair"><i>tertair</i><par n="nipt__adj"/></e>
-	<e lm="grondwettelijk"><i>grondwettelijk</i><par n="eng__adj_sint"/></e>
-	<e lm="levendig"><i>levendig</i><par n="eng__adj_sint"/></e>
-	<e lm="verhoogd"><i>verhoogd</i><par n="eng__adj_sint"/></e>
-	<e lm="bewust"><i>bewust</i><par n="eng__adj_sint"/></e>
-	<e lm="toeganglijk"><i>toeganglijk</i><par n="eng__adj_sint"/></e>
-	<e lm="winstgevend"><i>winstgevend</i><par n="eng__adj_sint"/></e>
-	<e lm="technologisch"><i>technologisch</i><par n="fors__adj_sint"/></e>
-	<e lm="onsuccesvol"><i>onsuccesvol</i><par n="gul__adj_sint"/></e>
-	<e lm="analytisch"><i>analytisch</i><par n="fors__adj_sint"/></e>
-	<e lm="goud"><i>goud</i><par n="eng__adj_sint"/></e>
-	<e lm="tegenovergesteld"><i>tegenovergesteld</i><par n="eng__adj_sint"/></e>
-	<e lm="hoofdzakelijk"><i>hoofdzakelijk</i><par n="eng__adj_sint"/></e>
-	<e lm="beslissend"><i>beslissend</i><par n="eng__adj_sint"/></e>
-	<e lm="nomadisch"><i>nomadisch</i><par n="fors__adj_sint"/></e>
-	<e lm="veranderlijk"><i>veranderlijk</i><par n="eng__adj_sint"/></e>
-	<e lm="stevig"><i>stevig</i><par n="eng__adj_sint"/></e>
-	<e lm="openlijk"><i>openlijk</i><par n="eng__adj_sint"/></e>
-	<e lm="ogenschijnlijk"><i>ogenschijnlijk</i><par n="eng__adj_sint"/></e>
-	<e lm="perspectief"><i>perspectief</i><par n="eng__adj_sint"/></e>
-	<e lm="syntetisch"><i>syntetisch</i><par n="fors__adj_sint"/></e>
-	<e lm="onduidelijk"><i>onduidelijk</i><par n="eng__adj_sint"/></e>
-	<e lm="individueel"><i>individue</i><par n="he/el__adj_sint"/></e>
-	<e lm="ecologisch"><i>ecologisch</i><par n="fors__adj_sint"/></e>
-	<e lm="gemakkelijk"><i>gemakkelijk</i><par n="eng__adj_sint"/></e>
-	<e lm="bemand"><i>bemand</i><par n="eng__adj_sint"/></e>
-	<e lm="wijdverspreid"><i>wijdverspreid</i><par n="eng__adj_sint"/></e>
-	<e lm="tamelijk"><i>tamelijk</i><par n="eng__adj_sint"/></e>
-	<e lm="herhaaldelijk"><i>herhaaldelijk</i><par n="eng__adj_sint"/></e>
-	<e lm="productief"><i>productie</i><par n="gro/f__adj_sint"/></e>
-	<e lm="onofficieel"><i>onofficie</i><par n="he/el__adj_sint"/></e>
-	<e lm="woedend"><i>woedend</i><par n="eng__adj_sint"/></e>
-	<e lm="vriendschappelijk"><i>vriendschappelijk</i><par n="eng__adj_sint"/></e>
-	<e lm="eindelijk"><i>eindelijk</i><par n="eng__adj_sint"/></e>
-	<e lm="uitzonderlijk"><i>uitzonderlijk</i><par n="eng__adj_sint"/></e>
-	<e lm="patriotisch"><i>patriotisch</i><par n="fors__adj_sint"/></e>
-	<e lm="innerlijk"><i>innerlijk</i><par n="eng__adj_sint"/></e>
-	<e lm="fonetisch"><i>fonetisch</i><par n="fors__adj_sint"/></e>
-	<e lm="talrijk"><i>talrijk</i><par n="eng__adj_sint"/></e>
-	<e lm="reactief"><i>reactie</i><par n="gro/f__adj_sint"/></e>
-	<e lm="opensource"><i>opensource</i><par n="fors__adj_sint"/></e>
-	<e lm="gedroogd"><i>gedroogd</i><par n="eng__adj_sint"/></e>
-	<e lm="vastgesteld"><i>vastgesteld</i><par n="eng__adj_sint"/></e>
-	<e lm="etimologisch"><i>etimologisch</i><par n="fors__adj_sint"/></e>
-	<e lm="vijandig"><i>vijandig</i><par n="eng__adj_sint"/></e>
-	<e lm="onrechtelijk"><i>onrechtelijk</i><par n="eng__adj_sint"/></e>
-	<e lm="buitenechtelijk"><i>buitenechtelijk</i><par n="eng__adj_sint"/></e>
-	<e lm="mededingend"><i>mededingend</i><par n="eng__adj_sint"/></e>
-	<e lm="orthodox"><i>orthodox</i><par n="fors__adj_sint"/></e>
-	<e lm="numerisch"><i>numerisch</i><par n="fors__adj_sint"/></e>
-	<e lm="ijverig"><i>ijverig</i><par n="eng__adj_sint"/></e>
-	<e lm="overerfelijk"><i>overerfelijk</i><par n="eng__adj_sint"/></e>
-	<e lm="dodelijk"><i>dodelijk</i><par n="eng__adj_sint"/></e>
-	<e lm="vocaal"><i>voca</i><par n="ka/al__adj_sint"/></e>
-	<e lm="operationeel"><i>operatione</i><par n="he/el__adj_sint"/></e>
-	<e lm="sterfelijk"><i>sterfelijk</i><par n="eng__adj_sint"/></e>
-	<e lm="zanderig"><i>zanderig</i><par n="eng__adj_sint"/></e>
-	<e lm="rationeel"><i>ratione</i><par n="he/el__adj_sint"/></e>
-	<e lm="geweldadig"><i>geweldadig</i><par n="eng__adj_sint"/></e>
-	<e lm="statistisch"><i>statistisch</i><par n="eng__adj_sint"/></e>
-	<e lm="seizoensgevoelig"><i>seizoensgevoelig</i><par n="eng__adj_sint"/></e>
-	<e lm="polair"><i>polair</i><par n="fier__adj_sint"/></e>
-	<e lm="onvermijdelijk"><i>onvermijdelijk</i><par n="eng__adj_sint"/></e>
-	<e lm="gerieflijk"><i>gerieflijk</i><par n="eng__adj_sint"/></e>
-	<e lm="Weens"><i>Weens</i><par n="fors__adj_sint"/></e>
-	<e lm="onmiddellijk"><i>onmiddellijk</i><par n="eng__adj_sint"/></e>
-	<e lm="behoorlijk"><i>behoorlijk</i><par n="eng__adj_sint"/></e>
-	<e lm="wezenlijk"><i>wezenlijk</i><par n="eng__adj_sint"/></e>
-	<e lm="vrolijk"><i>vrolijk</i><par n="eng__adj_sint"/></e>
-	<e lm="verzoenbaar"><i>verzoenba</i><par n="ga/ar__adj_sint"/></e>
-	<e lm="ruimtelijk"><i>ruimtelijk</i><par n="eng__adj_sint"/></e>
-	<e lm="psychologisch"><i>psychologisch</i><par n="fors__adj_sint"/></e>
-	<e lm="geestdriftig"><i>geestdriftig</i><par n="eng__adj_sint"/></e>
-	<e lm="blinkend"><i>blinkend</i><par n="eng__adj_sint"/></e>
-	<e lm="toegewijd"><i>toegewijd</i><par n="eng__adj_sint"/></e>
-	<e lm="schriftelijk"><i>schriftelijk</i><par n="eng__adj_sint"/></e>
-	<e lm="encyclopedisch"><i>encyclopedisch</i><par n="fors__adj_sint"/></e>
-	<e lm="bedrijvig"><i>bedrijvig</i><par n="eng__adj_sint"/></e>
-	<e lm="uitdrukkelijk"><i>uitdrukkelijk</i><par n="eng__adj_sint"/></e>
-	<e lm="symmetrisch"><i>symmetrisch</i><par n="fors__adj_sint"/></e>
-	<e lm="epidemisch"><i>epidemisch</i><par n="fors__adj_sint"/></e>
-	<e lm="aanstekelijk"><i>aanstekelijk</i><par n="eng__adj_sint"/></e>
-	<e lm="waarschijnlijk"><i>waarschijnlijk</i><par n="eng__adj_sint"/></e>
-	<e lm="vrijelijk"><i>vrijelijk</i><par n="eng__adj_sint"/></e>
-	<e lm="optioneel"><i>optione</i><par n="he/el__adj_sint"/></e>
-	<e lm="empirisch"><i>empirisch</i><par n="fors__adj_sint"/></e>
-	<e lm="degelijk"><i>degelijk</i><par n="eng__adj_sint"/></e>
-	<e lm="wonderlijk"><i>wonderlijk</i><par n="eng__adj_sint"/></e>
-	<e lm="systematisch"><i>systematisch</i><par n="fors__adj_sint"/></e>
-	<e lm="onsterfelijk"><i>onsterfelijk</i><par n="eng__adj_sint"/></e>
-	<e lm="lelijk"><i>lelijk</i><par n="eng__adj_sint"/></e>
-	<e lm="erfelijk"><i>erfelijk</i><par n="eng__adj_sint"/></e>
-	<e lm="elastisch"><i>elastisch</i><par n="fors__adj_sint"/></e>
-	<e lm="behoudend"><i>behoudend</i><par n="eng__adj_sint"/></e>
-	<e lm="verstandelijk"><i>verstandelijk</i><par n="eng__adj_sint"/></e>
-	<e lm="zinvol"><i>zinvol</i><par n="gul__adj_sint"/></e>
-	<e lm="autocratisch"><i>autocratisch</i><par n="fors__adj_sint"/></e>
-	<e lm="ontzaglijk"><i>ontzaglijk</i><par n="eng__adj_sint"/></e>
-	<e lm="bewust"><i>bewust</i><par n="eng__adj_sint"/></e>
-	<e lm="accusatief"><i>accusatie</i><par n="corrosie/f__adj"/></e>
-	<e lm="vernietigend"><i>vernietigend</i><par n="eng__adj_sint"/></e>
-	<e lm="thermodynamisch"><i>thermodynamisch</i><par n="fors__adj_sint"/></e>
-	<e lm="bolvorming"><i>bolvorming</i><par n="eng__adj_sint"/></e>
-	<e lm="ogenblikkelijk"><i>ogenblikkelijk</i><par n="eng__adj_sint"/></e>
-	<e lm="getrouwd"><i>getrouwd</i><par n="eng__adj_sint"/></e>
-	<e lm="vermoord"><i>vermoord</i><par n="eng__adj_sint"/></e>
-	<e lm="vermeend"><i>vermeend</i><par n="eng__adj_sint"/></e>
-	<e lm="treffend"><i>treffend</i><par n="eng__adj_sint"/></e>
-	<e lm="toxisch"><i>toxisch</i><par n="fors__adj_sint"/></e>
-	<e lm="onvoorwaardelijk"><i>onvoorwaardelijk</i><par n="eng__adj_sint"/></e>
-	<e lm="alternatievelijk"><i>alternatievelijk</i><par n="eng__adj_sint"/></e>
-	<e lm="pijlijk"><i>pijlijk</i><par n="eng__adj_sint"/></e>
-	<e lm="opzettelijk"><i>opzettelijk</i><par n="eng__adj_sint"/></e>
-	<e lm="mystiek"><i>mystiek</i><par n="eng__adj_sint"/></e>
-	<e lm="daadwerkelijk"><i>daadwerkelijk</i><par n="eng__adj_sint"/></e>
-	<e lm="bedekt"><i>bedekt</i><par n="eng__adj_sint"/></e>
-	<e lm="gezouten"><i>gezouten</i><par n="eng__adj_sint"/></e>
-	<e lm="gepland"><i>gepland</i><par n="eng__adj_sint"/></e>
-	<e lm="ijzig"><i>ijzig</i><par n="eng__adj_sint"/></e>
-	<e lm="onnatuurlijk"><i>onnatuurlijk</i><par n="eng__adj_sint"/></e>
-	<e lm="enthousiast"><i>enthousiast</i><par n="eng__adj_sint"/></e>
-	<e lm="alkalisch"><i>alkalisch</i><par n="fors__adj_sint"/></e>
-	<e lm="aanspreekbaar"><i>aanspreekba</i><par n="ga/ar__adj_sint"/></e>
-	<e lm="statuair"><i>statuair</i><par n="fier__adj_sint"/></e>
-	<e lm="opwindend"><i>opwindend</i><par n="eng__adj_sint"/></e>
-	<e lm="onderscheidbaar"><i>onderscheidba</i><par n="ga/ar__adj_sint"/></e>
-	<e lm="meesterlijk"><i>meesterlijk</i><par n="eng__adj_sint"/></e>
-	<e lm="aangetast"><i>aangetast</i><par n="eng__adj_sint"/></e>
-	<e lm="bevredigend"><i>bevredigend</i><par n="eng__adj_sint"/></e>
-	<e lm="benaderd"><i>benaderd</i><par n="eng__adj_sint"/></e>
-	<e lm="waanzinnig"><i>waanzinnig</i><par n="eng__adj_sint"/></e>
-	<e lm="behendig"><i>behendig</i><par n="eng__adj_sint"/></e>
-	<e lm="passievol"><i>passievol</i><par n="gul__adj_sint"/></e>
-	<e lm="ontoegankelijk"><i>ontoegankelijk</i><par n="eng__adj_sint"/></e>
-	<e lm="imperialistisch"><i>imperialistisch</i><par n="fors__adj_sint"/></e>
-	<e lm="ordentelijk"><i>ordentelijk</i><par n="eng__adj_sint"/></e>
-	<e lm="onschadelijk"><i>onschadelijk</i><par n="eng__adj_sint"/></e>
-	<e lm="levensgevaarlijk"><i>levensgevaarlijk</i><par n="eng__adj_sint"/></e>
-	<e lm="kubisch"><i>kubisch</i><par n="fors__adj_sint"/></e>
-	<e lm="uitgelekt"><i>uitgelekt</i><par n="eng__adj_sint"/></e>
-	<e lm="aanmerkelijk"><i>aanmerkelijk</i><par n="eng__adj_sint"/></e>
-	<e lm="speculatief"><i>speculatie</i><par n="gro/f__adj_sint"/></e>
-	<e lm="valselijk"><i>valselijk</i><par n="eng__adj_sint"/></e>
-	<e lm="zondig"><i>zondig</i><par n="eng__adj_sint"/></e>
-	<e lm="onrealistisch"><i>onrealistisch</i><par n="fors__adj_sint"/></e>
-	<e lm="onontbeerlijk"><i>onontbeerlijk</i><par n="eng__adj_sint"/></e>
-	<e lm="onlosmakelijk"><i>onlosmakelijk</i><par n="eng__adj_sint"/></e>
-	<e lm="inactief"><i>inactie</i><par n="gro/f__adj_sint"/></e>
-	<e lm="langeafstand"><i>langeafstand</i><par n="eng__adj_sint"/></e>
-	<e lm="cursief"><i>cursie</i><par n="gro/f__adj_sint"/></e>
-	<e lm="heimelijk"><i>heimelijk</i><par n="eng__adj_sint"/></e>
-	<e lm="hartelijk"><i>hartelijk</i><par n="eng__adj_sint"/></e>
-	<e lm="voortijdig"><i>voortijdig</i><par n="eng__adj_sint"/></e>
-	<e lm="rethorisch"><i>rethorisch</i><par n="fors__adj_sint"/></e>
-	<e lm="opzichtelijk"><i>opzichtelijk</i><par n="eng__adj_sint"/></e>
-	<e lm="inhoudelijk"><i>inhoudelijk</i><par n="eng__adj_sint"/></e>
-	<e lm="herwonnen"><i>herwonnen</i><par n="eng__adj_sint"/></e>
-	<e lm="phylogenetisch"><i>phylogenetisch</i><par n="fors__adj_sint"/></e>
-	<e lm="ultrasoon"><i>ultraso</i><par n="scho/on__adj_sint"/></e>
-	<e lm="schematisch"><i>schematisch</i><par n="fors__adj_sint"/></e>
-	<e lm="recessief"><i>recessie</i><par n="gro/f__adj_sint"/></e>
-	<e lm="onbewegelijk"><i>onbewegelijk</i><par n="eng__adj_sint"/></e>
-	<e lm="morfologisch"><i>morfologisch</i><par n="eng__adj_sint"/></e>
-	<e lm="locatief"><i>locatie</i><par n="gro/f__adj_sint"/></e>
-	<e lm="bevrijd"><i>bevrijd</i><par n="eng__adj_sint"/></e>
-	<e lm="aanstotelijk"><i>aanstotelijk</i><par n="eng__adj_sint"/></e>
-	<e lm="vergankelijk"><i>vergankelijk</i><par n="eng__adj_sint"/></e>
-	<e lm="substantief"><i>substantie</i><par n="corrosie/f__adj"/></e>
-	<e lm="oceanografisch"><i>oceanografisch</i><par n="fors__adj_sint"/></e>
-	<e lm="onbewust"><i>onbewust</i><par n="eng__adj_sint"/></e>
-	<e lm="geplaatst"><i>geplaatst</i><par n="eng__adj_sint"/></e>
-	<e lm="verdubbeld"><i>verdubbeld</i><par n="eng__adj_sint"/></e>
-	<e lm="waterrijk"><i>waterrijk</i><par n="eng__adj_sint"/></e>
-	<e lm="onwaarschijnlijk"><i>onwaarschijnlijk</i><par n="eng__adj_sint"/></e>
-	<e lm="oneerlijk"><i>oneerlijk</i><par n="eng__adj_sint"/></e>
-	<e lm="lichtelijk"><i>lichtelijk</i><par n="eng__adj_sint"/></e>
-	<e lm="isotropisch"><i>isotropisch</i><par n="fors__adj_sint"/></e>
-	<e lm="beoordeeld"><i>beoordeeld</i><par n="eng__adj_sint"/></e>
-	<e lm="elektrolitisch"><i>elektrolitisch</i><par n="fors__adj_sint"/></e>
-	<e lm="bevorderlijk"><i>bevorderlijk</i><par n="eng__adj_sint"/></e>
-	<e lm="onzinnig"><i>onzinnig</i><par n="eng__adj_sint"/></e>
-	<e lm="ongebruikelijk"><i>ongebruikelijk</i><par n="eng__adj_sint"/></e>
-	<e lm="jammerlijk"><i>jammerlijk</i><par n="eng__adj_sint"/></e>
-	<e lm="gestolen"><i>gestolen</i><par n="eng__adj_sint"/></e>
-	<e lm="gelegerd"><i>gelegerd</i><par n="eng__adj_sint"/></e>
-	<e lm="wantrouwend"><i>wantrouwend</i><par n="eng__adj_sint"/></e>
-	<e lm="voorschriftelijk"><i>voorschriftelijk</i><par n="eng__adj_sint"/></e>
-	<e lm="vocatief"><i>vocatie</i><par n="corrosie/f__adj"/></e>
-	<e lm="proactief"><i>proactie</i><par n="gro/f__adj_sint"/></e>
-	<e lm="onbewegelijk"><i>onbewegelijk</i><par n="eng__adj_sint"/></e>
-	<e lm="ontvankelijk"><i>ontvankelijk</i><par n="eng__adj_sint"/></e>
-	<e lm="onberispelijk"><i>onberispelijk</i><par n="eng__adj_sint"/></e>
-	<e lm="misselijk"><i>misselijk</i><par n="eng__adj_sint"/></e>
-	<e lm="inactief"><i>inactie</i><par n="gro/f__adj_sint"/></e>
-	<e lm="geordend"><i>geordend</i><par n="eng__adj_sint"/></e>
-	<e lm="dadelijk"><i>dadelijk</i><par n="eng__adj_sint"/></e>
-	<e lm="bezwaarlijk"><i>bezwaarlijk</i><par n="eng__adj_sint"/></e>
-	<e lm="toegevelijk"><i>toegevelijk</i><par n="eng__adj_sint"/></e>
-	<e lm="aarzelend"><i>aarzelend</i><par n="eng__adj_sint"/></e>
-	<e lm="taalwetenschappelijk"><i>taalwetenschappelijk</i><par n="eng__adj_sint"/></e>
-	<e lm="pessimistisch"><i>pessimistisch</i><par n="fors__adj_sint"/></e>
-	<e lm="oneconomisch"><i>oneconomisch</i><par n="fors__adj_sint"/></e>
-	<e lm="administratief"><i>administratie</i><par n="gro/f__adj_sint"/></e>
-	<e lm="bestendig"><i>bestendig</i><par n="eng__adj_sint"/></e>
-	<e lm="bloedig"><i>bloedig</i><par n="eng__adj_sint"/></e>
-	<e lm="boosaardig"><i>boosaardig</i><par n="eng__adj_sint"/></e>
-	<e lm="digestief"><i>digestie</i><par n="gro/f__adj_sint"/></e>
-	<e lm="digitaal"><i>digita</i><par n="ka/al__adj_sint"/></e>
-	<e lm="dominant"><i>dominant</i><par n="eng__adj_sint"/></e>
-	<e lm="dringend"><i>dringend</i><par n="eng__adj_sint"/></e>
-	<e lm="ernstig"><i>ernstig</i><par n="eng__adj_sint"/></e>
-	<e lm="geldig"><i>geldig</i><par n="eng__adj_sint"/></e>
-	<e lm="genitief"><i>genitie</i><par n="corrosie/f__adj"/></e>
-	<e lm="gevoelig"><i>gevoelig</i><par n="eng__adj_sint"/></e>
-	<e lm="gewelddadig"><i>gewelddadig</i><par n="eng__adj_sint"/></e>
-	<e lm="giftig"><i>giftig</i><par n="eng__adj_sint"/></e>
-	<e lm="gretig"><i>gretig</i><par n="eng__adj_sint"/></e>
-	<e lm="heftig"><i>heftig</i><par n="eng__adj_sint"/></e>
-	<e lm="innig"><i>innig</i><par n="eng__adj_sint"/></e>
-	<e lm="intiem"><i>intiem</i><par n="eng__adj_sint"/></e>
-	<e lm="kenmerkend"><i>kenmerkend</i><par n="eng__adj_sint"/></e>
-	<e lm="klassiek"><i>klassiek</i><par n="eng__adj_sint"/></e>
-	<e lm="kunstig"><i>kunstig</i><par n="eng__adj_sint"/></e>
-	<e lm="kwaadaardig"><i>kwaadaardig</i><par n="eng__adj_sint"/></e>
-	<e lm="moedig"><i>moedig</i><par n="eng__adj_sint"/></e>
-	<e lm="nodig"><i>nodig</i><par n="eng__adj_sint"/></e>
-	<e lm="nominatief"><i>nominatie</i><par n="corrosie/f__adj"/></e>
-	<e lm="normaal"><i>norma</i><par n="ka/al__adj_sint"/></e>
-	<e lm="aangrenzend"><i>aangrenzend</i><par n="eng__adj_sint"/></e>
-	<e lm="onbekend"><i>onbekend</i><par n="eng__adj_sint"/></e>
-	<e lm="oneindig"><i>oneindig</i><par n="eng__adj_sint"/></e>
-	<e lm="ongeletterd"><i>ongeletterd</i><par n="eng__adj_sint"/></e>
-	<e lm="onvoltooid"><i>onvoltooid</i><par n="eng__adj_sint"/></e>
-	<e lm="passief"><i>passie</i><par n="gro/f__adj_sint"/></e>
-	<e lm="periodiek"><i>periodiek</i><par n="eng__adj_sint"/></e>
-	<e lm="publiek"><i>publiek</i><par n="eng__adj_sint"/></e>
-	<e lm="rustig"><i>rustig</i><par n="eng__adj_sint"/></e>
-	<e lm="stelselmatig"><i>stelselmatig</i><par n="eng__adj_sint"/></e>
-	<e lm="talentvol"><i>talentvol</i><par n="gul__adj_sint"/></e>
-	<e lm="uitdagend"><i>uitdagend</i><par n="eng__adj_sint"/></e>
-	<e lm="uniek"><i>uniek</i><par n="eng__adj_sint"/></e>
-	<e lm="vaardig"><i>vaardig</i><par n="eng__adj_sint"/></e>
-	<e lm="veilig"><i>veilig</i><par n="eng__adj_sint"/></e>
-	<e lm="verwant"><i>verwant</i><par n="eng__adj_sint"/></e>
-	<e lm="vinnig"><i>vinnig</i><par n="eng__adj_sint"/></e>
-	<e lm="voordelig"><i>voordelig</i><par n="eng__adj_sint"/></e>
-	<e lm="voormalig"><i>voormalig</i><par n="eng__adj_sint"/></e>
-	<e lm="vurig"><i>vurig</i><par n="eng__adj_sint"/></e>
-	<e lm="waardig"><i>waardig</i><par n="eng__adj_sint"/></e>
-	<e lm="welig"><i>welig</i><par n="eng__adj_sint"/></e>
-	<e lm="wettig"><i>wettig</i><par n="eng__adj_sint"/></e>
-	<e lm="wiskundig"><i>wiskundig</i><par n="eng__adj_sint"/></e>
-	<e lm="betekenisvol"><i>betekenisvol</i><par n="gul__adj_sint"/></e>
-	<e lm="breedvoerig"><i>breedvoerig</i><par n="eng__adj_sint"/></e>
-	<e lm="datief"><i>datie</i><par n="corrosie/f__adj"/></e>
-	<e lm="doeltreffend"><i>doeltreffend</i><par n="eng__adj_sint"/></e>
-	<e lm="ferm"><i>ferm</i><par n="eng__adj_sint"/></e>
-	<e lm="finaal"><i>fina</i><par n="ka/al__adj_sint"/></e>
-	<e lm="individueel"><i>individue</i><par n="he/el__adj_sint"/></e>
-	<e lm="inert"><i>inert</i><par n="eng__adj_sint"/></e>
-	<e lm="informatief"><i>informatie</i><par n="gro/f__adj_sint"/></e>
-	<e lm="inherent"><i>inherent</i><par n="eng__adj_sint"/></e>
-	<e lm="intensief"><i>intensie</i><par n="gro/f__adj_sint"/></e>
-	<e lm="intuïtief"><i>intuïtie</i><par n="gro/f__adj_sint"/></e>
-	<e lm="kwalitatief"><i>kwalitatie</i><par n="gro/f__adj_sint"/></e>
-	<e lm="kwantitatief"><i>kwantitatie</i><par n="gro/f__adj_sint"/></e>
-	<e lm="latent"><i>latent</i><par n="eng__adj_sint"/></e>
-	<e lm="liefdevol"><i>liefdevol</i><par n="gul__adj_sint"/></e>
-	<e lm="min"><i>min</i><par n="dun__adj_sint"/></e>
-	<e lm="modern"><i>modern</i><par n="eng__adj_sint"/></e>
-	<e lm="omliggend"><i>omliggend</i><par n="eng__adj_sint"/></e>
-	<e lm="ongekend"><i>ongekend</i><par n="eng__adj_sint"/></e>
-	<e lm="ongewild"><i>ongewild</i><par n="eng__adj_sint"/></e>
-	<e lm="onvolledig"><i>onvolledig</i><par n="eng__adj_sint"/></e>
-	<e lm="permanent"><i>permanent</i><par n="eng__adj_sint"/></e>
-	<e lm="primitief"><i>primitie</i><par n="gro/f__adj_sint"/></e>
-	<e lm="professioneel"><i>professione</i><par n="he/el__adj_sint"/></e>
-	<e lm="progressief"><i>progressie</i><par n="gro/f__adj_sint"/></e>
-	<e lm="puik"><i>puik</i><par n="eng__adj_sint"/></e>
-	<e lm="radiaal"><i>radia</i><par n="ka/al__adj_sint"/></e>
-	<e lm="rampspoedig"><i>rampspoedig</i><par n="eng__adj_sint"/></e>
-	<e lm="relevant"><i>relevant</i><par n="eng__adj_sint"/></e>
-	<e lm="rooskleurig"><i>rooskleurig</i><par n="eng__adj_sint"/></e>
-	<e lm="senior"><i>senior</i><par n="cash__adj"/></e>
-	<e lm="sensitief"><i>sensitie</i><par n="gro/f__adj_sint"/></e>
-	<e lm="snaaks"><i>snaaks</i><par n="eng__adj_sint"/></e>
-	<e lm="stadig"><i>stadig</i><par n="eng__adj_sint"/></e>
-	<e lm="taai"><i>taai</i><par n="eng__adj_sint"/></e>
-	<e lm="vatbaar"><i>vatbaar</i><par n="fier__adj_sint"/></e>
-	<e lm="aanspreekbaar"><i>aanspreekbaar</i><par n="fier__adj_sint"/></e>
-	<e lm="weelderig"><i>weelderig</i><par n="eng__adj_sint"/></e>
-	<e lm="welvarend"><i>welvarend</i><par n="eng__adj_sint"/></e>
-	<e lm="winderig"><i>winderig</i><par n="eng__adj_sint"/></e>
-	<e lm="wisselvallig"><i>wisselvallig</i><par n="eng__adj_sint"/></e>
+    <e lm="geboren"><i>geboren</i><par n="nipt__adj"/></e>
+    <!--<e lm="opgemeten"><i>opgemeten</i><par n="nipt__adj"/></e>-->
+    <e lm="slordig"><i>slordig</i><par n="eng__adj_sint"/></e>
+    <e lm="gemeten"><i>gemeten</i><par n="nipt__adj"/></e>
+    <e lm="overgroot"><i>overgro</i><par n="blo/ot__adj_sint"/></e>
+    <e lm="mogelijk"><i>mogelijk</i><par n="eng__adj_sint"/></e>
+    <e lm="uiterlijk"><i>uiterlijk</i><par n="eng__adj_sint"/></e>
+    <e lm="natuurlijk"><i>natuurlijk</i><par n="eng__adj_sint"/></e>
+    <e lm="onafhankelijk"><i>onafhankelijk</i><par n="eng__adj_sint"/></e>
+    <e lm="makkelijk"><i>makkelijk</i><par n="eng__adj_sint"/></e>
+    <e lm="christelijk"><i>christelijk</i><par n="eng__adj_sint"/></e>
+    <e lm="specifiek"><i>specifiek</i><par n="eng__adj_sint"/></e>
+    <e lm="antiek"><i>antiek</i><par n="eng__adj_sint"/></e>
+    <e lm="electrisch"><i>electrisch</i><par n="eng__adj_sint"/></e>
+    <e lm="moeilijk"><i>moeilijk</i><par n="eng__adj_sint"/></e>
+    <e lm="verantwoordelijk"><i>verantwoordelijk</i><par n="eng__adj_sint"/></e>
+    <e lm="typisch"><i>typisch</i><par n="fors__adj_sint"/></e>
+    <e lm="omvattend"><i>omvattend</i><par n="eng__adj_sint"/></e>
+    <e lm="basisch"><i>basisch</i><par n="fors__adj_sint"/></e>
+    <e lm="wereldwijd"><i>wereldwijd</i><par n="eng__adj_sint"/></e>
+    <e lm="uitgestrekt"><i>uitgestrekt</i><par n="eng__adj_sint"/></e>
+    <e lm="Nedersaksisch"><i>Nedersaksisch</i><par n="fors__adj_sint"/></e>
+    <e lm="afhankelijk"><i>afhankelijk</i><par n="eng__adj_sint"/></e>
+    <e lm="electronisch"><i>electronisch</i><par n="fors__adj_sint"/></e>
+    <e lm="nazi"><i>nazi</i><par n="nipt__adj"/></e>
+    <e lm="mannelijk"><i>mannelijk</i><par n="eng__adj_sint"/></e>
+    <e lm="landelijk"><i>landelijk</i><par n="eng__adj_sint"/></e>
+    <e lm="middel"><i>middel</i><par n="nipt__adj"/></e>
+    <e lm="verder"><i>verder</i><par n="nipt__adj"/></e>
+    <e lm="leidend"><i>leidend</i><par n="eng__adj_sint"/></e>
+    <e lm="onmiddellijk"><i>onmiddellijk</i><par n="eng__adj_sint"/></e>
+    <e lm="architectonisch"><i>architectonisch</i><par n="fors__adj_sint"/></e>
+    <e lm="plotseling"><i>plotseling</i><par n="eng__adj_sint"/></e>
+    <e lm="aanzienlijk"><i>aanzienlijk</i><par n="eng__adj_sint"/></e>
+    <e lm="werkelijk"><i>werkelijk</i><par n="eng__adj_sint"/></e>
+    <e lm="continentaal"><i>continenta</i><par n="ka/al__adj_sint"/></e>
+    <e lm="apostelijk"><i>apostelijk</i><par n="eng__adj_sint"/></e>
+    <e lm="Sovjets"><i>Sovjets</i><par n="eng__adj_sint"/></e>
+    <e lm="gevaarlijk"><i>gevaarlijk</i><par n="eng__adj_sint"/></e>
+    <e lm="Mediterraans"><i>Mediterraans</i><par n="fors__adj_sint"/></e>
+    <e lm="mechanisch"><i>mechanisch</i><par n="fors__adj_sint"/></e>
+    <e lm="aanvankelijk"><i>aanvankelijk</i><par n="eng__adj_sint"/></e>
+    <e lm="invloedrijk"><i>invloedrijk</i><par n="eng__adj_sint"/></e>
+    <e lm="horizontaal"><i>horizonta</i><par n="ora/al__adj"/></e>
+    <e lm="aangrenzend"><i>aangrenzend</i><par n="eng__adj_sint"/></e>
+    <e lm="krachtig"><i>krachtig</i><par n="eng__adj_sint"/></e>
+    <e lm="verticaal"><i>vertica</i><par n="ora/al__adj"/></e>
+    <e lm="onmogelijk"><i>onmogelijk</i><par n="eng__adj_sint"/></e>
+    <e lm="tertair"><i>tertair</i><par n="nipt__adj"/></e>
+    <e lm="grondwettelijk"><i>grondwettelijk</i><par n="eng__adj_sint"/></e>
+    <e lm="levendig"><i>levendig</i><par n="eng__adj_sint"/></e>
+    <e lm="verhoogd"><i>verhoogd</i><par n="eng__adj_sint"/></e>
+    <e lm="bewust"><i>bewust</i><par n="eng__adj_sint"/></e>
+    <e lm="toeganglijk"><i>toeganglijk</i><par n="eng__adj_sint"/></e>
+    <e lm="winstgevend"><i>winstgevend</i><par n="eng__adj_sint"/></e>
+    <e lm="technologisch"><i>technologisch</i><par n="fors__adj_sint"/></e>
+    <e lm="onsuccesvol"><i>onsuccesvol</i><par n="gul__adj_sint"/></e>
+    <e lm="analytisch"><i>analytisch</i><par n="fors__adj_sint"/></e>
+    <e lm="goud"><i>goud</i><par n="eng__adj_sint"/></e>
+    <e lm="tegenovergesteld"><i>tegenovergesteld</i><par n="eng__adj_sint"/></e>
+    <e lm="hoofdzakelijk"><i>hoofdzakelijk</i><par n="eng__adj_sint"/></e>
+    <e lm="beslissend"><i>beslissend</i><par n="eng__adj_sint"/></e>
+    <e lm="nomadisch"><i>nomadisch</i><par n="fors__adj_sint"/></e>
+    <e lm="veranderlijk"><i>veranderlijk</i><par n="eng__adj_sint"/></e>
+    <e lm="stevig"><i>stevig</i><par n="eng__adj_sint"/></e>
+    <e lm="openlijk"><i>openlijk</i><par n="eng__adj_sint"/></e>
+    <e lm="ogenschijnlijk"><i>ogenschijnlijk</i><par n="eng__adj_sint"/></e>
+    <e lm="perspectief"><i>perspectief</i><par n="eng__adj_sint"/></e>
+    <e lm="syntetisch"><i>syntetisch</i><par n="fors__adj_sint"/></e>
+    <e lm="onduidelijk"><i>onduidelijk</i><par n="eng__adj_sint"/></e>
+    <e lm="individueel"><i>individue</i><par n="he/el__adj_sint"/></e>
+    <e lm="ecologisch"><i>ecologisch</i><par n="fors__adj_sint"/></e>
+    <e lm="gemakkelijk"><i>gemakkelijk</i><par n="eng__adj_sint"/></e>
+    <e lm="bemand"><i>bemand</i><par n="eng__adj_sint"/></e>
+    <e lm="wijdverspreid"><i>wijdverspreid</i><par n="eng__adj_sint"/></e>
+    <e lm="tamelijk"><i>tamelijk</i><par n="eng__adj_sint"/></e>
+    <e lm="herhaaldelijk"><i>herhaaldelijk</i><par n="eng__adj_sint"/></e>
+    <e lm="productief"><i>productie</i><par n="gro/f__adj_sint"/></e>
+    <e lm="onofficieel"><i>onofficie</i><par n="he/el__adj_sint"/></e>
+    <e lm="woedend"><i>woedend</i><par n="eng__adj_sint"/></e>
+    <e lm="vriendschappelijk"><i>vriendschappelijk</i><par n="eng__adj_sint"/></e>
+    <e lm="eindelijk"><i>eindelijk</i><par n="eng__adj_sint"/></e>
+    <e lm="uitzonderlijk"><i>uitzonderlijk</i><par n="eng__adj_sint"/></e>
+    <e lm="patriotisch"><i>patriotisch</i><par n="fors__adj_sint"/></e>
+    <e lm="innerlijk"><i>innerlijk</i><par n="eng__adj_sint"/></e>
+    <e lm="fonetisch"><i>fonetisch</i><par n="fors__adj_sint"/></e>
+    <e lm="talrijk"><i>talrijk</i><par n="eng__adj_sint"/></e>
+    <e lm="reactief"><i>reactie</i><par n="gro/f__adj_sint"/></e>
+    <e lm="opensource"><i>opensource</i><par n="fors__adj_sint"/></e>
+    <e lm="gedroogd"><i>gedroogd</i><par n="eng__adj_sint"/></e>
+    <e lm="vastgesteld"><i>vastgesteld</i><par n="eng__adj_sint"/></e>
+    <e lm="etimologisch"><i>etimologisch</i><par n="fors__adj_sint"/></e>
+    <e lm="vijandig"><i>vijandig</i><par n="eng__adj_sint"/></e>
+    <e lm="onrechtelijk"><i>onrechtelijk</i><par n="eng__adj_sint"/></e>
+    <e lm="buitenechtelijk"><i>buitenechtelijk</i><par n="eng__adj_sint"/></e>
+    <e lm="mededingend"><i>mededingend</i><par n="eng__adj_sint"/></e>
+    <e lm="orthodox"><i>orthodox</i><par n="fors__adj_sint"/></e>
+    <e lm="numerisch"><i>numerisch</i><par n="fors__adj_sint"/></e>
+    <e lm="ijverig"><i>ijverig</i><par n="eng__adj_sint"/></e>
+    <e lm="overerfelijk"><i>overerfelijk</i><par n="eng__adj_sint"/></e>
+    <e lm="dodelijk"><i>dodelijk</i><par n="eng__adj_sint"/></e>
+    <e lm="vocaal"><i>voca</i><par n="ka/al__adj_sint"/></e>
+    <e lm="operationeel"><i>operatione</i><par n="he/el__adj_sint"/></e>
+    <e lm="sterfelijk"><i>sterfelijk</i><par n="eng__adj_sint"/></e>
+    <e lm="zanderig"><i>zanderig</i><par n="eng__adj_sint"/></e>
+    <e lm="rationeel"><i>ratione</i><par n="he/el__adj_sint"/></e>
+    <e lm="geweldadig"><i>geweldadig</i><par n="eng__adj_sint"/></e>
+    <e lm="statistisch"><i>statistisch</i><par n="eng__adj_sint"/></e>
+    <e lm="seizoensgevoelig"><i>seizoensgevoelig</i><par n="eng__adj_sint"/></e>
+    <e lm="polair"><i>polair</i><par n="fier__adj_sint"/></e>
+    <e lm="onvermijdelijk"><i>onvermijdelijk</i><par n="eng__adj_sint"/></e>
+    <e lm="gerieflijk"><i>gerieflijk</i><par n="eng__adj_sint"/></e>
+    <e lm="Weens"><i>Weens</i><par n="fors__adj_sint"/></e>
+    <e lm="onmiddellijk"><i>onmiddellijk</i><par n="eng__adj_sint"/></e>
+    <e lm="behoorlijk"><i>behoorlijk</i><par n="eng__adj_sint"/></e>
+    <e lm="wezenlijk"><i>wezenlijk</i><par n="eng__adj_sint"/></e>
+    <e lm="vrolijk"><i>vrolijk</i><par n="eng__adj_sint"/></e>
+    <e lm="verzoenbaar"><i>verzoenba</i><par n="ga/ar__adj_sint"/></e>
+    <e lm="ruimtelijk"><i>ruimtelijk</i><par n="eng__adj_sint"/></e>
+    <e lm="psychologisch"><i>psychologisch</i><par n="fors__adj_sint"/></e>
+    <e lm="geestdriftig"><i>geestdriftig</i><par n="eng__adj_sint"/></e>
+    <e lm="blinkend"><i>blinkend</i><par n="eng__adj_sint"/></e>
+    <e lm="toegewijd"><i>toegewijd</i><par n="eng__adj_sint"/></e>
+    <e lm="schriftelijk"><i>schriftelijk</i><par n="eng__adj_sint"/></e>
+    <e lm="encyclopedisch"><i>encyclopedisch</i><par n="fors__adj_sint"/></e>
+    <e lm="bedrijvig"><i>bedrijvig</i><par n="eng__adj_sint"/></e>
+    <e lm="uitdrukkelijk"><i>uitdrukkelijk</i><par n="eng__adj_sint"/></e>
+    <e lm="symmetrisch"><i>symmetrisch</i><par n="fors__adj_sint"/></e>
+    <e lm="epidemisch"><i>epidemisch</i><par n="fors__adj_sint"/></e>
+    <e lm="aanstekelijk"><i>aanstekelijk</i><par n="eng__adj_sint"/></e>
+    <e lm="waarschijnlijk"><i>waarschijnlijk</i><par n="eng__adj_sint"/></e>
+    <e lm="vrijelijk"><i>vrijelijk</i><par n="eng__adj_sint"/></e>
+    <e lm="optioneel"><i>optione</i><par n="he/el__adj_sint"/></e>
+    <e lm="empirisch"><i>empirisch</i><par n="fors__adj_sint"/></e>
+    <e lm="degelijk"><i>degelijk</i><par n="eng__adj_sint"/></e>
+    <e lm="wonderlijk"><i>wonderlijk</i><par n="eng__adj_sint"/></e>
+    <e lm="systematisch"><i>systematisch</i><par n="fors__adj_sint"/></e>
+    <e lm="onsterfelijk"><i>onsterfelijk</i><par n="eng__adj_sint"/></e>
+    <e lm="lelijk"><i>lelijk</i><par n="eng__adj_sint"/></e>
+    <e lm="erfelijk"><i>erfelijk</i><par n="eng__adj_sint"/></e>
+    <e lm="elastisch"><i>elastisch</i><par n="fors__adj_sint"/></e>
+    <e lm="behoudend"><i>behoudend</i><par n="eng__adj_sint"/></e>
+    <e lm="verstandelijk"><i>verstandelijk</i><par n="eng__adj_sint"/></e>
+    <e lm="zinvol"><i>zinvol</i><par n="gul__adj_sint"/></e>
+    <e lm="autocratisch"><i>autocratisch</i><par n="fors__adj_sint"/></e>
+    <e lm="ontzaglijk"><i>ontzaglijk</i><par n="eng__adj_sint"/></e>
+    <e lm="bewust"><i>bewust</i><par n="eng__adj_sint"/></e>
+    <e lm="accusatief"><i>accusatie</i><par n="corrosie/f__adj"/></e>
+    <e lm="vernietigend"><i>vernietigend</i><par n="eng__adj_sint"/></e>
+    <e lm="thermodynamisch"><i>thermodynamisch</i><par n="fors__adj_sint"/></e>
+    <e lm="bolvorming"><i>bolvorming</i><par n="eng__adj_sint"/></e>
+    <e lm="ogenblikkelijk"><i>ogenblikkelijk</i><par n="eng__adj_sint"/></e>
+    <e lm="getrouwd"><i>getrouwd</i><par n="eng__adj_sint"/></e>
+    <e lm="vermoord"><i>vermoord</i><par n="eng__adj_sint"/></e>
+    <e lm="vermeend"><i>vermeend</i><par n="eng__adj_sint"/></e>
+    <e lm="treffend"><i>treffend</i><par n="eng__adj_sint"/></e>
+    <e lm="toxisch"><i>toxisch</i><par n="fors__adj_sint"/></e>
+    <e lm="onvoorwaardelijk"><i>onvoorwaardelijk</i><par n="eng__adj_sint"/></e>
+    <e lm="alternatievelijk"><i>alternatievelijk</i><par n="eng__adj_sint"/></e>
+    <e lm="pijlijk"><i>pijlijk</i><par n="eng__adj_sint"/></e>
+    <e lm="opzettelijk"><i>opzettelijk</i><par n="eng__adj_sint"/></e>
+    <e lm="mystiek"><i>mystiek</i><par n="eng__adj_sint"/></e>
+    <e lm="daadwerkelijk"><i>daadwerkelijk</i><par n="eng__adj_sint"/></e>
+    <e lm="bedekt"><i>bedekt</i><par n="eng__adj_sint"/></e>
+    <e lm="gezouten"><i>gezouten</i><par n="eng__adj_sint"/></e>
+    <e lm="gepland"><i>gepland</i><par n="eng__adj_sint"/></e>
+    <e lm="ijzig"><i>ijzig</i><par n="eng__adj_sint"/></e>
+    <e lm="onnatuurlijk"><i>onnatuurlijk</i><par n="eng__adj_sint"/></e>
+    <e lm="enthousiast"><i>enthousiast</i><par n="eng__adj_sint"/></e>
+    <e lm="alkalisch"><i>alkalisch</i><par n="fors__adj_sint"/></e>
+    <e lm="aanspreekbaar"><i>aanspreekba</i><par n="ga/ar__adj_sint"/></e>
+    <e lm="statuair"><i>statuair</i><par n="fier__adj_sint"/></e>
+    <e lm="opwindend"><i>opwindend</i><par n="eng__adj_sint"/></e>
+    <e lm="onderscheidbaar"><i>onderscheidba</i><par n="ga/ar__adj_sint"/></e>
+    <e lm="meesterlijk"><i>meesterlijk</i><par n="eng__adj_sint"/></e>
+    <e lm="aangetast"><i>aangetast</i><par n="eng__adj_sint"/></e>
+    <e lm="bevredigend"><i>bevredigend</i><par n="eng__adj_sint"/></e>
+    <e lm="benaderd"><i>benaderd</i><par n="eng__adj_sint"/></e>
+    <e lm="waanzinnig"><i>waanzinnig</i><par n="eng__adj_sint"/></e>
+    <e lm="behendig"><i>behendig</i><par n="eng__adj_sint"/></e>
+    <e lm="passievol"><i>passievol</i><par n="gul__adj_sint"/></e>
+    <e lm="ontoegankelijk"><i>ontoegankelijk</i><par n="eng__adj_sint"/></e>
+    <e lm="imperialistisch"><i>imperialistisch</i><par n="fors__adj_sint"/></e>
+    <e lm="ordentelijk"><i>ordentelijk</i><par n="eng__adj_sint"/></e>
+    <e lm="onschadelijk"><i>onschadelijk</i><par n="eng__adj_sint"/></e>
+    <e lm="levensgevaarlijk"><i>levensgevaarlijk</i><par n="eng__adj_sint"/></e>
+    <e lm="kubisch"><i>kubisch</i><par n="fors__adj_sint"/></e>
+    <e lm="uitgelekt"><i>uitgelekt</i><par n="eng__adj_sint"/></e>
+    <e lm="aanmerkelijk"><i>aanmerkelijk</i><par n="eng__adj_sint"/></e>
+    <e lm="speculatief"><i>speculatie</i><par n="gro/f__adj_sint"/></e>
+    <e lm="valselijk"><i>valselijk</i><par n="eng__adj_sint"/></e>
+    <e lm="zondig"><i>zondig</i><par n="eng__adj_sint"/></e>
+    <e lm="onrealistisch"><i>onrealistisch</i><par n="fors__adj_sint"/></e>
+    <e lm="onontbeerlijk"><i>onontbeerlijk</i><par n="eng__adj_sint"/></e>
+    <e lm="onlosmakelijk"><i>onlosmakelijk</i><par n="eng__adj_sint"/></e>
+    <e lm="inactief"><i>inactie</i><par n="gro/f__adj_sint"/></e>
+    <e lm="langeafstand"><i>langeafstand</i><par n="eng__adj_sint"/></e>
+    <e lm="cursief"><i>cursie</i><par n="gro/f__adj_sint"/></e>
+    <e lm="heimelijk"><i>heimelijk</i><par n="eng__adj_sint"/></e>
+    <e lm="hartelijk"><i>hartelijk</i><par n="eng__adj_sint"/></e>
+    <e lm="voortijdig"><i>voortijdig</i><par n="eng__adj_sint"/></e>
+    <e lm="rethorisch"><i>rethorisch</i><par n="fors__adj_sint"/></e>
+    <e lm="opzichtelijk"><i>opzichtelijk</i><par n="eng__adj_sint"/></e>
+    <e lm="inhoudelijk"><i>inhoudelijk</i><par n="eng__adj_sint"/></e>
+    <e lm="herwonnen"><i>herwonnen</i><par n="eng__adj_sint"/></e>
+    <e lm="phylogenetisch"><i>phylogenetisch</i><par n="fors__adj_sint"/></e>
+    <e lm="ultrasoon"><i>ultraso</i><par n="scho/on__adj_sint"/></e>
+    <e lm="schematisch"><i>schematisch</i><par n="fors__adj_sint"/></e>
+    <e lm="recessief"><i>recessie</i><par n="gro/f__adj_sint"/></e>
+    <e lm="onbewegelijk"><i>onbewegelijk</i><par n="eng__adj_sint"/></e>
+    <e lm="morfologisch"><i>morfologisch</i><par n="eng__adj_sint"/></e>
+    <e lm="locatief"><i>locatie</i><par n="gro/f__adj_sint"/></e>
+    <e lm="bevrijd"><i>bevrijd</i><par n="eng__adj_sint"/></e>
+    <e lm="aanstotelijk"><i>aanstotelijk</i><par n="eng__adj_sint"/></e>
+    <e lm="vergankelijk"><i>vergankelijk</i><par n="eng__adj_sint"/></e>
+    <e lm="substantief"><i>substantie</i><par n="corrosie/f__adj"/></e>
+    <e lm="oceanografisch"><i>oceanografisch</i><par n="fors__adj_sint"/></e>
+    <e lm="onbewust"><i>onbewust</i><par n="eng__adj_sint"/></e>
+    <e lm="geplaatst"><i>geplaatst</i><par n="eng__adj_sint"/></e>
+    <e lm="verdubbeld"><i>verdubbeld</i><par n="eng__adj_sint"/></e>
+    <e lm="waterrijk"><i>waterrijk</i><par n="eng__adj_sint"/></e>
+    <e lm="onwaarschijnlijk"><i>onwaarschijnlijk</i><par n="eng__adj_sint"/></e>
+    <e lm="oneerlijk"><i>oneerlijk</i><par n="eng__adj_sint"/></e>
+    <e lm="lichtelijk"><i>lichtelijk</i><par n="eng__adj_sint"/></e>
+    <e lm="isotropisch"><i>isotropisch</i><par n="fors__adj_sint"/></e>
+    <e lm="beoordeeld"><i>beoordeeld</i><par n="eng__adj_sint"/></e>
+    <e lm="elektrolitisch"><i>elektrolitisch</i><par n="fors__adj_sint"/></e>
+    <e lm="bevorderlijk"><i>bevorderlijk</i><par n="eng__adj_sint"/></e>
+    <e lm="onzinnig"><i>onzinnig</i><par n="eng__adj_sint"/></e>
+    <e lm="ongebruikelijk"><i>ongebruikelijk</i><par n="eng__adj_sint"/></e>
+    <e lm="jammerlijk"><i>jammerlijk</i><par n="eng__adj_sint"/></e>
+    <e lm="gestolen"><i>gestolen</i><par n="eng__adj_sint"/></e>
+    <e lm="gelegerd"><i>gelegerd</i><par n="eng__adj_sint"/></e>
+    <e lm="wantrouwend"><i>wantrouwend</i><par n="eng__adj_sint"/></e>
+    <e lm="voorschriftelijk"><i>voorschriftelijk</i><par n="eng__adj_sint"/></e>
+    <e lm="vocatief"><i>vocatie</i><par n="corrosie/f__adj"/></e>
+    <e lm="proactief"><i>proactie</i><par n="gro/f__adj_sint"/></e>
+    <e lm="onbewegelijk"><i>onbewegelijk</i><par n="eng__adj_sint"/></e>
+    <e lm="ontvankelijk"><i>ontvankelijk</i><par n="eng__adj_sint"/></e>
+    <e lm="onberispelijk"><i>onberispelijk</i><par n="eng__adj_sint"/></e>
+    <e lm="misselijk"><i>misselijk</i><par n="eng__adj_sint"/></e>
+    <e lm="inactief"><i>inactie</i><par n="gro/f__adj_sint"/></e>
+    <e lm="geordend"><i>geordend</i><par n="eng__adj_sint"/></e>
+    <e lm="dadelijk"><i>dadelijk</i><par n="eng__adj_sint"/></e>
+    <e lm="bezwaarlijk"><i>bezwaarlijk</i><par n="eng__adj_sint"/></e>
+    <e lm="toegevelijk"><i>toegevelijk</i><par n="eng__adj_sint"/></e>
+    <e lm="aarzelend"><i>aarzelend</i><par n="eng__adj_sint"/></e>
+    <e lm="taalwetenschappelijk"><i>taalwetenschappelijk</i><par n="eng__adj_sint"/></e>
+    <e lm="pessimistisch"><i>pessimistisch</i><par n="fors__adj_sint"/></e>
+    <e lm="oneconomisch"><i>oneconomisch</i><par n="fors__adj_sint"/></e>
+    <e lm="administratief"><i>administratie</i><par n="gro/f__adj_sint"/></e>
+    <e lm="bestendig"><i>bestendig</i><par n="eng__adj_sint"/></e>
+    <e lm="bloedig"><i>bloedig</i><par n="eng__adj_sint"/></e>
+    <e lm="boosaardig"><i>boosaardig</i><par n="eng__adj_sint"/></e>
+    <e lm="digestief"><i>digestie</i><par n="gro/f__adj_sint"/></e>
+    <e lm="digitaal"><i>digita</i><par n="ka/al__adj_sint"/></e>
+    <e lm="dominant"><i>dominant</i><par n="eng__adj_sint"/></e>
+    <e lm="dringend"><i>dringend</i><par n="eng__adj_sint"/></e>
+    <e lm="ernstig"><i>ernstig</i><par n="eng__adj_sint"/></e>
+    <e lm="geldig"><i>geldig</i><par n="eng__adj_sint"/></e>
+    <e lm="genitief"><i>genitie</i><par n="corrosie/f__adj"/></e>
+    <e lm="gevoelig"><i>gevoelig</i><par n="eng__adj_sint"/></e>
+    <e lm="gewelddadig"><i>gewelddadig</i><par n="eng__adj_sint"/></e>
+    <e lm="giftig"><i>giftig</i><par n="eng__adj_sint"/></e>
+    <e lm="gretig"><i>gretig</i><par n="eng__adj_sint"/></e>
+    <e lm="heftig"><i>heftig</i><par n="eng__adj_sint"/></e>
+    <e lm="innig"><i>innig</i><par n="eng__adj_sint"/></e>
+    <e lm="intiem"><i>intiem</i><par n="eng__adj_sint"/></e>
+    <e lm="kenmerkend"><i>kenmerkend</i><par n="eng__adj_sint"/></e>
+    <e lm="klassiek"><i>klassiek</i><par n="eng__adj_sint"/></e>
+    <e lm="kunstig"><i>kunstig</i><par n="eng__adj_sint"/></e>
+    <e lm="kwaadaardig"><i>kwaadaardig</i><par n="eng__adj_sint"/></e>
+    <e lm="moedig"><i>moedig</i><par n="eng__adj_sint"/></e>
+    <e lm="nodig"><i>nodig</i><par n="eng__adj_sint"/></e>
+    <e lm="nominatief"><i>nominatie</i><par n="corrosie/f__adj"/></e>
+    <e lm="normaal"><i>norma</i><par n="ka/al__adj_sint"/></e>
+    <e lm="aangrenzend"><i>aangrenzend</i><par n="eng__adj_sint"/></e>
+    <e lm="onbekend"><i>onbekend</i><par n="eng__adj_sint"/></e>
+    <e lm="oneindig"><i>oneindig</i><par n="eng__adj_sint"/></e>
+    <e lm="ongeletterd"><i>ongeletterd</i><par n="eng__adj_sint"/></e>
+    <e lm="onvoltooid"><i>onvoltooid</i><par n="eng__adj_sint"/></e>
+    <e lm="passief"><i>passie</i><par n="gro/f__adj_sint"/></e>
+    <e lm="periodiek"><i>periodiek</i><par n="eng__adj_sint"/></e>
+    <e lm="publiek"><i>publiek</i><par n="eng__adj_sint"/></e>
+    <e lm="rustig"><i>rustig</i><par n="eng__adj_sint"/></e>
+    <e lm="stelselmatig"><i>stelselmatig</i><par n="eng__adj_sint"/></e>
+    <e lm="talentvol"><i>talentvol</i><par n="gul__adj_sint"/></e>
+    <e lm="uitdagend"><i>uitdagend</i><par n="eng__adj_sint"/></e>
+    <e lm="uniek"><i>uniek</i><par n="eng__adj_sint"/></e>
+    <e lm="vaardig"><i>vaardig</i><par n="eng__adj_sint"/></e>
+    <e lm="veilig"><i>veilig</i><par n="eng__adj_sint"/></e>
+    <e lm="verwant"><i>verwant</i><par n="eng__adj_sint"/></e>
+    <e lm="vinnig"><i>vinnig</i><par n="eng__adj_sint"/></e>
+    <e lm="voordelig"><i>voordelig</i><par n="eng__adj_sint"/></e>
+    <e lm="voormalig"><i>voormalig</i><par n="eng__adj_sint"/></e>
+    <e lm="vurig"><i>vurig</i><par n="eng__adj_sint"/></e>
+    <e lm="waardig"><i>waardig</i><par n="eng__adj_sint"/></e>
+    <e lm="welig"><i>welig</i><par n="eng__adj_sint"/></e>
+    <e lm="wettig"><i>wettig</i><par n="eng__adj_sint"/></e>
+    <e lm="wiskundig"><i>wiskundig</i><par n="eng__adj_sint"/></e>
+    <e lm="betekenisvol"><i>betekenisvol</i><par n="gul__adj_sint"/></e>
+    <e lm="breedvoerig"><i>breedvoerig</i><par n="eng__adj_sint"/></e>
+    <e lm="datief"><i>datie</i><par n="corrosie/f__adj"/></e>
+    <e lm="doeltreffend"><i>doeltreffend</i><par n="eng__adj_sint"/></e>
+    <e lm="ferm"><i>ferm</i><par n="eng__adj_sint"/></e>
+    <e lm="finaal"><i>fina</i><par n="ka/al__adj_sint"/></e>
+    <e lm="individueel"><i>individue</i><par n="he/el__adj_sint"/></e>
+    <e lm="inert"><i>inert</i><par n="eng__adj_sint"/></e>
+    <e lm="informatief"><i>informatie</i><par n="gro/f__adj_sint"/></e>
+    <e lm="inherent"><i>inherent</i><par n="eng__adj_sint"/></e>
+    <e lm="intensief"><i>intensie</i><par n="gro/f__adj_sint"/></e>
+    <e lm="intuïtief"><i>intuïtie</i><par n="gro/f__adj_sint"/></e>
+    <e lm="kwalitatief"><i>kwalitatie</i><par n="gro/f__adj_sint"/></e>
+    <e lm="kwantitatief"><i>kwantitatie</i><par n="gro/f__adj_sint"/></e>
+    <e lm="latent"><i>latent</i><par n="eng__adj_sint"/></e>
+    <e lm="liefdevol"><i>liefdevol</i><par n="gul__adj_sint"/></e>
+    <e lm="min"><i>min</i><par n="dun__adj_sint"/></e>
+    <e lm="modern"><i>modern</i><par n="eng__adj_sint"/></e>
+    <e lm="omliggend"><i>omliggend</i><par n="eng__adj_sint"/></e>
+    <e lm="ongekend"><i>ongekend</i><par n="eng__adj_sint"/></e>
+    <e lm="ongewild"><i>ongewild</i><par n="eng__adj_sint"/></e>
+    <e lm="onvolledig"><i>onvolledig</i><par n="eng__adj_sint"/></e>
+    <e lm="permanent"><i>permanent</i><par n="eng__adj_sint"/></e>
+    <e lm="primitief"><i>primitie</i><par n="gro/f__adj_sint"/></e>
+    <e lm="professioneel"><i>professione</i><par n="he/el__adj_sint"/></e>
+    <e lm="progressief"><i>progressie</i><par n="gro/f__adj_sint"/></e>
+    <e lm="puik"><i>puik</i><par n="eng__adj_sint"/></e>
+    <e lm="radiaal"><i>radia</i><par n="ka/al__adj_sint"/></e>
+    <e lm="rampspoedig"><i>rampspoedig</i><par n="eng__adj_sint"/></e>
+    <e lm="relevant"><i>relevant</i><par n="eng__adj_sint"/></e>
+    <e lm="rooskleurig"><i>rooskleurig</i><par n="eng__adj_sint"/></e>
+    <e lm="senior"><i>senior</i><par n="cash__adj"/></e>
+    <e lm="sensitief"><i>sensitie</i><par n="gro/f__adj_sint"/></e>
+    <e lm="snaaks"><i>snaaks</i><par n="eng__adj_sint"/></e>
+    <e lm="stadig"><i>stadig</i><par n="eng__adj_sint"/></e>
+    <e lm="taai"><i>taai</i><par n="eng__adj_sint"/></e>
+    <e lm="vatbaar"><i>vatbaar</i><par n="fier__adj_sint"/></e>
+    <e lm="aanspreekbaar"><i>aanspreekbaar</i><par n="fier__adj_sint"/></e>
+    <e lm="weelderig"><i>weelderig</i><par n="eng__adj_sint"/></e>
+    <e lm="welvarend"><i>welvarend</i><par n="eng__adj_sint"/></e>
+    <e lm="winderig"><i>winderig</i><par n="eng__adj_sint"/></e>
+    <e lm="wisselvallig"><i>wisselvallig</i><par n="eng__adj_sint"/></e>
     <e lm="Afghaans"><i>Afghaans</i><par n="fors__adj_sint"/></e>
     <e lm="Afrikaans"><i>Afrikaans</i><par n="fors__adj_sint"/></e>
     <e lm="Zuid-Afrikaans"><i>Zuid-Afrikaans</i><par n="fors__adj_sint"/></e>
@@ -13822,7 +13822,7 @@
     <e lm="Kasjoebisch"><i>Kasjoebisch</i><par n="fors__adj_sint"/></e>
     <e lm="Katangees"><i>Katange</i><par n="he/es__adj_sint"/></e>
     <e lm="Kazachs"><i>Kazachs</i><par n="fors__adj_sint"/></e>
-	<e lm="Kaaps"><i>Kaaps</i><par n="fors__adj_sint"/></e>
+    <e lm="Kaaps"><i>Kaaps</i><par n="fors__adj_sint"/></e>
     <e lm="Keltisch"><i>Keltisch</i><par n="fors__adj_sint"/></e>
     <e lm="Kirgizisch"><i>Kirgizisch</i><par n="fors__adj_sint"/></e>
     <e lm="Koerdisch"><i>Koerdisch</i><par n="fors__adj_sint"/></e>
@@ -13852,7 +13852,7 @@
     <e lm="Nepalees"><i>Nepale</i><par n="Nepale/es__adj"/></e>
     <e lm="Nigeriaans"><i>Nigeriaans</i><par n="fors__adj_sint"/></e>
     <e lm="Noords"><i>Noords</i><par n="fors__adj_sint"/></e>
-	<e lm="Noors"><i>Noors</i><par n="fors__adj_sint"/></e>
+    <e lm="Noors"><i>Noors</i><par n="fors__adj_sint"/></e>
     <e lm="Numidisch"><i>Numidisch</i><par n="taps__adj"/></e>
     <e lm="Occitaans"><i>Occitaans</i><par n="fors__adj_sint"/></e>
     <e lm="Oekraïens"><i>Oekraïens</i><par n="fors__adj_sint"/></e>
@@ -14253,7 +14253,7 @@
     <e lm="duizelingwekkend"><i>duizelingwekkend</i><par n="eng__adj_sint"/></e>
     <e lm="dun"><i>dun</i><par n="dun__adj_sint"/></e>
     <e lm="dusdanig"><i>dusdanig</i><par n="nipt__adj"/></e>
-	<e lm="vorig"><i>vorig</i><par n="nipt__adj"/></e>
+    <e lm="vorig"><i>vorig</i><par n="nipt__adj"/></e>
     <e lm="duur"><i>du</i><par n="pu/ur__adj_sint"/></e>
     <e lm="duurzaam"><i>duurza</i><par n="minza/am__adj_sint"/></e>
     <e lm="dwaas"><i>dwa</i><par n="dwa/as__adj_sint"/></e>
@@ -14759,7 +14759,7 @@
     <e lm="ironisch"><i>ironisch</i><par n="fors__adj_sint"/></e>
     <e lm="islamitisch"><i>islamitisch</i><par n="fors__adj_sint"/></e>
     <e lm="isogeen"><i>isoge</i><par n="isoge/en__adj"/></e>
-	<e lm="datgeen"><i>datge</i><par n="isoge/en__adj"/></e>
+    <e lm="datgeen"><i>datge</i><par n="isoge/en__adj"/></e>
     <e lm="ivoren"><i>ivoren</i><par n="eren__adj"/></e>
     <e lm="jaarlijks"><i>jaarlijks</i><par n="taps__adj"/></e>
     <e lm="jaloers"><i>jaloers</i><par n="fors__adj_sint"/></e>
@@ -14780,7 +14780,7 @@
     <e lm="katholiek"><i>katholiek</i><par n="eng__adj_sint"/></e>
     <e lm="katoenen"><i>katoenen</i><par n="eren__adj"/></e>
     <e lm="keihard"><i>keihard</i><par n="nipt__adj"/></e>
-	<e lm="gelegen"><i>gelegen</i><par n="nipt__adj"/></e>
+    <e lm="gelegen"><i>gelegen</i><par n="nipt__adj"/></e>
     <e lm="keizerlijk"><i>keizerlijk</i><par n="eng__adj_sint"/></e>
     <e lm="kenbaar"><i>kenba</i><par n="ga/ar__adj_sint"/></e>
     <e lm="kennelijk"><i>kennelijk</i><par n="eng__adj_sint"/></e>
@@ -14852,7 +14852,7 @@
     <e lm="langdradig"><i>langdradig</i><par n="eng__adj_sint"/></e>
     <e lm="langzaam"><i>langza</i><par n="minza/am__adj_sint"/></e>
     <e lm="later"><i>later</i><par n="nipt__adj"/></e>
-	<e lm="destijds"><i>destijds</i><par n="taps__adj"/></e>
+    <e lm="destijds"><i>destijds</i><par n="taps__adj"/></e>
     <e lm="lateraal"><i>latera</i><par n="ora/al__adj"/></e>
     <e lm="lauw"><i>lauw</i><par n="eng__adj_sint"/></e>
     <e lm="lawaaierig"><i>lawaaierig</i><par n="eng__adj_sint"/></e>
@@ -14905,7 +14905,7 @@
     <e lm="lokaal"><i>loka</i><par n="ka/al__adj_sint"/></e>
     <e lm="lomp"><i>lomp</i><par n="eng__adj_sint"/></e>
     <e lm="loom"><i>lo</i><par n="lo/om__adj_sint"/></e>
-	<e lm="autonoom"><i>autono</i><par n="lo/om__adj_sint"/></e>
+    <e lm="autonoom"><i>autono</i><par n="lo/om__adj_sint"/></e>
     <e lm="loos"><i>lo</i><par n="lo/os__adj_sint"/></e>
     <e lm="los"><i>los</i><par n="los__adj_sint"/></e>
     <e lm="loyaal"><i>loya</i><par n="ka/al__adj_sint"/></e>
@@ -15046,7 +15046,7 @@
     <e lm="onaanvaardbaar"><i>onaanvaardba</i><par n="ga/ar__adj_sint"/></e>
     <e lm="onbedoeld"><i>onbedoeld</i><par n="nipt__adj"/></e>
     <e lm="onbekwaam"><i>onbekwa</i><par n="minza/am__adj_sint"/></e>
-	<e lm="onbedachtzaam"><i>onbedachtza</i><par n="minza/am__adj_sint"/></e>
+    <e lm="onbedachtzaam"><i>onbedachtza</i><par n="minza/am__adj_sint"/></e>
     <e lm="onbelastbaar"><i>onbelastba</i><par n="ga/ar__adj_sint"/></e>
     <e lm="onbereikbaar"><i>onbereikba</i><par n="ga/ar__adj_sint"/></e>
     <e lm="onbetaalbaar"><i>onbetaalba</i><par n="ga/ar__adj_sint"/></e>
@@ -15170,7 +15170,7 @@
     <e lm="orbitaal"><i>orbita</i><par n="ora/al__adj"/></e>
     <e lm="organisch"><i>organisch</i><par n="fors__adj_sint"/></e>
     <e lm="origineel"><i>origine</i><par n="he/el__adj_sint"/></e>
-	<e lm="multicultureel"><i>multiculture</i><par n="he/el__adj_sint"/></e>
+    <e lm="multicultureel"><i>multiculture</i><par n="he/el__adj_sint"/></e>
     <e lm="oud"><i>oud</i><par n="eng__adj_sint"/></e>
     <e lm="ouderloos"><i>ouderlo</i><par n="werklo/os__adj"/></e>
     <e lm="ouderwets"><i>ouderwets</i><par n="fors__adj_sint"/></e>
@@ -15196,6 +15196,7 @@
     <e lm="pantheïstisch"><i>pantheïstisch</i><par n="taps__adj"/></e>
     <e lm="paraconsistent"><i>paraconsistent</i><par n="nipt__adj"/></e>
     <e lm="parafyletisch"><i>parafyletisch</i><par n="taps__adj"/></e>
+    <e lm="parlementair"><i>parlementair</i><par n="nipt__adj"/></e>
     <e lm="partieel"><i>parti</i><par n="parti/eel__adj_sint"/></e>
     <e lm="pasklaar"><i>paskla</i><par n="ba/ar__adj"/></e>
     <e lm="patricisch"><i>patricisch</i><par n="taps__adj"/></e>
@@ -15778,16 +15779,16 @@
     <!--<e lm="x"><i>x</i><par n="x__n_mf"/></e>-->
     <!--<e lm="y"><i>y</i><par n="y__n_mf"/></e>-->
     <!--<e lm="z"><i>z</i><par n="z__n_mf"/></e>-->
-	
-	<e lm="plaats"><i>plaats</i><par n="zoneclips__n_mf"/></e>
-	<e lm="meerdere"><i>meerdere</i><par n="wake__n_mf"/></e>
-	<e lm="FC"><i>FC</i><par n="ra__n_mf"/></e>
-	<e lm="cc"><i>cc</i><par n="km__n_m"/></e>
-	<e lm="type"><i>type</i><par n="tegelalgoritme__n_nt"/></e>
-	<e lm="cup"><i>cup</i><par n="geluidstape__n_m"/></e>
-	<e lm="district"><i>district</i><par n="lot__n_nt"/></e>
-	<e lm="VS"><i>VS</i><par n="eb__n_f"/></e>
-	<e lm="verleden"><i>verleden</i><par n="eon__n_nt"/></e>
+
+    <e lm="plaats"><i>plaats</i><par n="zoneclips__n_mf"/></e>
+    <e lm="meerdere"><i>meerdere</i><par n="wake__n_mf"/></e>
+    <e lm="FC"><i>FC</i><par n="ra__n_mf"/></e>
+    <e lm="cc"><i>cc</i><par n="km__n_m"/></e>
+    <e lm="type"><i>type</i><par n="tegelalgoritme__n_nt"/></e>
+    <e lm="cup"><i>cup</i><par n="geluidstape__n_m"/></e>
+    <e lm="district"><i>district</i><par n="lot__n_nt"/></e>
+    <e lm="VS"><i>VS</i><par n="eb__n_f"/></e>
+    <e lm="verleden"><i>verleden</i><par n="eon__n_nt"/></e>
 
     <e lm="aluminium"><i>aluminium</i><par n="OV__n_nt"/></e>
     <e lm="dubbele"><i>dubbele</i><par n="platina__n_nt"/></e>
@@ -15971,7 +15972,7 @@
     <e lm="Amharisch"><i>Amharisch</i><par n="OV__n_nt"/></e>
     <e lm="Amis"><i>Amis</i><par n="nieuws__n_nt"/></e>
     <e lm="Amsterdammer"><i>Amsterdammer</i><par n="led__n_m"/></e>
-	<e lm="Brit"><i>Brit</i><par n="vot__n_m"/></e>
+    <e lm="Brit"><i>Brit</i><par n="vot__n_m"/></e>
     <e lm="Anakalangu"><i>Anakalangu</i><par n="platina__n_nt"/></e>
     <e lm="Andi"><i>Andi</i><par n="platina__n_nt"/></e>
     <e lm="Andorrees"><i>Andorre</i><par n="pe/es__n_m"/></e>
@@ -16683,7 +16684,7 @@
     <e lm="Sinksen"><i>Sinksen</i><par n="OV__n_nt"/></e>
     <e lm="Sint-Maarten"><i>Sint-Maarten</i><par n="OV__n_nt"/></e>
     <e lm="Sint-Maarten"><i>Sint-Maarten</i><par n="eb__n_m"/></e>
-	<e lm="Sint"><i>Sint</i><par n="eb__n_m"/></e>
+    <e lm="Sint"><i>Sint</i><par n="eb__n_m"/></e>
     <e lm="Sjor"><i>Sjor</i><par n="OV__n_nt"/></e>
     <e lm="Slavische"><i>Slavische</i><par n="rune__n_f"/></e>
     <e lm="Sleidingenaar"><i>Sleidingenaar</i><par n="led__n_m"/></e>
@@ -17357,7 +17358,7 @@
     <e lm="afasiologie"><i>afasiologie</i><par n="soesa__n_f"/></e>
     <e lm="afasioloog"><i>afasiolo</i><par n="bo/og__n_m"/></e>
     <e lm="afbeelding"><i>afbeelding</i><par n="vering__n_f"/></e>
-	<e lm="beaming"><i>beaming</i><par n="vering__n_f"/></e>
+    <e lm="beaming"><i>beaming</i><par n="vering__n_f"/></e>
     <e lm="afbestelling"><i>afbestelling</i><par n="vering__n_f"/></e>
     <e lm="afbetaling"><i>afbetaling</i><par n="eb__n_f"/></e>
     <e lm="afbetalingsmethode"><i>afbetalingsmethode</i><par n="made__n_f"/></e>
@@ -17551,7 +17552,7 @@
     <e lm="verdedigingsmechanisme"><i>verdedigingsmechanisme</i><par n="eon__n_nt"/></e>
     <e lm="alpinist"><i>alpinist</i><par n="Belg__n_m"/></e>
     <e lm="altaar"><i>alta</i><par n="ka/ar__n_nt"/></e>
-	<e lm="paar"><i>pa</i><par n="ka/ar__n_nt"/></e>
+    <e lm="paar"><i>pa</i><par n="ka/ar__n_nt"/></e>
     <e lm="haar"><i>ha</i><par n="ka/ar__n_nt"/></e>
     <e lm="alternant"><i>alternant</i><par n="Belg__n_m"/></e>
     <e lm="alternatief"><i>alternatie</i><par n="ho/f__n_nt"/></e>
@@ -18745,7 +18746,7 @@
     <e lm="boomstronk"><i>boomstronk</i><par n="Belg__n_m"/></e>
     <e lm="boon"><i>bo</i><par n="bo/on__n_mf"/></e>
     <e lm="boor"><i>boor</i><par n="OV__n_nt"/></e>    
-	<e lm="boord"><i>boord</i><par n="Belg__n_m"/></e>
+    <e lm="boord"><i>boord</i><par n="Belg__n_m"/></e>
     <e lm="boormossel"><i>boormossel</i><par n="ader__n_mf"/></e>
     <e lm="boorplatform"><i>boorplatform</i><par n="boorplatform__n_nt"/></e>
     <e lm="boorschip"><i>boorsch</i><par n="sch/ip__n_nt"/></e>
@@ -19110,7 +19111,7 @@
     <e lm="cenozoïcum"><i>cenozoïcum</i><par n="OV__n_nt"/></e>
     <e lm="censuur"><i>censuur</i><par n="eb__n_f"/></e>
     <e lm="centimeter"><i>centimeter</i><par n="led__n_m"/></e>
-	<e lm="vierkante meter"><i>vierkante<b/>meter</i><par n="led__n_m"/></e>
+    <e lm="vierkante meter"><i>vierkante<b/>meter</i><par n="led__n_m"/></e>
     <e lm="centralisatie"><i>centralisatie</i><par n="roe__n_f"/></e>
     <e lm="centriool"><i>centrio</i><par n="rio/ol__n_nt"/></e>
     <e lm="centrum"><i>centr</i><par n="sacr/um__n_nt"/></e>
@@ -19678,6 +19679,7 @@
     <e lm="dip"><i>dip</i><par n="roe__n_f"/></e>
     <e lm="diploma"><i>diploma</i><par n="Bo__n_nt"/></e>
     <e lm="diplomaat"><i>diploma</i><par n="gra/at__n_m"/></e>
+    <e lm="diplomatie"><i>diplomatie</i><par n="roe__n_f"/></e>
     <e lm="directeur"><i>directeur</i><par n="led__n_m"/></e>
     <e lm="directie"><i>directie</i><par n="roe__n_f"/></e>
     <e lm="dirigent"><i>dirigent</i><par n="Belg__n_m"/></e>
@@ -21244,6 +21246,7 @@
     <e lm="grok"><i>grok</i><par n="fok__n_m"/></e>
     <e lm="grol"><i>grol</i><par n="el__n_f"/></e>
     <e lm="grond"><i>grond</i><par n="Belg__n_m"/></e>
+    <e lm="grondstof"><i>grondstof</i><par n="hef__n_mf"/></e>
     <e lm="grondbeginsel"><i>grondbeginsel</i><par n="eon__n_nt"/></e>
     <e lm="grondbezitter"><i>grondbezitter</i><par n="led__n_m"/></e>
     <e lm="grondgebied"><i>grondgebied</i><par n="lot__n_nt"/></e>
@@ -21774,7 +21777,7 @@
     <e lm="hydroniem"><i>hydroniem</i><par n="lot__n_nt"/></e>
     <e lm="hyena"><i>hyena</i><par n="ra__n_mf"/></e>
     <e lm="hygrometer"><i>hygrometer</i><par n="led__n_m"/></e>
-	<e lm="magnetometer"><i>magnetometer</i><par n="led__n_m"/></e>
+    <e lm="magnetometer"><i>magnetometer</i><par n="led__n_m"/></e>
     <e lm="hypercapnie"><i>hypercapnie</i><par n="soesa__n_f"/></e>
     <e lm="hyperlink"><i>hyperlink</i><par n="led__n_m"/></e>
     <e lm="hyperoniem"><i>hyperoniem</i><par n="lot__n_nt"/></e>
@@ -24129,6 +24132,7 @@
     <e lm="oer"><i>oer</i><par n="OV__n_nt"/></e>
     <e lm="oerbewoner"><i>oerbewoner</i><par n="led__n_m"/></e>
     <e lm="oerknal"><i>oerknal</i><par n="el__n_m"/></e>
+    <e lm="oerwoud"><i>oerwoud</i><par n="lot__n_nt"/></e>
     <e lm="oesofagitis"><i>oesofagitis</i><par n="xeres__n_f"/></e>
     <e lm="oester"><i>oester</i><par n="hui__n_mf"/></e>
     <e lm="oesterkor"><i>oesterkor</i><par n="tor__n_mf"/></e>
@@ -26311,6 +26315,7 @@
     <e lm="spasmodermie"><i>spasmodermie</i><par n="soesa__n_f"/></e>
     <e lm="spatbord"><i>spatbord</i><par n="lot__n_nt"/></e>
     <e lm="spationaut"><i>spationaut</i><par n="Belg__n_m"/></e>
+    <e lm="specerij"><i>specerij</i><par n="vering__n_f"/></e>
     <e lm="specht"><i>specht</i><par n="Belg__n_m"/></e>
     <e lm="specialist"><i>specialist</i><par n="Belg__n_m"/></e>
     <e lm="spectrograaf"><i>spectrogra</i><par n="biogra/af__n_m"/></e>
@@ -26436,7 +26441,7 @@
     <e lm="staartstuk"><i>staartstuk</i><par n="bak__n_nt"/></e>
     <e lm="staartvin"><i>staartvin</i><par n="zon__n_f"/></e>
     <e lm="staat"><i>sta</i><par n="gra/at__n_m"/></e>
-	<e lm="deelstaat"><i>deelsta</i><par n="gra/at__n_m"/></e>
+    <e lm="deelstaat"><i>deelsta</i><par n="gra/at__n_m"/></e>
     <e lm="staatkunde"><i>staatkunde</i><par n="soesa__n_f"/></e>
     <e lm="staatsblad"><i>staatsblad</i><par n="lot__n_nt"/></e>
     <e lm="staatsburger"><i>staatsburger</i><par n="led__n_m"/></e>
@@ -26703,7 +26708,7 @@
     <e lm="streektaal"><i>streekta</i><par n="ta/al__n_mf"/></e>
     <e lm="streep"><i>stre</i><par n="he/ep__n_mf"/></e>
     <e lm="strek"><i>strek</i><par n="fok__n_m"/></e>
-	<e lm="trek"><i>trek</i><par n="fok__n_m"/></e>
+    <e lm="trek"><i>trek</i><par n="fok__n_m"/></e>
     <e lm="streling"><i>streling</i><par n="vering__n_f"/></e>
     <e lm="stremming"><i>stremming</i><par n="vering__n_f"/></e>
     <e lm="stremsel"><i>stremsel</i><par n="eon__n_nt"/></e>
@@ -27512,7 +27517,7 @@
     <e lm="vaart"><i>vaart</i><par n="akst__n_mf"/></e>
     <e lm="vaartuig"><i>vaartuig</i><par n="lot__n_nt"/></e>
     <e lm="vaarweg"><i>vaarweg</i><par n="Belg__n_m"/></e>
-	<e lm="tolweg"><i>tolweg</i><par n="Belg__n_m"/></e>
+    <e lm="tolweg"><i>tolweg</i><par n="Belg__n_m"/></e>
     <e lm="vaas"><i>va</i><par n="da/as__n_mf"/></e>
     <e lm="vaastrommel"><i>vaastrommel</i><par n="hui__n_mf"/></e>
     <e lm="vaat"><i>vaat</i><par n="eb__n_f"/></e>
@@ -29684,39 +29689,39 @@
     <e lm="Nederlands"><i>Nederlands</i><par n="Nederlands__np"/></e>
     <e lm="Afrika"><i>Afrika</i><par n="Afrika__np"/></e>
     <e lm="Bolivia"><i>Bolivia</i><par n="Afrika__np"/></e>
-	
-	<e lm="San Francisco"><i>San<b/>Francisco</i><par n="Afrika__np"/></e>
-	<e lm="San Marino"><i>San<b/>Marino</i><par n="Afrika__np"/></e>
-	<e lm="San José"><i>San<b/>José</i><par n="Frankrijk__np"/></e>
-	<e lm="Utrecht"><i>Utrecht</i><par n="Frankrijk__np"/></e>
-	<e lm="Den Haag"><i>Den<b/>Haag</i><par n="Frankrijk__np"/></e>
-	<e lm="Den Helder"><i>Den<b/>Helder</i><par n="Frankrijk__np"/></e>
-	<e lm="Den Bosch"><i>Den<b/>Bosch</i><par n="Frankrijk__np"/></e>
-	<e lm="Rotterdam"><i>Rotterdam</i><par n="Frankrijk__np"/></e>
-	<e lm="Antwerpen"><i>Antwerpen</i><par n="Frankrijk__np"/></e>
-	<e lm="Groningen"><i>Groningen</i><par n="Frankrijk__np"/></e>
-	<e lm="La Coruña"><i>La<b/>Coruña</i><par n="Afrika__np"/></e>
-	<e lm="La Louvière"><i>La<b/>Louvière</i><par n="Frankrijk__np"/></e>
-	<e lm="La Paz"><i>La<b/>Paz</i><par n="Nederlands__np"/></e>
-	<e lm="Holland"><i>Holland</i><par n="Frankrijk__np"/></e>
-	<e lm="Nederlanden"><i>Nederlanden</i><par n="Frankrijk__np"/></e>
-	<e lm="Gent"><i>Gent</i><par n="Frankrijk__np"/></e>
-	<e lm="Amerika"><i>Amerika</i><par n="Afrika__np"/></e>
-	<e lm="New York"><i>New<b/>York</i><par n="Frankrijk__np"/></e>
-	<e lm="New Orleans"><i>New<b/>Orleans</i><par n="Nederlands__np"/></e>
-	<e lm="Napoleon"><i>Napoleon</i><par n="Wynand__np"/></e>
+
+    <e lm="San Francisco"><i>San<b/>Francisco</i><par n="Afrika__np"/></e>
+    <e lm="San Marino"><i>San<b/>Marino</i><par n="Afrika__np"/></e>
+    <e lm="San José"><i>San<b/>José</i><par n="Frankrijk__np"/></e>
+    <e lm="Utrecht"><i>Utrecht</i><par n="Frankrijk__np"/></e>
+    <e lm="Den Haag"><i>Den<b/>Haag</i><par n="Frankrijk__np"/></e>
+    <e lm="Den Helder"><i>Den<b/>Helder</i><par n="Frankrijk__np"/></e>
+    <e lm="Den Bosch"><i>Den<b/>Bosch</i><par n="Frankrijk__np"/></e>
+    <e lm="Rotterdam"><i>Rotterdam</i><par n="Frankrijk__np"/></e>
+    <e lm="Antwerpen"><i>Antwerpen</i><par n="Frankrijk__np"/></e>
+    <e lm="Groningen"><i>Groningen</i><par n="Frankrijk__np"/></e>
+    <e lm="La Coruña"><i>La<b/>Coruña</i><par n="Afrika__np"/></e>
+    <e lm="La Louvière"><i>La<b/>Louvière</i><par n="Frankrijk__np"/></e>
+    <e lm="La Paz"><i>La<b/>Paz</i><par n="Nederlands__np"/></e>
+    <e lm="Holland"><i>Holland</i><par n="Frankrijk__np"/></e>
+    <e lm="Nederlanden"><i>Nederlanden</i><par n="Frankrijk__np"/></e>
+    <e lm="Gent"><i>Gent</i><par n="Frankrijk__np"/></e>
+    <e lm="Amerika"><i>Amerika</i><par n="Afrika__np"/></e>
+    <e lm="New York"><i>New<b/>York</i><par n="Frankrijk__np"/></e>
+    <e lm="New Orleans"><i>New<b/>Orleans</i><par n="Nederlands__np"/></e>
+    <e lm="Napoleon"><i>Napoleon</i><par n="Wynand__np"/></e>
 
 
-	<e lm="Brabant"><i>Brabant</i><par n="Frankrijk__np"/></e>
+    <e lm="Brabant"><i>Brabant</i><par n="Frankrijk__np"/></e>
 
-	
-	<e lm="Lodewijk"><i>Lodewijk</i><par n="Wynand__np"/></e>
-	<e lm="Harry"><i>Harry</i><par n="Harry__np"/></e>
 
-	<e lm="Karel"><i>Karel</i><par n="Wynand__np"/></e>
+    <e lm="Lodewijk"><i>Lodewijk</i><par n="Wynand__np"/></e>
+    <e lm="Harry"><i>Harry</i><par n="Harry__np"/></e>
+
+    <e lm="Karel"><i>Karel</i><par n="Wynand__np"/></e>
 
     <e lm="Amsterdam"><i>Amsterdam</i><par n="Frankrijk__np"/></e>
-	<e lm="Vilnius"><i>Vilnius</i><par n="Frankrijk__np"/></e>
+    <e lm="Vilnius"><i>Vilnius</i><par n="Frankrijk__np"/></e>
     <e lm="Brussel"><i>Brussel</i><par n="Frankrijk__np"/></e>
     <e lm="Parijs"><i>Parijs</i><par n="Nederlands__np"/></e>
     <e lm="Alacant"><i>Alacant</i><par n="Frankrijk__np"/></e>
@@ -30008,8 +30013,8 @@
     <e lm="Piet"><i>Piet</i><par n="Wynand__np"/></e>
     <e lm="Stephen"><i>Stephen</i><par n="Wynand__np"/></e>
     <e lm="Jesus"><i>Jesus</i><par n="Wynand__np"/></e>
-	<e lm="Johannes"><i>Johannes</i><par n="Wynand__np"/></e>
-	<e lm="Louis"><i>Louis</i><par n="Wynand__np"/></e>
+    <e lm="Johannes"><i>Johannes</i><par n="Wynand__np"/></e>
+    <e lm="Louis"><i>Louis</i><par n="Wynand__np"/></e>
 
     <e lm="Anrie"><i>Anrie</i><par n="Anrie__np"/></e>
     <e lm="Mieke"><i>Mieke</i><par n="Anrie__np"/></e>
@@ -30034,7 +30039,7 @@
     <e lm="Dalí"><i>Dalí</i><par n="Botha__np"/></e>
     <e lm="Fischer"><i>Fischer</i><par n="van_der_Merwe__np"/></e>
     <e lm="Hitler"><i>Hitler</i><par n="van_der_Merwe__np"/></e>
-	<e lm="De Beauvoir"><i>De<b/>Beauvoir</i><par n="van_der_Merwe__np"/></e>
+    <e lm="De Beauvoir"><i>De<b/>Beauvoir</i><par n="van_der_Merwe__np"/></e>
     <e lm="Hughes"><i>Hughes</i><par n="Hughes__np"/></e>
     <e lm="Mandela"><i>Mandela</i><par n="Botha__np"/></e>
     <e lm="Shakespeare"><i>Shakespeare</i><par n="van_der_Merwe__np"/></e>
@@ -30070,27 +30075,27 @@
     <e lm="aanmoedigen"><i>aanmoedig</i><par n ="aanbouw/en__vblex_sep"/></e>
     <e lm="aanmoedigen"><p><l>moedig</l><r>aanmoedig</r></p><par n="bouw/en#_aan__vblex_sep"/><p><l><b/>aan</l><r></r></p></e>
     <e lm="aanmoedigen"><p><l>aangemoedigd</l><r>aanmoedigen</r></p><par n="gesproken__vblex_sep"/></e>
-	
-	<e lm="aanranden"><i>aanrand</i><par n ="aanbouw/en__vblex_sep"/></e>
+
+    <e lm="aanranden"><i>aanrand</i><par n ="aanbouw/en__vblex_sep"/></e>
     <e lm="aanranden"><p><l>rand</l><r>aanrand</r></p><par n="bouw/en#_aan__vblex_sep"/><p><l><b/>aan</l><r></r></p></e>
     <e lm="aanranden"><p><l>aangerand</l><r>aanranden</r></p><par n="gesproken__vblex_sep"/></e>
-	
-	<e lm="omranden"><i>omrand</i><par n ="aanbouw/en__vblex_sep"/></e>
+
+    <e lm="omranden"><i>omrand</i><par n ="aanbouw/en__vblex_sep"/></e>
     <e lm="omranden"><p><l>rand</l><r>omrand</r></p><par n="bouw/en#_aan__vblex_sep"/><p><l><b/>om</l><r></r></p></e>
     <e lm="omranden"><p><l>omrand</l><r>omranden</r></p><par n="gesproken__vblex_sep"/></e>
-	
-	<e lm="afkondigen"><i>afkondig</i><par n ="aanbouw/en__vblex_sep"/></e>
+
+    <e lm="afkondigen"><i>afkondig</i><par n ="aanbouw/en__vblex_sep"/></e>
     <e lm="afkondigen"><p><l>kondig</l><r>afkondig</r></p><par n="bouw/en#_aan__vblex_sep"/><p><l><b/>af</l><r></r></p></e>
     <e lm="afkondigen"><p><l>afgekondigd</l><r>afkondigen</r></p><par n="gesproken__vblex_sep"/></e>
-	
-	<e lm="afvaardigen"><i>afvaardig</i><par n ="aanbouw/en__vblex_sep"/></e>
+
+    <e lm="afvaardigen"><i>afvaardig</i><par n ="aanbouw/en__vblex_sep"/></e>
     <e lm="afvaardigen"><p><l>vaardig</l><r>afvaardig</r></p><par n="bouw/en#_aan__vblex_sep"/><p><l><b/>af</l><r></r></p></e>
     <e lm="afvaardigen"><p><l>afgevaardigd</l><r>afvaardigen</r></p><par n="gesproken__vblex_sep"/></e>
-	
-	<e lm="uitvaardigen"><i>uitvaardig</i><par n ="aanbouw/en__vblex_sep"/></e>
+
+    <e lm="uitvaardigen"><i>uitvaardig</i><par n ="aanbouw/en__vblex_sep"/></e>
     <e lm="uitvaardigen"><p><l>vaardig</l><r>uitvaardig</r></p><par n="bouw/en#_aan__vblex_sep"/><p><l><b/>uit</l><r></r></p></e>
     <e lm="uitvaardigen"><p><l>uitgevaardigd</l><r>uitvaardigen</r></p><par n="gesproken__vblex_sep"/></e>
-		
+
     <e lm="aanbieden"><i>aanb</i><par n ="aanb/ieden__vblex_sep"/></e>
     <e lm="aanbieden"><p><l>b</l><r>aanb</r></p><par n="b/ieden#_aan__vblex_sep"/><p><l><b/>aan</l><r></r></p></e>
     <e lm="aanbieden"><p><l>aangeboden</l><r>aanbieden</r></p><par n="gesproken__vblex_sep"/></e>
@@ -30268,7 +30273,7 @@
     <e lm="afstellen"><i>afstel</i><par n ="afstel/len__vblex_sep"/></e>
     <e lm="afstellen"><p><l>stel</l><r>afstel</r></p><par n="stel/len#_af__vblex_sep"/><p><l><b/>af</l><r></r></p></e>
     <e lm="afstellen"><p><l>afgesteld</l><r>afstellen</r></p><par n="gesproken__vblex_sep"/></e>
-	
+
     <e lm="vrijstellen"><i>vrijstel</i><par n ="afstel/len__vblex_sep"/></e>
     <e lm="vrijstellen"><p><l>stel</l><r>vrijstel</r></p><par n="stel/len#_af__vblex_sep"/><p><l><b/>af</l><r></r></p></e>
     <e lm="vrijstellen"><p><l>vrijgesteld</l><r>vrijstellen</r></p><par n="gesproken__vblex_sep"/></e>
@@ -30495,7 +30500,7 @@
     <e lm="onderstellen"><i>onderstel</i><par n ="afstel/len__vblex_sep"/></e>
     <e lm="onderstellen"><p><l>stel</l><r>onderstel</r></p><par n="stel/len#_af__vblex_sep"/><p><l><b/>onder</l><r></r></p></e>
     <e lm="onderstellen"><p><l>ondergesteld</l><r>onderstellen</r></p><par n="gesproken__vblex_sep"/></e>
-	<e lm="plaatsvinden"><i>plaatsv</i><par n ="onderv/inden__vblex_sep"/></e>
+    <e lm="plaatsvinden"><i>plaatsv</i><par n ="onderv/inden__vblex_sep"/></e>
     <e lm="plaatsvinden"><p><l>v</l><r>plaatsv</r></p><par n="v/inden#_onder__vblex_sep"/><p><l><b/>plaats</l><r></r></p></e>
     <e lm="plaatsvinden"><p><l>plaatsgevonden</l><r>plaatsvinden</r></p><par n="gesproken__vblex_sep"/></e>
     <e lm="onderwerken"><i>onderwerk</i><par n ="inwerk/en__vblex_sep"/></e>
@@ -33916,9 +33921,9 @@
     <e lm="pachten"><p><l>gepacht</l><r>pachten</r></p><par n="gesproken__vblex"/></e>
     <e lm="pakken"><i>pak</i><par n="dek/ken__vblex"/></e>
     <e lm="pakken"><p><l>gepakt</l><r>pakken</r></p><par n="gesproken__vblex"/></e>
-	<e lm="verpakken"><i>verpak</i><par n="dek/ken__vblex"/></e>
+    <e lm="verpakken"><i>verpak</i><par n="dek/ken__vblex"/></e>
     <e lm="verpakken"><p><l>verpakt</l><r>verpakken</r></p><par n="gesproken__vblex"/></e>
-	<e lm="pandoeren"><i>pandoer</i><par n="jij/en__vblex"/></e>
+    <e lm="pandoeren"><i>pandoer</i><par n="jij/en__vblex"/></e>
     <e lm="pandoeren"><p><l>gepandoerd</l><r>pandoeren</r></p><par n="gesproken__vblex"/></e>
     <e lm="pappen"><i>pap</i><par n="kap/pen__vblex"/></e>
     <e lm="pappen"><p><l>gepapt</l><r>pappen</r></p><par n="gesproken__vblex"/></e>
@@ -34236,7 +34241,7 @@
     <e lm="revolteren"><p><l>gerevolteerd</l><r>revolteren</r></p><par n="gesproken__vblex"/></e>
     <e lm="richten"><i>richt</i><par n="ent/en__vblex"/></e>
     <e lm="richten"><p><l>gericht</l><r>richten</r></p><par n="gesproken__vblex"/></e>
-	<e lm="onderrichten"><i>onderricht</i><par n="ent/en__vblex"/></e>
+    <e lm="onderrichten"><i>onderricht</i><par n="ent/en__vblex"/></e>
     <e lm="onderrichten"><p><l>onderricht</l><r>onderrichten</r></p><par n="gesproken__vblex"/></e>
     <e lm="ridderen"><i>ridder</i><par n="jij/en__vblex"/></e>
     <e lm="ridderen"><p><l>geridderd</l><r>ridderen</r></p><par n="gesproken__vblex"/></e>
@@ -35702,7 +35707,7 @@
     <e lm="aanbrengen"><i>aanbr</i><par n="aanbr/engen__vblex_sep"/></e>
     <e lm="aanbrengen"><p><l>br</l><r>aanbr</r></p><par n="br/engen#_aan__vblex_sep"/><p><l><b/>aan</l><r></r></p></e>
     <e lm="aanbrengen"><p><l>aangebracht</l><r>aanbrengen</r></p><par n="gesproken__vblex_sep"/></e>
-	<e lm="terugbrengen"><i>terugbr</i><par n="aanbr/engen__vblex_sep"/></e>
+    <e lm="terugbrengen"><i>terugbr</i><par n="aanbr/engen__vblex_sep"/></e>
     <e lm="terugbrengen"><p><l>br</l><r>terugbr</r></p><par n="br/engen#_aan__vblex_sep"/><p><l><b/>terug</l><r></r></p></e>
     <e lm="terugbrengen"><p><l>teruggebracht</l><r>terugbrengen</r></p><par n="gesproken__vblex_sep"/></e>
     <e lm="aandienen"><i>aandien</i><par n="aanbeland/en__vblex_sep"/></e>
@@ -35717,7 +35722,7 @@
     <e lm="aangroeien"><i>aangroei</i><par n="aanbeland/en__vblex_sep"/></e>
     <e lm="aangroeien"><p><l>groei</l><r>aangroei</r></p><par n="beland/en#_aan__vblex_sep"/><p><l><b/>aan</l><r></r></p></e>
     <e lm="aangroeien"><p><l>aangegroeid</l><r>aangroeien</r></p><par n="gesproken__vblex_sep"/></e>
-	<e lm="uitbreiden"><i>uitbreid</i><par n="aanbeland/en__vblex_sep"/></e>
+    <e lm="uitbreiden"><i>uitbreid</i><par n="aanbeland/en__vblex_sep"/></e>
     <e lm="uitbreiden"><p><l>breid</l><r>uitbreid</r></p><par n="beland/en#_aan__vblex_sep"/><p><l><b/>uit</l><r></r></p></e>
     <e lm="uitbreiden"><p><l>uitgebreid</l><r>uitbreiden</r></p><par n="gesproken__vblex_sep"/></e>
     <e lm="aanhalen"><i>aanha</i><par n="aanha/len__vblex_sep"/></e>
@@ -37044,5 +37049,5 @@
     <e lm="Athene"><i>Athene</i><par n="Frankrijk__np"/></e>
     <e lm="terwijl"><i>terwijl</i><par n="en__cnjcoo"/></e>
 -->
- </section>
+  </section>
 </dictionary>
