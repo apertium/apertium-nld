@@ -119,6 +119,7 @@
     </pardef>
 
     <pardef n="ordinals">
+      <e><re>[0-9]+</re><p><l>e</l><r>e<s n="num"/><s n="ord"/></r></p></e>
       <e><re>[0-9]+</re><p><l>de</l><r>de<s n="num"/><s n="ord"/></r></p></e>
       <e><re>[0-9]+</re><p><l>ste</l><r>ste<s n="num"/><s n="ord"/></r></p></e>
     </pardef>
@@ -241,6 +242,7 @@
       <e>       <p><l>ik</l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
 
       <e>       <p><l>jij</l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>je</l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
       <e>       <p><l>u</l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sp"/></r></p></e>
 
       <e>       <p><l>hij</l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
@@ -347,6 +349,12 @@
       <e>       <p><l/><r><s n="rel"/><s n="adv"/></r></p></e>
     </pardef>
 
+    <pardef n="d/ie__rel">
+      <e>       <p><l>ie</l><r>ie<s n="rel"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e>       <p><l>at</l><r>ie<s n="rel"/><s n="nt"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ie</l><r>ie<s n="rel"/><s n="mfn"/><s n="pl"/></r></p></e>
+    </pardef>
+
    <!-- SECTION: Verbs -->
 
     <pardef n="/zijn__vbser">
@@ -368,6 +376,7 @@
       <e>       <p><l>hebbend</l><r>hebben<s n="vbhaver"/><s n="pprs"/></r></p></e>
       <e>       <p><l>heb</l><r>hebben<s n="vbhaver"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>hebt</l><r>hebben<s n="vbhaver"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>heb</l><r>hebben<s n="vbhaver"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
       <e>       <p><l>heeft</l><r>hebben<s n="vbhaver"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
       <e>       <p><l>hebben</l><r>hebben<s n="vbhaver"/><s n="pres"/><s n="pl"/></r></p></e>
       <e>       <p><l>had</l><r>hebben<s n="vbhaver"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -6912,6 +6921,11 @@
       <e r="RL"><p><l></l>          <r><s n="cmp"/></r></p></e>
       <e r="LR"><p><l></l>          <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
     </pardef>
+
+    <pardef n="bio__atp">
+      <e>       <p><l></l><r><s n="atp"/></r></p><par n="cmp-L"/></e>
+    </pardef>
+
     <!-- SECTION: NOUNS -->
     <pardef n="Olympische Spelen__n_m">
       <e>       <p><l></l><r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
@@ -7820,13 +7834,13 @@
       <e><p><l>'s</l><r><s n="n"/><s n="nt"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
     </pardef>
 
-    <pardef n="olie__n_mf">
-      <e><p><l></l><r><s n="n"/><s n="mf"/><s n="sg"/></r></p><par n="cmp"/></e>
-      <e><p><l>s</l><r><s n="n"/><s n="mf"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
-      <e r="LR"><p><l>ën</l><r><s n="n"/><s n="mf"/><s n="pl"/></r></p><par n="cmp-R"/></e>
-      <e r="LR"><p><l>ëns</l><r><s n="n"/><s n="mf"/><s n="pl"/><j/>s<s n="gen"/></r></p></e>
-      <e><p><l>s</l><r><s n="n"/><s n="mf"/><s n="pl"/></r></p><par n="cmp-R"/></e>      
-      <e><p><l>s'</l><r><s n="n"/><s n="mf"/><s n="pl"/><j/>s<s n="gen"/></r></p></e>
+    <pardef n="oli/e__n_mf">
+      <e><p><l>e</l><r>e<s n="n"/><s n="mf"/><s n="sg"/></r></p><par n="cmp"/></e>
+      <e><p><l>es</l><r>e<s n="n"/><s n="mf"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
+      <e r="LR"><p><l>ën</l><r>e<s n="n"/><s n="mf"/><s n="pl"/></r></p><par n="cmp-R"/></e>
+      <e r="LR"><p><l>ëns</l><r>e<s n="n"/><s n="mf"/><s n="pl"/><j/>s<s n="gen"/></r></p></e>
+      <e><p><l>es</l><r>e<s n="n"/><s n="mf"/><s n="pl"/></r></p><par n="cmp-R"/></e>      
+      <e><p><l>es'</l><r>e<s n="n"/><s n="mf"/><s n="pl"/><j/>s<s n="gen"/></r></p></e>
     </pardef>
 
     <pardef n="ven__n_nt">
@@ -11779,6 +11793,8 @@
     <e lm="~" r="RL"><p><l><a/></l><r><a/></r></p></e>
     <e lm="s" r="RL"><p><l><a/>s</l><r>s<s n="gen"/></r></p></e>
 
+    <e lm="bio"><i>bio</i><par n="bio__atp"/></e>
+
     <!-- SECTION: Prepositions -->
 
     <e lm="aan"><i>aan</i><par n="van__pr"/></e>
@@ -12038,7 +12054,7 @@
 
     <e lm="wat"><i>wat</i><par n="wat__rel"/></e>
     <e lm="wie"><i>wie</i><par n="wie__rel"/></e>
-    <e lm="dat"><i>dat</i><par n="wie__rel"/></e>
+    <e lm="die"><i>d</i><par n="d/ie__rel"/></e>
 
     <e lm="waar"><i>waar</i><par n="waar__rel"/></e>
 
@@ -12152,6 +12168,11 @@
     <e lm="gistermiddag"><i>gistermiddag</i><par n="es__adv"/></e>
     <e lm="zowaar"><i>zowaar</i><par n="es__adv"/></e>
     <e lm="voor de eerste slag"><i>voor<b/>de<b/>eerste<b/>slag</i><par n="es__adv"/></e>
+    <e lm="om deze reden"><i>om<b/>deze<b/>reden</i><par n="es__adv"/></e>
+    <e lm="onder meer"><i>onder<b/>meer</i><par n="es__adv"/></e>
+    <e lm="tot stand"><i>tot<b/>stand</i><par n="es__adv"/></e>
+    <e lm="evenals"><i>evenals</i><par n="es__adv"/></e>
+    <e lm="niet meer"><i>niet<b/>meer</i><par n="es__adv"/></e>
 
     <e lm="aan"><i>aan</i><par n="es__adv"/></e>
     <e lm="aaneen"><i>aaneen</i><par n="es__adv"/></e>
@@ -13718,6 +13739,7 @@
     <e lm="ongewild"><i>ongewild</i><par n="eng__adj_sint"/></e>
     <e lm="onvolledig"><i>onvolledig</i><par n="eng__adj_sint"/></e>
     <e lm="permanent"><i>permanent</i><par n="eng__adj_sint"/></e>
+    <e lm="plantaardig"><i>plantaardig</i><par n="eng__adj_sint"/></e>
     <e lm="primitief"><i>primitie</i><par n="gro/f__adj_sint"/></e>
     <e lm="professioneel"><i>professione</i><par n="he/el__adj_sint"/></e>
     <e lm="progressief"><i>progressie</i><par n="gro/f__adj_sint"/></e>
@@ -14196,6 +14218,7 @@
     <e lm="dienstplichtig"><i>dienstplichtig</i><par n="nipt__adj"/></e>
     <e lm="diep"><i>diep</i><par n="eng__adj_sint"/></e>
     <e lm="dierbaar"><i>dierba</i><par n="ga/ar__adj_sint"/></e>
+    <e lm="dierlijk"><i>dierlijk</i><par n="nipt__adj"/></e>
     <e lm="dik"><i>dik</i><par n="gek__adj_sint"/></e>
     <e lm="dilettantisch"><i>dilettantisch</i><par n="fors__adj_sint"/></e>
     <e lm="dimensionaal"><i>dimensiona</i><par n="ora/al__adj"/></e>
@@ -19654,6 +19677,7 @@
     <e lm="diergaarde"><i>diergaarde</i><par n="sjwa__n_mf"/></e>
     <e lm="dierkunde"><i>dierkunde</i><par n="soesa__n_f"/></e>
     <e lm="dierproef"><i>dierproe</i><par n="kol/f__n_mf"/></e>
+    <e lm="diesel"><i>diesel</i><par n="led__n_m"/></e>
     <e lm="diesellocomotief"><i>diesellocomotie</i><par n="kol/f__n_mf"/></e>
     <e lm="dieselolie"><i>dieselolie</i><par n="hui__n_mf"/></e>
     <e lm="dievenklauw"><i>dievenklauw</i><par n="akst__n_mf"/></e>
@@ -20928,6 +20952,7 @@
     <e lm="geschiedkundige"><i>geschiedkundige</i><par n="rune__n_m"/></e>
     <e lm="geschiedvervalsing"><i>geschiedvervalsing</i><par n="vering__n_f"/></e>
     <e lm="geschrift"><i>geschrift</i><par n="lot__n_nt"/></e>
+    <e lm="geschut"><i>geschut</i><par n="OV__n_nt"/></e>
     <e lm="gesel"><i>gesel</i><par n="sol__n_m"/></e>
     <e lm="geslacht"><i>geslacht</i><par n="lot__n_nt"/></e>
     <e lm="geslachtsdeel"><i>geslachtsde</i><par n="ze/el__n_nt"/></e>
@@ -22653,6 +22678,7 @@
     <e lm="koolraap"><i>koolra</i><par n="ka/ap__n_mf"/></e>
     <e lm="koolstof"><i>koolstof</i><par n="AJC__n_mf"/></e>
     <e lm="koolwaterstof"><i>koolwaterstof</i><par n="hef__n_mf"/></e>
+    <e lm="koolzaad"><i>koolzaad</i><par n="OV__n_nt"/></e>
     <e lm="koolzuur"><i>koolzuur</i><par n="OV__n_nt"/></e>
     <e lm="koop"><i>ko</i><par n="ko/op__n_m"/></e>
     <e lm="koopje"><i>ko</i><par n="ko/opje__n_nt"/></e>
@@ -24157,7 +24183,7 @@
     <e lm="oksel"><i>oksel</i><par n="led__n_m"/></e>
     <e lm="oktober"><i>oktober</i><par n="eb__n_m"/></e>
     <e lm="oleander"><i>oleander</i><par n="led__n_m"/></e>
-    <e lm="olie"><i>olie</i><par n="olie__n_mf"/></e>
+    <e lm="olie"><i>oli</i><par n="oli/e__n_mf"/></e>
     <e lm="oliebol"><i>oliebol</i><par n="el__n_m"/></e>
     <e lm="oliecrisis"><i>oliecris</i><par n="bas/is__n_f"/></e>
     <e lm="olieprijs"><i>olieprij</i><par n="hal/s__n_m"/></e>
@@ -28056,6 +28082,7 @@
     <e lm="voorsteven"><i>voorsteven</i><par n="led__n_m"/></e>
     <e lm="voortplantingsdrang"><i>voortplantingsdrang</i><par n="eb__n_m"/></e>
     <e lm="voortplantingsdrift"><i>voortplantingsdrift</i><par n="AJC__n_mf"/></e>
+    <e lm="voortuin"><i>voortuin</i><par n="Belg__n_m"/></e>
     <e lm="voortvluchtige"><i>voortvluchtige</i><par n="rune__n_m"/></e>
     <e lm="voortzetting"><i>voortzetting</i><par n="vering__n_f"/></e>
     <e lm="vooruitgang"><i>vooruitgang</i><par n="eb__n_m"/></e>
