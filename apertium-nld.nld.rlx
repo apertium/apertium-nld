@@ -12,6 +12,8 @@ LIST PrnPers = (prn pers);
 LIST Inf = inf;
 LIST Pr = pr;
 LIST Adj = adj;
+LIST Adv = adv;
+LIST Cnjcoo = cnjcoo;
 LIST Cnjsub = cnjsub;
 LIST Det = det;
 LIST DetPos = (det pos);
@@ -22,8 +24,11 @@ LIST DetDef = (det def);
 LIST Verb = vblex vbmod vaux vbhaver vbser;
 LIST Imp = imp;
 LIST DetHet = (det def nt sg);
+LIST DetDe = (det def "de"i);
 
 SET PrnNotPers = (prn) - PrnPers;
+SET DetNotZijn = (det) - ("zijn"i);
+SET DetPosNotZijn = DetPos - ("zijn"i);
 
 SECTION
 
@@ -37,19 +42,19 @@ REMOVE Cnjsub IF (1 EOS);
 REMOVE ("haar"i n) IF (1 N);
 
 # unsafe
-SELECT DetPos IF (1 N);
+SELECT DetPosNotZijn IF (1 N);
 
 REMOVE N IF (-1 PrnNotPers) (NOT -1 DetHet);
 
 SELECT N IF (-1 DetPos) (1 EOS);
 
-SELECT N IF (*-1 Adj BARRIER Det) (NOT 1 N);
+# breaks ", bij niet" #SELECT N IF (*-1 Adj BARRIER Det) (NOT 1 N);
 
 #SELECT Inf IF (*-1 (NOT Vbmod) BARRIER Vbmod) (1 EOS);
 
 #SELECT Inf IF (-2 ("om"i)) (-1 ("te"i));
 
-SELECT Det IF (1 N);
+SELECT DetNotZijn IF (1 N);
 
 REMOVE Pr IF (1 EOS);
 
@@ -69,6 +74,59 @@ REMOVE (prn dem sg) IF (-1 (n pl));
 
 REMOVE (vblex pp) IF (-1 Det) (0 N);
 
+# deze zijn
+SELECT (det dem mfn pl) IF (-1 BOS) (0 ("deze"i)) (1 ("zijn"i))
+SELECT (vbser pres pl) IF (-2 BOS) (-1 ("deze"i)) (0 ("zijn"i))
+
+# . Tegenwoordig zijn
+SELECT (vbser pres pl) IF (-2 BOS) (-1 Adv) (0 ("zijn"i))
+
+# , bij niet
+SELECT Pr IF (-1 (",")) (1 Adv)
+
+# uit pinda's
+SELECT N IF (-1 Pr) (0 (gen))
+
+# de oliën
+#REMOVE Verb IF (-1 DetDe)
+
+# olie of dierlijk vet.
+SELECT N IF (-3 N) (-2 Cnjcoo) (-1 Adj) (1 EOS)
+
+# , die tot stand kwam
+SELECT (rel) IF (-1 (",")) (1 Adv) (2 Verb)
+
+# De goederen die men
+REMOVE (rel mf sg) IF (-1 (n pl)) (NOT -1 (n sg))
+SELECT (rel mfn pl) IF (-1 (n pl)) (1 Prn)
+SELECT (rel mfn pl) IF (-1 (n pl)) (1 DetDef)
+
+# zeker te stellen
+SELECT (vblex inf) IF (-1 ("te"i))
+
+# de wijs waarop
+SELECT N IF (-1 (det)) (1 (pr))
+
+# op zijn eiland aanvallen
+SELECT Verb IF (-1 N) (NOT -1 (cmp))
+REMOVE ("zijn"i vbser) IF (-1 (pr)) (1 N)
+
+# . Heb je
+SELECT (vbhaver pres p2 sg) IF (-1 BOS) (1 (prn obj uns p2 mf sg))
+
+REMOVE ("s"i gen) IF (NOT -1 (np))
+
+# is zijn zus
+SELECT DetPos IF (-1 (vbser pres p3 sg)) (0 ("zijn"i)) (1 N)
+
+# . Weet je
+SELECT (vblex pres p2 sg) IF (-1 BOS) (1 (prn obj uns p2 mf sg))
+
+# Ik heb je
+SELECT (prn obj uns p2 mf sg) IF (-2 (prn subj p1 mf sg)) (-1 (vbhaver p1 sg))
+
+# Zeg me
+SELECT Imp IF (-1 BOS) (1 (prn obj))
 
 
 SECTION
@@ -78,3 +136,6 @@ REMOVE Imp IF;
 
 # remove noun reading of "bij"
 #REMOVE ("bij"i n) IF;
+
+# remove informal 2nd person singular reading of "heb"
+REMOVE (vbhaver pres p2 sg) IF;
