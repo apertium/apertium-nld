@@ -7113,6 +7113,13 @@
       <e><p><l>ens</l><r><s n="n"/><s n="m"/><s n="pl"/><j/>s<s n="gen"/></r></p></e>
     </pardef>
 
+    <pardef n="Boer__n_m">
+      <e>       <p><l></l><r><s n="n"/><s n="m"/><s n="sg"/></r></p><par n="cmp-R"/></e>
+      <e><p><l>s</l><r><s n="n"/><s n="m"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
+      <e>       <p><l>en</l><r><s n="n"/><s n="m"/><s n="pl"/></r></p><par n="cmp"/></e>
+      <e><p><l>ens</l><r><s n="n"/><s n="m"/><s n="pl"/><j/>s<s n="gen"/></r></p></e>
+    </pardef>
+
     <pardef n="zegekrans__n_m"> <!-- posss -->
       <e>       <p><l></l><r><s n="n"/><s n="m"/><s n="sg"/></r></p><par n="cmp"/></e>
       <e><p><l>'</l><r><s n="n"/><s n="m"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
@@ -16083,6 +16090,7 @@
     <e lm="Bobo"><i>Bobo</i><par n="ra__n_m"/></e>
     <e lm="Bobot"><i>Bobot</i><par n="OV__n_nt"/></e>
     <e lm="Boeginees"><i>Boeginees</i><par n="nieuws__n_nt"/></e>
+    <e lm="Boer"><i>Boer</i><par n="Boer__n_m"/></e>
     <e lm="Boerjatisch"><i>Boerjatisch</i><par n="OV__n_nt"/></e>
     <e lm="Boeroe"><i>Boeroe</i><par n="platina__n_nt"/></e>
     <e lm="Boliviaan"><i>Bolivia</i><par n="ma/an__n_m"/></e>
