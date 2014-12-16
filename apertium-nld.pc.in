@@ -1,7 +1,9 @@
-prefix=/home/fran/local
+prefix=@prefix@
 exec_prefix=${prefix}
-libdir=${exec_prefix}/lib
+libdir=@libdir@
+dir=@libdir@/apertium/apertium-nld
+srcdir=@datarootdir@/apertium/apertium-nld
 
 Name: apertium-nld
-Description: Finite-state morphological transducer and constraint grammar for Dutch 
-Version: 0.1.0
+Description: Finite-state morphological transducer and constraint grammar for Dutch
+Version: @VERSION@
