@@ -74,6 +74,10 @@ REMOVE (prn dem sg) IF (-1 (n pl));
 
 REMOVE (vblex pp) IF (-1 Det) (0 N);
 
+# remove p1/p2 verb readings if there is no p1/p2 pronoun in the same sentence
+REMOVE Verb + (p1) IF (NOT *-1 (prn pers p1) BARRIER BOS) (NOT *1 (prn pers p1) BARRIER EOS)
+REMOVE Verb + (p2) IF (NOT *-1 (prn pers p2) BARRIER BOS) (NOT *1 (prn pers p2) BARRIER EOS)
+
 # deze zijn
 SELECT (det dem mfn pl) IF (-1 BOS) (0 ("deze"i)) (1 ("zijn"i))
 SELECT (vbser pres pl) IF (-2 BOS) (-1 ("deze"i)) (0 ("zijn"i))
@@ -108,7 +112,7 @@ SELECT (vblex inf) IF (-1 ("te"i))
 SELECT N IF (-1 (det)) (1 (pr))
 
 # op zijn eiland aanvallen
-SELECT Verb IF (-1 N) (NOT -1 (cmp))
+SELECT Inf IF (-1 N) (NOT -1 (cmp))
 REMOVE ("zijn"i vbser) IF (-1 (pr)) (1 N)
 
 # . Heb je
@@ -127,6 +131,11 @@ SELECT (prn obj uns p2 mf sg) IF (-2 (prn subj p1 mf sg)) (-1 (vbhaver p1 sg))
 
 # Zeg me
 SELECT Imp IF (-1 BOS) (1 (prn obj))
+
+# Bij gebruik van
+SELECT N IF (-1 Pr) (1 Pr)
+
+REMOVE (det dem sg) IF (0 (det dem pl)) (*-1 (n pl) BARRIER (n sg))
 
 
 SECTION

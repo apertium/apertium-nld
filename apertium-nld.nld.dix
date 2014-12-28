@@ -83,6 +83,7 @@
     <sdef n="compound-only-L" c=""/>
     <sdef n="compound-R"    c=""/>
     <sdef n="cmp"    c=""/>
+    <sdef n="cmp-split" c=""/>
 
    </sdefs>
   <pardefs>
@@ -486,6 +487,25 @@
       <e>       <p><l>zou</l><r>zullen<s n="vaux"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
       <e>       <p><l>zou</l><r>zullen<s n="vaux"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
       <e>       <p><l>zouden</l><r>zullen<s n="vaux"/><s n="past"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="w/orden__vaux">
+      <e>       <p><l>orden</l><r>orden<s n="vaux"/><s n="inf"/></r></p></e>
+      <e>       <p><l>ordend</l><r>orden<s n="vaux"/><s n="pprs"/></r></p></e>
+      <e>       <p><l>ord</l><r>orden<s n="vaux"/><s n="imp"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ordt</l><r>orden<s n="vaux"/><s n="imp"/><s n="pl"/></r></p></e>
+      <e>       <p><l>ord</l><r>orden<s n="vaux"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ordt</l><r>orden<s n="vaux"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ordt</l><r>orden<s n="vaux"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>orden</l><r>orden<s n="vaux"/><s n="pres"/><s n="pl"/></r></p></e>
+      <e>       <p><l>erd</l><r>orden<s n="vaux"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e>       <p><l>erd</l><r>orden<s n="vaux"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>erd</l><r>orden<s n="vaux"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>erden</l><r>orden<s n="vaux"/><s n="past"/><s n="pl"/></r></p></e>
+      <e>       <p><l>orde</l><r>orden<s n="vaux"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e>       <p><l>orde</l><r>orden<s n="vaux"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>orde</l><r>orden<s n="vaux"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>orden</l><r>orden<s n="vaux"/><s n="past"/><s n="pl"/></r></p></e>
     </pardef>
 
     <pardef n="gesproken__vblex">
@@ -6909,6 +6929,8 @@
       <e r="LR"><p><l></l>          <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
       <e r="LR"><p><l></l>          <r><s n="compound-R"/></r></p></e>
       <e>       <p><l></l>          <r></r></p></e>
+
+      <e>       <p><l>-</l>         <r><s n="cmp-split"/></r></p></e>
     </pardef>
 
     <pardef n="cmp-R" c="cmp-R, for forms that can only end compounds">
@@ -6920,6 +6942,8 @@
     <pardef n="cmp-L" c="cmp-L, for forms that can only appear at the beginning or inside compounds">
       <e r="RL"><p><l></l>          <r><s n="cmp"/></r></p></e>
       <e r="LR"><p><l></l>          <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
+
+      <e>       <p><l>-</l>         <r><s n="cmp-split"/></r></p></e>
     </pardef>
 
     <pardef n="bio__atp">
@@ -13764,6 +13788,7 @@
     <e lm="aanspreekbaar"><i>aanspreekbaar</i><par n="fier__adj_sint"/></e>
     <e lm="weelderig"><i>weelderig</i><par n="eng__adj_sint"/></e>
     <e lm="welvarend"><i>welvarend</i><par n="eng__adj_sint"/></e>
+    <e lm="welwillend"><i>welwillend</i><par n="eng__adj_sint"/></e>
     <e lm="winderig"><i>winderig</i><par n="eng__adj_sint"/></e>
     <e lm="wisselvallig"><i>wisselvallig</i><par n="eng__adj_sint"/></e>
     <e lm="Afghaans"><i>Afghaans</i><par n="fors__adj_sint"/></e>
@@ -30102,6 +30127,7 @@
     <e lm="mogen"><i></i><par n="/mogen__vbmod"/></e>
     <e lm="willen"><i></i><par n="/willen__vaux"/></e>
     <e lm="zullen"><i></i><par n="/zullen__vaux"/></e>
+    <e lm="worden"><i>w</i><par n="w/orden__vaux"/></e>
     <e lm="aankondigen"><i>aankondig</i><par n ="aanbouw/en__vblex_sep"/></e>
     <e lm="aankondigen"><p><l>kondig</l><r>aankondig</r></p><par n="bouw/en#_aan__vblex_sep"/><p><l><b/>aan</l><r></r></p></e>
     <e lm="aankondigen"><p><l>aangekondigd</l><r>aankondigen</r></p><par n="gesproken__vblex_sep"/></e>
