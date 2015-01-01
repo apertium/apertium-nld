@@ -390,8 +390,8 @@
     <pardef n="/moeten__vbmod">
       <e>       <p><l>moeten</l><r>moeten<s n="vbmod"/><s n="inf"/></r></p></e>
       <e>       <p><l>moetend</l><r>moeten<s n="vbmod"/><s n="pprs"/></r></p></e>
-      <e>       <p><l>moet</l><r>moeten<s n="vbmod"/><s n="imp"/><s n="sg"/></r></p></e>
-      <e>       <p><l>moet</l><r>moeten<s n="vbmod"/><s n="imp"/><s n="pl"/></r></p></e>
+      <!--<e>       <p><l>moet</l><r>moeten<s n="vbmod"/><s n="imp"/><s n="sg"/></r></p></e>-->
+      <!--<e>       <p><l>moet</l><r>moeten<s n="vbmod"/><s n="imp"/><s n="pl"/></r></p></e>-->
       <e>       <p><l>moesten</l><r>moeten<s n="vbmod"/><s n="past"/><s n="pl"/></r></p></e>
       <e>       <p><l>moest</l><r>moeten<s n="vbmod"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>moest</l><r>moeten<s n="vbmod"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -429,8 +429,8 @@
       <e>       <p><l>mogen</l><r>mogen<s n="vbmod"/><s n="inf"/></r></p></e>
       <e>       <p><l>mogend</l><r>mogen<s n="vbmod"/><s n="pprs"/></r></p></e>
 
-      <e>       <p><l>mag</l><r>mogen<s n="vbmod"/><s n="imp"/><s n="sg"/></r></p></e>
-      <e>       <p><l>moogt</l><r>mogen<s n="vbmod"/><s n="imp"/><s n="pl"/></r></p></e>
+      <!--<e>       <p><l>mag</l><r>mogen<s n="vbmod"/><s n="imp"/><s n="sg"/></r></p></e>-->
+      <!--<e>       <p><l>moogt</l><r>mogen<s n="vbmod"/><s n="imp"/><s n="pl"/></r></p></e>-->
 
       <e>       <p><l>mocht</l><r>mogen<s n="vbmod"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>mocht</l><r>mogen<s n="vbmod"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -492,8 +492,8 @@
     <pardef n="w/orden__vaux">
       <e>       <p><l>orden</l><r>orden<s n="vaux"/><s n="inf"/></r></p></e>
       <e>       <p><l>ordend</l><r>orden<s n="vaux"/><s n="pprs"/></r></p></e>
-      <e>       <p><l>ord</l><r>orden<s n="vaux"/><s n="imp"/><s n="sg"/></r></p></e>
-      <e>       <p><l>ordt</l><r>orden<s n="vaux"/><s n="imp"/><s n="pl"/></r></p></e>
+      <!--<e>       <p><l>ord</l><r>orden<s n="vaux"/><s n="imp"/><s n="sg"/></r></p></e>-->
+      <!--<e>       <p><l>ordt</l><r>orden<s n="vaux"/><s n="imp"/><s n="pl"/></r></p></e>-->
       <e>       <p><l>ord</l><r>orden<s n="vaux"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>ordt</l><r>orden<s n="vaux"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
       <e>       <p><l>ordt</l><r>orden<s n="vaux"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -10549,6 +10549,13 @@
       <e><p><l>sens</l><r><s n="n"/><s n="nt"/><s n="pl"/><j/>s<s n="gen"/></r></p></e>
     </pardef>
 
+    <pardef n="ras__n_nt">
+      <e>       <p><l></l><r><s n="n"/><s n="nt"/><s n="sg"/></r></p><par n="cmp"/></e>
+      <e><p><l>'</l><r><s n="n"/><s n="nt"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
+      <e>       <p><l>sen</l><r><s n="n"/><s n="nt"/><s n="pl"/></r></p><par n="cmp"/></e>
+      <e><p><l>sens</l><r><s n="n"/><s n="nt"/><s n="pl"/><j/>s<s n="gen"/></r></p></e>
+    </pardef>
+
     <pardef n="cru/x__n_f">
       <e>       <p><l>x</l><r>x<s n="n"/><s n="f"/><s n="sg"/></r></p><par n="cmp"/></e>
       <e><p><l>x'</l><r>x<s n="n"/><s n="f"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
@@ -11085,6 +11092,7 @@
       <e>       <p><l>ter</l><r>ot<s n="adj"/><s n="sint"/><s n="comp"/><s n="pred"/></r></p></e>
       <e>       <p><l>ots</l><r>ot<s n="adj"/><s n="sint"/><s n="part"/></r></p></e>
       <e>       <p><l>ot</l><r>ot<s n="adj"/><s n="sint"/><s n="pred"/></r></p></e>
+      <!--TODO check--><e>       <p><l>ot</l><r>ot<s n="adj"/><s n="sint"/><s n="attr"/></r></p></e>
       <e>       <p><l>otste</l><r>ot<s n="adj"/><s n="sint"/><s n="sup"/><s n="attr"/></r></p></e>
       <e>       <p><l>otste</l><r>ot<s n="adj"/><s n="sint"/><s n="sup"/><s n="pred"/></r></p></e>
       <e>       <p><l>otst</l><r>ot<s n="adj"/><s n="sint"/><s n="sup"/><s n="pred"/><s n="nt"/></r></p></e>
@@ -11934,6 +11942,7 @@
     <e lm="indien"><i>indien</i><par n="dus__cnjadv"/></e>
     <e lm="bijvoorbeeld"><i>bijvoorbeeld</i><par n="dus__cnjadv"/></e>
     <e lm="daarvoor"><i>daarvoor</i><par n="dus__cnjadv"/></e>
+    <e lm="dan"><i>dan</i><par n="dus__cnjadv"/></e>
     <e lm="gegeven dat"><i>gegeven<b/>dat</i><par n="dus__cnjadv"/></e>
     <e lm="gezien dat"><i>gezien<b/>dat</i><par n="dus__cnjadv"/></e>
     <e lm="hoewel"><i>hoewel</i><par n="dus__cnjadv"/></e>
@@ -16503,6 +16512,7 @@
     <e lm="Navajo"><i>Navajo</i><par n="platina__n_nt"/></e>
     <e lm="Ndonga"><i>Ndonga</i><par n="platina__n_nt"/></e>
     <e lm="Nederlander"><i>Nederlander</i><par n="led__n_m"/></e>
+    <e lm="Nederlands"><i>Nederlands</i><par n="nieuws__n_nt"/></e>
     <e lm="Nederlandse"><i>Nederlandse</i><par n="rune__n_f"/></e>
     <e lm="Nedersaksisch"><i>Nedersaksisch</i><par n="OV__n_nt"/></e>
     <e lm="Nedersorbisch"><i>Nedersorbisch</i><par n="OV__n_nt"/></e>
@@ -17097,6 +17107,7 @@
     <e lm="aardbevingshaard"><i>aardbevingshaard</i><par n="Belg__n_m"/></e>
     <e lm="aardbol"><i>aardbol</i><par n="heler__n_mf"/></e>
     <e lm="aarddraad"><i>aarddra</i><par n="na/ad__n_m"/></e>
+    <e lm="aardolie"><i>aardolie</i><par n="sjwa__n_mf"/></e>
     <e lm="breedtegraad"><i>breedtegra</i><par n="na/ad__n_m"/></e>
     <e lm="aarde"><i>aarde</i><par n="yoga__n_mf"/></e>
     <e lm="aardebaan"><i>aardeba</i><par n="la/an__n_mf"/></e>
@@ -18518,6 +18529,7 @@
     <e lm="bijkomstigheid"><i>bijkomstighe</i><par n="oudhe/id__n_f"/></e>
     <e lm="bijl"><i>bijl</i><par n="akst__n_mf"/></e>
     <e lm="bijlage"><i>bijlage</i><par n="made__n_mf"/></e>
+    <e lm="bijmenging"><i>bijmenging</i><par n="vering__n_f"/></e>
     <e lm="bijnaam"><i>bijna</i><par n="na/am__n_m"/></e>
     <e lm="bijnier"><i>bijnier</i><par n="akst__n_mf"/></e>
     <e lm="bijouterie"><i>bijouterie</i><par n="fee__n_f"/></e>
@@ -18875,7 +18887,7 @@
     <e lm="postkaart"><i>postkaart</i><par n="zooi__n_mf"/></e>
     <e lm="socialist"><i>socialist</i><par n="zooi__n_mf"/></e>
     <e lm="toegift"><i>toegift</i><par n="zooi__n_mf"/></e>
-    <e lm="kolonist"><i>kolonist</i><par n="breedte__n_f"/></e>
+    <e lm="kolonist"><i>kolonist</i><par n="Belg__n_m"/></e>
     <e lm="namenlijst"><i>namenlijst</i><par n="zooi__n_mf"/></e>
     <e lm="missiepost"><i>missiepost</i><par n="zooi__n_mf"/></e>
     <e lm="aardkorst"><i>aardkorst</i><par n="zooi__n_mf"/></e>
@@ -19350,6 +19362,7 @@
     <e lm="contemplatie"><i>contemplatie</i><par n="roe__n_f"/></e>
     <e lm="contentmanagementsysteem"><i>contentmanagementsyste</i><par n="ze/em__n_nt"/></e>
     <e lm="context"><i>context</i><par n="Belg__n_m"/></e>
+    <e lm="continent"><i>continent</i><par n="lot__n_nt"/></e>
     <e lm="contrabande"><i>contrabande</i><par n="yoga__n_mf"/></e>
     <e lm="contrabas"><i>contrabas</i><par n="as__n_mf"/></e>
     <e lm="contract"><i>contract</i><par n="lot__n_nt"/></e>
@@ -23529,6 +23542,7 @@
     <e lm="mengkleur"><i>mengkleur</i><par n="akst__n_mf"/></e>
     <e lm="mengsel"><i>mengsel</i><par n="eon__n_nt"/></e>
     <e lm="mengtaal"><i>mengta</i><par n="ta/al__n_mf"/></e>
+    <e lm="mengvorm"><i>mengvorm</i><par n="Belg__n_m"/></e>
     <e lm="menigte"><i>menigte</i><par n="made__n_f"/></e>
     <e lm="mening"><i>mening</i><par n="vering__n_f"/></e>
     <e lm="meningitis"><i>meningitis</i><par n="xeres__n_f"/></e>
@@ -25320,7 +25334,7 @@
     <e lm="rantsoen"><i>rantsoen</i><par n="lot__n_nt"/></e>
     <e lm="rapport"><i>rapport</i><par n="lot__n_nt"/></e>
     <e lm="accountantsrapport"><i>accountantsrapport</i><par n="lot__n_nt"/></e>
-    <e lm="ras"><i>ras</i><par n="es__n_nt"/></e>
+    <e lm="ras"><i>ras</i><par n="ras__n_nt"/></e>
     <e lm="rashond"><i>rashond</i><par n="Belg__n_m"/></e>
     <e lm="rasp"><i>rasp</i><par n="akst__n_mf"/></e>
     <e lm="rasterelektronenmicroscoop"><i>rasterelektronenmicrosco</i><par n="ko/op__n_m"/></e>
@@ -26037,6 +26051,7 @@
     <e lm="sector"><i>sector</i><par n="sol__n_m"/></e>
     <e lm="sediment"><i>sediment</i><par n="lot__n_nt"/></e>
     <e lm="sedimentatie"><i>sedimentatie</i><par n="roe__n_f"/></e>
+    <e lm="segregatie"><i>segregatie</i><par n="roe__n_f"/></e>
     <e lm="sein"><i>sein</i><par n="lot__n_nt"/></e>
     <e lm="seiner"><i>seiner</i><par n="led__n_m"/></e>
     <e lm="seismologie"><i>seismologie</i><par n="soesa__n_f"/></e>
@@ -29887,6 +29902,7 @@
     <e lm="Mozambique"><i>Mozambique</i><par n="Frankrijk__np"/></e>
     <e lm="München"><i>München</i><par n="Frankrijk__np"/></e>
     <e lm="Myanmar"><i>Myanmar</i><par n="Frankrijk__np"/></e>
+    <e lm="Namibië"><i>Namibië</i><par n="Frankrijk__np"/></e>
     <e lm="Nelspruit"><i>Nelspruit</i><par n="Frankrijk__np"/></e>
     <e lm="Nieuw-Zeeland"><i>Nieuw-Zeeland</i><par n="Frankrijk__np"/></e>
     <e lm="Nigeria"><i>Nigeria</i><par n="Afrika__np"/></e>
@@ -33914,6 +33930,8 @@
     <e lm="overnachten"><p><l>overnacht</l><r>overnachten</r></p><par n="gesproken__vblex"/></e>
     <e lm="overrulen"><i>overrule</i><par n="game/n__vblex"/></e>
     <e lm="overrulen"><p><l>overruled</l><r>overrulen</r></p><par n="gesproken__vblex"/></e>
+    <e lm="overschaduwen"><i>overschaduw</i><par n="jij/en__vblex"/></e>
+    <e lm="overschaduwen"><p><l>overschaduwd</l><r>overschaduwen</r></p><par n="gesproken__vblex"/></e>
     <e lm="overspannen"><i>overspan</i><par n="in/nen__vblex"/></e>
     <e lm="overspannen"><p><l>overspannen</l><r>overspannen</r></p><par n="gesproken__vblex"/></e>
     <e lm="overspoelen"><i>overspoel</i><par n="jij/en__vblex"/></e>

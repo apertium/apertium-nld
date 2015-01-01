@@ -6,7 +6,8 @@ SETS
 LIST BOS = (>>>) (sent);
 LIST EOS = (<<<) (sent);
 
-LIST N = n ;
+LIST N = n;
+LIST Noun = n np;
 LIST Prn = prn;
 LIST PrnPers = (prn pers);
 LIST Inf = inf;
@@ -15,6 +16,7 @@ LIST Adj = adj;
 LIST Adv = adv;
 LIST Cnjcoo = cnjcoo;
 LIST Cnjsub = cnjsub;
+LIST Cnjadv = cnjadv;
 LIST Det = det;
 LIST DetPos = (det pos);
 LIST Vbmod = vbmod;
@@ -39,22 +41,22 @@ REMOVE Adj IF (-1 Pr) (1 Pr);
 REMOVE Cnjsub IF (1 EOS);
 
 # unsafe
-REMOVE ("haar"i n) IF (1 N);
+REMOVE ("haar"i n) IF (1 Noun);
 
 # unsafe
-SELECT DetPosNotZijn IF (1 N);
+SELECT DetPosNotZijn IF (1 Noun);
 
-REMOVE N IF (-1 PrnNotPers) (NOT -1 DetHet);
+REMOVE Noun IF (-1 PrnNotPers) (NOT -1 DetHet);
 
-SELECT N IF (-1 DetPos) (1 EOS);
+SELECT Noun IF (-1 DetPos) (1 EOS);
 
-# breaks ", bij niet" #SELECT N IF (*-1 Adj BARRIER Det) (NOT 1 N);
+# breaks ", bij niet" #SELECT Noun IF (*-1 Adj BARRIER Det) (NOT 1 Noun);
 
 #SELECT Inf IF (*-1 (NOT Vbmod) BARRIER Vbmod) (1 EOS);
 
 #SELECT Inf IF (-2 ("om"i)) (-1 ("te"i));
 
-SELECT DetNotZijn IF (1 N);
+SELECT DetNotZijn IF (1 Noun);
 
 REMOVE Pr IF (1 EOS);
 
@@ -64,15 +66,15 @@ REMOVE DetDem IF (1 DetDef);
 
 REMOVE DetDem IF (1 Prn);
 
-REMOVE ("er"i pr) IF (1 Verb) (NOT 1 N);
+REMOVE ("er"i pr) IF (1 Verb) (NOT 1 Noun);
 
-REMOVE (det def nt sg) IF (NOT *1 N BARRIER Verb)
+REMOVE (det def nt sg) IF (NOT *1 Noun BARRIER Verb)
 
 REMOVE (prn dem sg) IF (-1 (n pl));
 
-#REMOVE N IF (0 (np));
+#REMOVE Noun IF (0 (np));
 
-REMOVE (vblex pp) IF (-1 Det) (0 N);
+REMOVE (vblex pp) IF (-1 Det) (0 Noun);
 
 # remove p1/p2 verb readings if there is no p1/p2 pronoun in the same sentence
 REMOVE Verb + (p1) IF (NOT *-1 (prn pers p1) BARRIER BOS) (NOT *1 (prn pers p1) BARRIER EOS)
@@ -89,13 +91,13 @@ SELECT (vbser pres pl) IF (-2 BOS) (-1 Adv) (0 ("zijn"i))
 SELECT Pr IF (-1 (",")) (1 Adv)
 
 # uit pinda's
-SELECT N IF (-1 Pr) (0 (gen))
+SELECT Noun IF (-1 Pr) (0 (gen))
 
 # de oliën
 #REMOVE Verb IF (-1 DetDe)
 
 # olie of dierlijk vet.
-SELECT N IF (-3 N) (-2 Cnjcoo) (-1 Adj) (1 EOS)
+SELECT Noun IF (-3 Noun) (-2 Cnjcoo) (-1 Adj) (1 EOS)
 
 # , die tot stand kwam
 SELECT (rel) IF (-1 (",")) (1 Adv) (2 Verb)
@@ -109,11 +111,11 @@ SELECT (rel mfn pl) IF (-1 (n pl)) (1 DetDef)
 SELECT (vblex inf) IF (-1 ("te"i))
 
 # de wijs waarop
-SELECT N IF (-1 (det)) (1 (pr))
+SELECT Noun IF (-1 (det)) (1 (pr))
 
 # op zijn eiland aanvallen
-SELECT Inf IF (-1 N) (NOT -1 (cmp))
-REMOVE ("zijn"i vbser) IF (-1 (pr)) (1 N)
+SELECT (vblex inf) IF (-1 Noun) (NOT -1 (cmp))
+REMOVE ("zijn"i vbser) IF (-1 (pr)) (1 Noun)
 
 # . Heb je
 SELECT (vbhaver pres p2 sg) IF (-1 BOS) (1 (prn obj uns p2 mf sg))
@@ -121,7 +123,7 @@ SELECT (vbhaver pres p2 sg) IF (-1 BOS) (1 (prn obj uns p2 mf sg))
 REMOVE ("s"i gen) IF (NOT -1 (np))
 
 # is zijn zus
-SELECT DetPos IF (-1 (vbser pres p3 sg)) (0 ("zijn"i)) (1 N)
+SELECT DetPos IF (-1 (vbser pres p3 sg)) (0 ("zijn"i)) (1 Noun)
 
 # . Weet je
 SELECT (vblex pres p2 sg) IF (-1 BOS) (1 (prn obj uns p2 mf sg))
@@ -133,9 +135,27 @@ SELECT (prn obj uns p2 mf sg) IF (-2 (prn subj p1 mf sg)) (-1 (vbhaver p1 sg))
 SELECT Imp IF (-1 BOS) (1 (prn obj))
 
 # Bij gebruik van
-SELECT N IF (-1 Pr) (1 Pr)
+SELECT Noun IF (-1 Pr) (1 Pr)
 
 REMOVE (det dem sg) IF (0 (det dem pl)) (*-1 (n pl) BARRIER (n sg))
+
+REMOVE Adj IF (-1 Adj) (1 EOS)
+REMOVE Adj IF (-3 Det) (-2 Pr) (-1 Det) (1 Adj)
+
+REMOVE Adj IF (-1 Noun) (0 (vblex pp)) (1 EOS)
+
+REMOVE Adv IF (-1 Det) (0 Adj) (1 Noun)
+REMOVE (adj pred) IF (-1 Det) (0 Adj) (1 Noun)
+
+# zijn ontworpen
+REMOVE (vbser inf) IF (1 (vblex pp))
+REMOVE ("zijn"i det pos) IF (1 (vblex pp))
+
+REMOVE (vbser inf) IF (1 Adv) (2 (vblex pp))
+REMOVE ("zijn"i det pos) IF (1 Adv) (2 (vblex pp))
+
+# krachtiger dan
+SELECT Cnjadv IF (-1 (adj comp)) (0 ("dan"i))
 
 
 SECTION
