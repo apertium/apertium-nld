@@ -40,6 +40,9 @@ REMOVE Adj IF (-1 Pr) (1 Pr);
 
 REMOVE Cnjsub IF (1 EOS);
 
+SELECT (vblex ger) IF (-1 DetHet) (NOT 0 Noun);
+SELECT DetHet IF (1 (vblex ger));
+
 # unsafe
 REMOVE ("haar"i n) IF (1 Noun);
 
@@ -68,7 +71,7 @@ REMOVE DetDem IF (1 Prn);
 
 REMOVE ("er"i pr) IF (1 Verb) (NOT 1 Noun);
 
-REMOVE (det def nt sg) IF (NOT *1 Noun BARRIER Verb)
+REMOVE DetHet IF (NOT *1 Noun BARRIER Verb)
 
 REMOVE (prn dem sg) IF (-1 (n pl));
 
