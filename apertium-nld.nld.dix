@@ -35426,6 +35426,9 @@
 <e lm="welkom op">       <i>welkom<b/>op</i><par n="hallo__ij"/></e>
 <e lm="hallo">           <i>hallo</i><par n="hallo__ij"/></e>
 
+<!-- SECTION: Tokenisation hacks -->
+
+<e lm="bouwen+op"><p><l>bouwen<b/>op</l><r>bouwen<s n="vblex"/><s n="inf"/><j/>op<s n="pr"/></r></p></e>
 
   </section>
   <section id="final" type="inconditional">

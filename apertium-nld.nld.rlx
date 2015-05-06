@@ -11,6 +11,7 @@ LIST Noun = n np;
 LIST Prn = prn;
 LIST PrnPers = (prn pers);
 LIST Inf = inf;
+LIST Sep = sep;
 LIST Pr = pr;
 LIST Adj = adj;
 LIST Adv = adv;
@@ -60,6 +61,8 @@ SELECT Noun IF (-1 DetPos) (1 EOS);
 #SELECT Inf IF (-2 ("om"i)) (-1 ("te"i));
 
 SELECT DetNotZijn IF (1 Noun);
+
+REMOVE Sep IF (-1 ("te")) ;
 
 REMOVE Pr IF (1 EOS);
 
