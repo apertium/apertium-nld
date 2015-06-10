@@ -206,7 +206,12 @@
   <e r="RL"><p><l></l>          <r><s n="det"/><s n="ind"/><s n="pl"/></r></p></e>
 </pardef>
 
-<pardef n="elke__det">
+<pardef n="elk__det">
+  <e>       <p><l>e</l>         <r><s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="det"/><s n="ind"/><s n="nt"/><s n="sg"/></r></p></e>
+</pardef>
+
+<pardef n="beide__det">
   <e>       <p><l></l>          <r><s n="det"/><s n="ind"/><s n="sg"/></r></p></e>
 </pardef>
 
@@ -10371,9 +10376,9 @@
 <e lm="verschillende">   <i>verschillende</i><par n="verschillende__det"/></e>
 <e lm="ander">           <i>ander</i><par n="ander__det"/></e>
 <e lm="zulke">           <i>zulke</i><par n="ander__det"/></e>
-<e lm="elke">            <i>elke</i><par n="elke__det"/></e><!--FIXME: add elk-->
-<e lm="allemaal">        <i>allemaal</i><par n="elke__det"/></e>
-<e lm="beide">           <i>beide</i><par n="elke__det"/></e>
+<e lm="elk">             <i>elk</i><par n="elk__det"/></e>
+<e lm="allemaal">        <i>allemaal</i><par n="beide__det"/></e>
+<e lm="beide">           <i>beide</i><par n="beide__det"/></e>
 
 <e lm="hoeveel">         <i>hoeveel</i><par n="hoeveel__det"/></e>
 <e lm="wat">             <i>wat</i><par n="wat__det"/></e>
@@ -12642,6 +12647,7 @@
 <e lm="dilettantisch">   <i>dilettantisch</i><par n="fors__adj_sint"/></e>
 <e lm="dimensionaal">    <i>dimensiona</i><par n="ora/al__adj"/></e>
 <e lm="dimensioneel">    <i>dimensione</i><par n="gehe/el__adj"/></e>
+<e lm="direct">          <i>direct</i><par n="eng__adj_sint"/></e>
 <e lm="discreet">        <i>discre</i><par n="he/et__adj_sint"/></e>
 <e lm="divers">          <i>divers</i><par n="fors__adj_sint"/></e>
 <e lm="doelloos">        <i>doello</i><par n="lo/os__adj_sint"/></e>
@@ -22095,6 +22101,7 @@
 <e lm="zilver">          <i>zilver</i><par n="LWOO__n_nt"/></e>
 <e lm="ijzer">           <i>ijzer</i><par n="LWOO__n_nt"/></e>
 <e lm="fosfor">          <i>fosfor</i><par n="LWOO__n_nt"/></e>
+<e lm="scenario">        <i>scenario</i><par n="Bo__n_nt"/></e>
 <e lm="scepsis">         <i>scepsis</i><par n="nieuws__n_nt"/></e>
 <e lm="misdaad">         <i>misda</i><par n="da/ad__n_mf"/></e>
 <e lm="misdienaar">      <i>misdienaar</i><par n="led__n_m"/></e>
