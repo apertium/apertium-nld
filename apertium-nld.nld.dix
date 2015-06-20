@@ -9300,8 +9300,8 @@
 
 <pardef n="isoge/en__adj">
   <e>       <p><l>ne</l>        <r>en<s n="adj"/><s n="attr"/></r></p></e>
-  <e>       <p><l>s</l>         <r>en<s n="adj"/><s n="part"/></r></p></e>
-  <e>       <p><l></l>          <r>en<s n="adj"/><s n="pred"/></r></p></e>
+  <e>       <p><l>ens</l>       <r>en<s n="adj"/><s n="part"/></r></p></e>
+  <e>       <p><l>en</l>        <r>en<s n="adj"/><s n="pred"/></r></p></e>
 </pardef>
 
 <pardef n="werklo/os__adj">
