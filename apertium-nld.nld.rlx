@@ -14,6 +14,8 @@ LIST Inf = inf;
 LIST Sep = sep;
 LIST Pr = pr;
 LIST Adj = adj;
+LIST AdjAttr = (adj attr);
+LIST AdjPred = (adj pred);
 LIST Adv = adv;
 LIST Cnjcoo = cnjcoo;
 LIST Cnjsub = cnjsub;
@@ -151,7 +153,7 @@ REMOVE Adj IF (-3 Det) (-2 Pr) (-1 Det) (1 Adj)
 REMOVE Adj IF (-1 Noun) (0 (vblex pp)) (1 EOS)
 
 REMOVE Adv IF (-1 Det) (0 Adj) (1 Noun)
-REMOVE (adj pred) IF (-1 Det) (0 Adj) (1 Noun)
+REMOVE AdjPred IF (0 AdjAttr) (1 Noun)
 
 # zijn ontworpen
 REMOVE (vbser inf) IF (1 (vblex pp))
