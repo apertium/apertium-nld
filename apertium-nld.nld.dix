@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dictionary>
-  <alphabet>ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzáàäâéëèêíìïîóòöôúùüûñ</alphabet>
+  <alphabet>ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzáàäâéëèêíìïîóòöôúùüûñħĊĦġ</alphabet>
   <sdefs>
     <!-- POS Categories -->
     <sdef n="n" 	c="Noun"/> 
@@ -12379,6 +12379,7 @@
 <e lm="makkelijk">       <i>makkelijk</i><par n="eng__adj_sint"/></e>
 <e lm="christelijk">     <i>christelijk</i><par n="eng__adj_sint"/></e>
 <e lm="specifiek">       <i>specifiek</i><par n="eng__adj_sint"/></e>
+<e lm="rustiek">         <i>rustiek</i><par n="eng__adj_sint"/></e>
 <e lm="antiek">          <i>antiek</i><par n="eng__adj_sint"/></e>
 <e lm="electrisch">      <i>electrisch</i><par n="eng__adj_sint"/></e>
 <e lm="moeilijk">        <i>moeilijk</i><par n="eng__adj_sint"/></e>
@@ -13765,6 +13766,7 @@
 <e lm="kies">            <i>kie</i><par n="vie/s__adj_sint"/></e>
 <e lm="kil">             <i>kil</i><par n="gul__adj_sint"/></e>
 <e lm="kinderachtig">    <i>kinderachtig</i><par n="eng__adj_sint"/></e>
+<e lm="woestijnachtig">  <i>woestijnachtig</i><par n="eng__adj_sint"/></e>
 <e lm="kinderloos">      <i>kinderlo</i><par n="werklo/os__adj"/></e>
 <e lm="kinetisch">       <i>kinetisch</i><par n="taps__adj"/></e>
 <e lm="klaar">           <i>kla</i><par n="ga/ar__adj_sint"/></e>
@@ -14494,6 +14496,8 @@
 <e lm="uitheems">        <i>uitheems</i><par n="taps__adj"/></e>
 <e lm="uitneembaar">     <i>uitneemba</i><par n="ba/ar__adj"/></e>
 <e lm="uitnemend">       <i>uitnemend</i><par n="eng__adj_sint"/></e>
+<e lm="toenemend">       <i>toenemend</i><par n="eng__adj_sint"/></e>
+<e lm="afnemend">        <i>afnemend</i><par n="eng__adj_sint"/></e>
 <e lm="uitsluitend">     <i>uitsluitend</i><par n="Afghaans__adj"/></e>
 <e lm="uitstaand">       <i>uitstaand</i><par n="Afghaans__adj"/></e>
 <e lm="uitstekend">      <i>uitstekend</i><par n="eng__adj_sint"/></e>
@@ -19552,6 +19556,16 @@
 <e lm="garnaal">         <i>garna</i><par n="ta/al__n_m"/></e>
 <e lm="garsoen">         <i>garsoen</i><par n="Belg__n_m"/></e>
 <e lm="gas">             <i>gas</i><par n="es__n_nt"/></e>
+
+<e lm="aterstofgas"><i>aterstofgas</i><par n="es__n_nt"/></e>
+<e lm="brandstofgas"><i>brandstofgas</i><par n="es__n_nt"/></e>
+<e lm="stikstofgas"><i>stikstofgas</i><par n="es__n_nt"/></e>
+<e lm="tikstofgas"><i>tikstofgas</i><par n="es__n_nt"/></e>
+<e lm="uurstofgas"><i>uurstofgas</i><par n="es__n_nt"/></e>
+<e lm="waterstofgas"><i>waterstofgas</i><par n="es__n_nt"/></e>
+<e lm="zuurstofgas"><i>zuurstofgas</i><par n="es__n_nt"/></e>
+<e lm="zwavelwaterstofgas"><i>zwavelwaterstofgas</i><par n="es__n_nt"/></e>
+
 <e lm="gasleiding">      <i>gasleiding</i><par n="vering__n_f"/></e>
 <e lm="gast">            <i>gast</i><par n="Belg__n_m"/></e>
 <e lm="gastarbeider">    <i>gastarbeider</i><par n="led__n_m"/></e>
@@ -20177,6 +20191,7 @@
 <e lm="groentetaart">    <i>groentetaart</i><par n="akst__n_mf"/></e>
 <e lm="groenwier">       <i>groenwier</i><par n="uniform__n_nt"/></e>
 <e lm="groep">           <i>groep</i><par n="vering__n_f"/></e>
+<e lm="eilandengroep">   <i>eilandengroep</i><par n="vering__n_f"/></e>
 <e lm="rock-groep">      <i>rock-groep</i><par n="vering__n_f"/></e>
 <e lm="groet">           <i>groet</i><par n="Belg__n_m"/></e>
 <e lm="groetje">         <i>groetje</i><par n="led__n_m"/></e>
@@ -23362,6 +23377,7 @@
 <e lm="opvoering">       <i>opvoering</i><par n="vering__n_f"/></e>
 <e lm="opvolger">        <i>opvolger</i><par n="led__n_m"/></e>
 <e lm="opwarming">       <i>opwarming</i><par n="opacriminaliteit__n_f"/></e>
+<e lm="opwarming van de aarde"><i>opwarming</i><par n="opacriminaliteit__n_f"/><p><l><b/>van<b/>de<b/>aarde</l><r><g><b/>van<b/>de<b/>aarde</g></r></p></e>
 <e lm="opwekking">       <i>opwekking</i><par n="vering__n_f"/></e>
 <e lm="opzet">           <i>opzet</i><par n="boomhut__n_mf"/></e>
 <e lm="opzicht">         <i>opzicht</i><par n="uniform__n_nt"/></e>
@@ -28761,6 +28777,7 @@
 <e lm="Ierland">         <i>Ierland</i><par n="Frankrijk__np"/></e>
 <e lm="Ijsland">         <i>Ijsland</i><par n="Frankrijk__np"/></e>
 <e lm="India">           <i>India</i><par n="Afrika__np"/></e>
+<e lm="Indië">           <i>Indië</i><par n="Frankrijk__np"/></e>
 <e lm="Indonesië">       <i>Indonesië</i><par n="Frankrijk__np"/></e>
 <e lm="Irak">            <i>Irak</i><par n="Frankrijk__np"/></e>
 <e lm="Iran">            <i>Iran</i><par n="Frankrijk__np"/></e>
@@ -28793,6 +28810,7 @@
 <e lm="Libanon">         <i>Libanon</i><par n="Frankrijk__np"/></e>
 <e lm="Liberia">         <i>Liberia</i><par n="Afrika__np"/></e>
 <e lm="Libië">           <i>Libië</i><par n="Frankrijk__np"/></e>
+<e lm="Sicilië">         <i>Sicilië</i><par n="Frankrijk__np"/></e>
 <e lm="Ligurië">         <i>Ligurië</i><par n="Frankrijk__np"/></e>
 <e lm="Litouwen">        <i>Litouwen</i><par n="Frankrijk__np"/></e>
 <e lm="Londen">          <i>Londen</i><par n="Frankrijk__np"/></e>

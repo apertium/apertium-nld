@@ -24,6 +24,8 @@ LIST Det = det;
 LIST DetPos = (det pos);
 LIST Vbmod = vbmod;
 LIST Vaux = vaux;
+LIST Vbhaver = vbhaver ;
+LIST Vbser = vbser ;
 LIST DetDem = (det dem);
 LIST DetDef = (det def);
 LIST Verb = vblex vbmod vaux vbhaver vbser;
@@ -34,6 +36,8 @@ LIST DetDe = (det def "de"i);
 SET PrnNotPers = (prn) - PrnPers;
 SET DetNotZijn = (det) - ("zijn"i);
 SET DetPosNotZijn = DetPos - ("zijn"i);
+
+SET AUX-MOD = Vaux | Vbmod | Vbhaver | Vbser ; 
 
 SECTION
 
@@ -165,6 +169,11 @@ REMOVE ("zijn"i det pos) IF (1 Adv) (2 (vblex pp))
 # krachtiger dan
 SELECT Cnjadv IF (-1 (adj comp)) (0 ("dan"i))
 
+SELECT Prn IF (0C Prn OR Det) (-1 BOS) (1C Verb) ;
+
+SELECT Inf IF (-1C AUX-MOD) (0C Verb) ;
+
+REMOVE Verb IF (0C N OR Verb) (-1C AdjAttr) ;
 
 SECTION
 
