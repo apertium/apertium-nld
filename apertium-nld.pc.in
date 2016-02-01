@@ -1,7 +1,5 @@
 prefix=@prefix@
 exec_prefix=${prefix}
-libdir=@libdir@
-dir=@libdir@/apertium/apertium-nld
 srcdir=@datarootdir@/apertium/apertium-nld
 
 Name: apertium-nld
