@@ -175,6 +175,12 @@ SELECT Inf IF (-1C AUX-MOD) (0C Verb) ;
 
 REMOVE Verb IF (0C N OR Verb) (-1C AdjAttr) ;
 
+# (by wth)
+REMOVE (vbser inf) IF (-1 (np)) ;
+REMOVE (vblex inf) IF (-1 (np)) ;
+REMOVE (det) IF (-1 (np)) ;
+
+
 SECTION
 
 # remove all imperative readings that have not been explicitly selected
