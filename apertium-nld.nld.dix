@@ -10733,6 +10733,7 @@
   </pardefs>
 
   <section id="main" type="standard">
+
 <!-- SECTION: Miscellaneous -->
 
 <e r="RL" lm="~">        <p><l><a/></l>      <r><a/></r></p></e>
@@ -11037,7 +11038,7 @@
 <e lm="vierentwintig">   <i>vierentwintig</i><par n="twee__num"/></e>
 <e lm="vijfentwintig">   <i>vijfentwintig</i><par n="twee__num"/></e>
 <e lm="zesentwintig">    <i>zesentwintig</i><par n="twee__num"/></e>
-<e lm="zevenentwintig">  <i>zeventwintig</i><par n="twee__num"/></e>
+<e lm="zevenentwintig">  <i>zevenentwintig</i><par n="twee__num"/></e>
 <e lm="achtentwintig">   <i>achtentwintig</i><par n="twee__num"/></e>
 <e lm="negenentwintig">  <i>negenentwintig</i><par n="twee__num"/></e>
 <e lm="dertig">          <i>dertig</i><par n="twee__num"/></e>
@@ -11047,7 +11048,7 @@
 <e lm="vierendertig">    <i>vierendertig</i><par n="twee__num"/></e>
 <e lm="vijfendertig">    <i>vijfendertig</i><par n="twee__num"/></e>
 <e lm="zesendertig">     <i>zesendertig</i><par n="twee__num"/></e>
-<e lm="zevenendertig">   <i>zevendertig</i><par n="twee__num"/></e>
+<e lm="zevenendertig">   <i>zevenendertig</i><par n="twee__num"/></e>
 <e lm="achtendertig">    <i>achtendertig</i><par n="twee__num"/></e>
 <e lm="negenendertig">   <i>negenendertig</i><par n="twee__num"/></e>
 <e lm="veertig">         <i>veertig</i><par n="twee__num"/></e>
@@ -11057,7 +11058,7 @@
 <e lm="vierenveertig">   <i>vierenveertig</i><par n="twee__num"/></e>
 <e lm="vijfenveertig">   <i>vijfenveertig</i><par n="twee__num"/></e>
 <e lm="zesenveertig">    <i>zesenveertig</i><par n="twee__num"/></e>
-<e lm="zevenenveertig">  <i>zevenveertig</i><par n="twee__num"/></e>
+<e lm="zevenenveertig">  <i>zevenenveertig</i><par n="twee__num"/></e>
 <e lm="achtenveertig">   <i>achtenveertig</i><par n="twee__num"/></e>
 <e lm="negenenveertig">  <i>negenenveertig</i><par n="twee__num"/></e>
 <e lm="vijftig">         <i>vijftig</i><par n="twee__num"/></e>
@@ -12352,7 +12353,6 @@
 
 
 <!-- SECTION: Adjectives -->
-
 
 <e lm="ander">           <i>ander</i><par n="Afghaans__adj"/></e>
 <e lm="naast">           <i>naast</i><par n="Afghaans__adj"/></e>
@@ -14387,7 +14387,7 @@
 <e lm="stabiel">         <i>stabiel</i><par n="eng__adj_sint"/></e>
 <e lm="stalen">          <i>stalen</i><par n="eren__adj"/></e>
 <e lm="standaard">       <i>standaard</i><par n="even__adj"/></e>
-<e lm="stapsgewijs">     <i>st</i><par n="stapsgewij/s__adj"/></e>
+<e lm="stapsgewijs">     <i>stapsgewij</i><par n="stapsgewij/s__adj"/></e>
 <e lm="star">            <i>star</i><par n="bar__adj_sint"/></e>
 <e lm="statisch">        <i>statisch</i><par n="fors__adj_sint"/></e>
 <e lm="stedelijk">       <i>stedelijk</i><par n="eng__adj_sint"/></e>
@@ -15814,6 +15814,7 @@
 <e lm="Zweedse">         <i>Zweedse</i><par n="rune__n_f"/></e>
 <e lm="Zwitser">         <i>Zwitser</i><par n="led__n_m"/></e>
 <e lm="Zwitserse">       <i>Zwitserse</i><par n="rune__n_f"/></e>
+
 <e lm="a-capellakoor">   <i>a-capellako</i><par n="o/or__n_nt"/></e>
 <e lm="a-capellamuziek"> <i>a-capellamuziek</i><par n="opacriminaliteit__n_f"/></e>
 <e lm="a-capellazang">   <i>a-capellazang</i><par n="stuifsneeuw__n_m"/></e>
@@ -19557,13 +19558,13 @@
 <e lm="garsoen">         <i>garsoen</i><par n="Belg__n_m"/></e>
 <e lm="gas">             <i>gas</i><par n="es__n_nt"/></e>
 
-<e lm="aterstofgas"><i>aterstofgas</i><par n="es__n_nt"/></e>
-<e lm="brandstofgas"><i>brandstofgas</i><par n="es__n_nt"/></e>
-<e lm="stikstofgas"><i>stikstofgas</i><par n="es__n_nt"/></e>
-<e lm="tikstofgas"><i>tikstofgas</i><par n="es__n_nt"/></e>
-<e lm="uurstofgas"><i>uurstofgas</i><par n="es__n_nt"/></e>
-<e lm="waterstofgas"><i>waterstofgas</i><par n="es__n_nt"/></e>
-<e lm="zuurstofgas"><i>zuurstofgas</i><par n="es__n_nt"/></e>
+<e lm="aterstofgas">     <i>aterstofgas</i><par n="es__n_nt"/></e>
+<e lm="brandstofgas">    <i>brandstofgas</i><par n="es__n_nt"/></e>
+<e lm="stikstofgas">     <i>stikstofgas</i><par n="es__n_nt"/></e>
+<e lm="tikstofgas">      <i>tikstofgas</i><par n="es__n_nt"/></e>
+<e lm="uurstofgas">      <i>uurstofgas</i><par n="es__n_nt"/></e>
+<e lm="waterstofgas">    <i>waterstofgas</i><par n="es__n_nt"/></e>
+<e lm="zuurstofgas">     <i>zuurstofgas</i><par n="es__n_nt"/></e>
 <e lm="zwavelwaterstofgas"><i>zwavelwaterstofgas</i><par n="es__n_nt"/></e>
 
 <e lm="gasleiding">      <i>gasleiding</i><par n="vering__n_f"/></e>
@@ -28450,7 +28451,6 @@
 <e lm="aanhouding">      <i>aanhouding</i><par n="vering__n_f"/></e>
 <e lm="aanraking">       <i>aanraking</i><par n="vering__n_f"/></e>
 <e lm="aantrekking">     <i>aantrekking</i><par n="vering__n_f"/></e>
-<!--<e lm="aantrekking"><i>aantrekking</i><par n="eb__n_f"/></e>-->
 <e lm="aanvaarding">     <i>aanvaarding</i><par n="vering__n_f"/></e>
 <e lm="aanwending">      <i>aanwending</i><par n="vering__n_f"/></e>
 <e lm="afstigting">      <i>afstigting</i><par n="vering__n_f"/></e>
@@ -28512,7 +28512,6 @@
 <e lm="luchtvervuiling"> <i>luchtvervuiling</i><par n="vering__n_f"/></e>
 <e lm="marionetteregering"><i>marionetteregering</i><par n="vering__n_f"/></e>
 <e lm="marketing">       <i>marketing</i><par n="vering__n_f"/></e>
-<!--<e lm="marketing"><i>marketing</i><par n="eb__n_f"/></e>-->
 <e lm="mededinging">     <i>mededinging</i><par n="vering__n_f"/></e>
 <e lm="meganisering">    <i>meganisering</i><par n="vering__n_f"/></e>
 <e lm="meting">          <i>meting</i><par n="vering__n_f"/></e>
@@ -30037,7 +30036,6 @@
 <e lm="buigen">          <p><l>gebogen</l>   <r>buigen</r></p><par n="gesproken__vblex"/></e>
 <e lm="delven">          <p><l>gedolven</l>  <r>delven</r></p><par n="gesproken__vblex"/></e>
 <e lm="dingen">          <p><l>gedongen</l>  <r>dingen</r></p><par n="gesproken__vblex"/></e>
-<e lm="doen">            <p><l>gedaan</l>    <r>doen</r></p><par n="gesproken__vblex"/></e>
 <e lm="doorstaan">       <p><l>doorstaan</l> <r>doorstaan</r></p><par n="gesproken__vblex"/></e>
 <e lm="doorzien">        <p><l>doorzien</l>  <r>doorzien</r></p><par n="gesproken__vblex"/></e>
 <e lm="dragen">          <p><l>gedragen</l>  <r>dragen</r></p><par n="gesproken__vblex"/></e>
@@ -30075,7 +30073,6 @@
 <e lm="klinken">         <p><l>geklonken</l> <r>klinken</r></p><par n="gesproken__vblex"/></e>
 <e lm="kluiven">         <p><l>gekloven</l>  <r>kluiven</r></p><par n="gesproken__vblex"/></e>
 <e lm="knijpen">         <p><l>geknepen</l>  <r>knijpen</r></p><par n="gesproken__vblex"/></e>
-<e lm="komen">           <p><l>gekomen</l>   <r>komen</r></p><par n="gesproken__vblex"/></e>
 <e lm="krijgen">         <p><l>gekregen</l>  <r>krijgen</r></p><par n="gesproken__vblex"/></e>
 <e lm="krijsen">         <p><l>gekresen</l>  <r>krijsen</r></p><par n="gesproken__vblex"/></e>
 <e lm="krimpen">         <p><l>gekrompen</l> <r>krimpen</r></p><par n="gesproken__vblex"/></e>
@@ -30252,14 +30249,12 @@
 <e lm="wijzen">          <p><l>gewezen</l>   <r>wijzen</r></p><par n="gesproken__vblex"/></e>
 <e lm="winden">          <p><l>gewonden</l>  <r>winden</r></p><par n="gesproken__vblex"/></e>
 <e lm="winnen">          <p><l>gewonnen</l>  <r>winnen</r></p><par n="gesproken__vblex"/></e>
-<e lm="worden">          <p><l>geworden</l>  <r>worden</r></p><par n="gesproken__vblex"/></e>
 <e lm="wrijven">         <p><l>gewreven</l>  <r>wrijven</r></p><par n="gesproken__vblex"/></e>
 <e lm="wringen">         <p><l>gewrongen</l> <r>wringen</r></p><par n="gesproken__vblex"/></e>
 <e lm="wuiven">          <p><l>gewoven</l>   <r>wuiven</r></p><par n="gesproken__vblex"/></e>
 <e lm="zeggen">          <p><l>gezegd</l>    <r>zeggen</r></p><par n="gesproken__vblex"/></e>
 <e lm="zenden">          <p><l>gezonden</l>  <r>zenden</r></p><par n="gesproken__vblex"/></e>
 <e lm="zieden">          <p><l>gezoden</l>   <r>zieden</r></p><par n="gesproken__vblex"/></e>
-<e lm="zien">            <p><l>gezien</l>    <r>zien</r></p><par n="gesproken__vblex"/></e>
 <e lm="zijgen">          <p><l>gezegen</l>   <r>zijgen</r></p><par n="gesproken__vblex"/></e>
 <e lm="zingen">          <p><l>gezongen</l>  <r>zingen</r></p><par n="gesproken__vblex"/></e>
 <e lm="zinken">          <p><l>gezonken</l>  <r>zinken</r></p><par n="gesproken__vblex"/></e>
@@ -30282,7 +30277,6 @@
 <e lm="verwringen">      <i>verwr</i><par n="d/ingen__vblex"/></e>
 <e lm="krijgen">         <i>kr</i><par n="r/ijgen__vblex"/></e>
 <e lm="vervangen">       <i>verv</i><par n="v/angen__vblex"/></e>
-<e lm="doen">            <i>d</i><par n="d/oen__vblex"/></e>
 <e lm="schenken">        <i>sch</i><par n="sch/enken__vblex"/></e>
 <e lm="snijden">         <i>sn</i><par n="sn/ijden__vblex"/></e>
 <e lm="besterven">       <i>best</i><par n="w/erven__vblex"/></e>
@@ -30323,7 +30317,6 @@
 <e lm="gebieden">        <i>geb</i><par n="z/ieden__vblex"/></e>
 <e lm="werven">          <i>w</i><par n="w/erven__vblex"/></e>
 <e lm="kruipen">         <i>kr</i><par n="z/uipen__vblex"/></e>
-<e lm="worden">          <i>w</i><par n="w/orden__vblex"/></e>
 <e lm="betrekken">       <i>betr</i><par n="tr/ekken__vblex"/></e>
 <e lm="bezwijken">       <i>bezw</i><par n="k/ijken__vblex"/></e>
 <e lm="verschuilen">     <i>versch</i><par n="sch/uilen__vblex"/></e>
@@ -30503,7 +30496,6 @@
 <e lm="zwellen">         <i>zw</i><par n="zw/ellen__vblex"/></e>
 <e lm="ontkomen">        <i>ontk</i><par n="k/omen__vblex"/></e>
 <e lm="helpen">          <i>h</i><par n="h/elpen__vblex"/></e>
-<e lm="komen">           <i>k</i><par n="k/omen__vblex"/></e>
 <e lm="herzien">         <i>herz</i><par n="z/ien__vblex"/></e>
 <e lm="dragen">          <i>dr</i><par n="j/agen__vblex"/></e>
 <e lm="knijpen">         <i>kn</i><par n="kn/ijpen__vblex"/></e>
@@ -30544,7 +30536,6 @@
 <e lm="schenden">        <i>sch</i><par n="z/enden__vblex"/></e>
 <e lm="herkrijgen">      <i>herkr</i><par n="r/ijgen__vblex"/></e>
 <e lm="schrikken">       <i>schr</i><par n="schr/ikken__vblex"/></e>
-<e lm="zien">            <i>z</i><par n="z/ien__vblex"/></e>
 <e lm="nijgen">          <i>n</i><par n="n/ijge__vblex"/></e>
 <e lm="ontzien">         <i>ontz</i><par n="z/ien__vblex"/></e>
 <e lm="bejagen">         <i>bej</i><par n="j/agen__vblex"/></e>
@@ -34228,7 +34219,7 @@
 <e lm="verstoren">       <i>versto</i><par n="bo/ren__vblex"/></e>
 <e lm="verstoren">       <p><l>verstoord</l> <r>verstoren</r></p><par n="gesproken__vblex"/></e>
 <e lm="verstoten">       <i>versto</i><par n="po/ten__vblex"/></e>
-<e lm="verstoten">       <p><l>Archaic</l>   <r>verstoten</r></p><par n="gesproken__vblex"/></e>
+<e lm="verstoten">       <p><l>verstoten</l> <r>verstoten</r></p><par n="gesproken__vblex"/></e>
 <e lm="verstrammen">     <i>verstram</i><par n="kam/men__vblex"/></e>
 <e lm="verstrammen">     <p><l>verstramd</l> <r>verstrammen</r></p><par n="gesproken__vblex"/></e>
 <e lm="verstrekken">     <i>verstrek</i><par n="dek/ken__vblex"/></e>
@@ -35984,16 +35975,7 @@
 
 <e lm="bouwen+op"><p><l>bouwen<b/>op</l><r>bouwen<s n="vblex"/><s n="inf"/><j/>op<s n="pr"/></r></p></e>
 
-  </section>
-  <section id="final" type="inconditional">
-<e>                      <par n="separa"/></e>
-<e>                      <par n="numeros"/></e>
-<e>                      <par n="cometa"/></e>
-<e>                      <par n="ordinals"/></e>
-<e>                      <par n="coma"/></e>
-<e>                      <par n="guionet"/></e>
-<e>                      <par n="paresq"/></e>
-<e>                      <par n="pardret"/></e>
+
 <!--
 <e lm="Australisch">     <i>Australisch</i><par n="fors_adj_sint"/></e>
 <e lm="laatstgenoemd">   <i>laatstgenoemd</i><par n="__adj"/></e>
@@ -36017,5 +35999,16 @@
 <e lm="Athene">          <i>Athene</i><par n="Frankrijk__np"/></e>
 <e lm="terwijl">         <i>terwijl</i><par n="en__cnjcoo"/></e>
 -->
+
+  </section>
+  <section id="final" type="inconditional">
+<e>                      <par n="separa"/></e>
+<e>                      <par n="numeros"/></e>
+<e>                      <par n="cometa"/></e>
+<e>                      <par n="ordinals"/></e>
+<e>                      <par n="coma"/></e>
+<e>                      <par n="guionet"/></e>
+<e>                      <par n="paresq"/></e>
+<e>                      <par n="pardret"/></e>
   </section>
 </dictionary>
