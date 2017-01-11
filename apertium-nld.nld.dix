@@ -11063,6 +11063,7 @@
 <e lm="achtenveertig">   <i>achtenveertig</i><par n="twee__num"/></e>
 <e lm="negenenveertig">  <i>negenenveertig</i><par n="twee__num"/></e>
 <e lm="vijftig">         <i>vijftig</i><par n="twee__num"/></e>
+<e lm="tachtig">         <i>tachtig</i><par n="twee__num"/></e>
 
 <e lm="miljoen">         <i>miljoen</i><par n="twee__num"/></e>
 
@@ -11127,6 +11128,8 @@
 <e lm="tot stand">       <i>tot<b/>stand</i><par n="es__adv"/></e>
 <e lm="evenals">         <i>evenals</i><par n="es__adv"/></e>
 <e lm="niet meer">       <i>niet<b/>meer</i><par n="es__adv"/></e>
+<e lm="helemaal niet">   <i>helemaal<b/>niet</i><par n="es__adv"/></e>
+<e lm="vanzelfsprekend"> <i>vanzelfsprekend</i><par n="es__adv"/></e>
 
 <e lm="aan">             <i>aan</i><par n="es__adv"/></e>
 <e lm="aaneen">          <i>aaneen</i><par n="es__adv"/></e>
@@ -12631,7 +12634,7 @@
 <e lm="dringend">        <i>dringend</i><par n="eng__adj_sint"/></e>
 <e lm="ernstig">         <i>ernstig</i><par n="eng__adj_sint"/></e>
 <e lm="geldig">          <i>geldig</i><par n="eng__adj_sint"/></e>
-<e lm="gelijkaardig">    <i> gelijkaardig</i><par n="eng__adj_sint"/></e>
+<e lm="gelijkaardig">    <i>gelijkaardig</i><par n="eng__adj_sint"/></e>
 <e lm="genitief">        <i>genitie</i><par n="corrosie/f__adj"/></e>
 <e lm="gevoelig">        <i>gevoelig</i><par n="eng__adj_sint"/></e>
 <e lm="gewelddadig">     <i>gewelddadig</i><par n="eng__adj_sint"/></e>
@@ -17024,6 +17027,7 @@
 <e lm="barrière">        <i>barrière</i><par n="hui__n_mf"/></e>
 <e lm="bartender">       <i>bartender</i><par n="led__n_m"/></e>
 <e lm="basgitaar">       <i>basgita</i><par n="ba/ar__n_mf"/></e>
+<e lm="gitaar">          <i>gita</i><par n="ba/ar__n_mf"/></e>
 <e lm="basilicum">       <i>basilicum</i><par n="LWOO__n_nt"/></e>
 <e lm="basis">           <i>bas</i><par n="bas/is__n_f"/></e>
 <e lm="basisschool">     <i>basisscho</i><par n="ko/ol__n_mf"/></e>
@@ -17222,6 +17226,7 @@
 <e lm="berghelling">     <i>berghelling</i><par n="vering__n_f"/></e>
 <e lm="berghoogte">      <i>berghoogte</i><par n="made__n_f"/></e>
 <e lm="berghut">         <i>berghut</i><par n="boomhut__n_mf"/></e>
+<e lm="blokhut">         <i>blokhut</i><par n="boomhut__n_mf"/></e>
 <e lm="bergketen">       <i>bergketen</i><par n="hui__n_mf"/></e>
 <e lm="bergpas">         <i>bergpas</i><par n="Wit-Rus__n_m"/></e>
 <e lm="bergpiek">        <i>bergpiek</i><par n="akst__n_mf"/></e>
@@ -21199,6 +21204,7 @@
 <e lm="kassa">           <i>kassa</i><par n="sjwa__n_mf"/></e>
 <e lm="kassier">         <i>kassier</i><par n="led__n_m"/></e>
 <e lm="kassierster">     <i>kassierster</i><par n="roe__n_f"/></e>
+<e lm="serveerster">     <i>serveerster</i><par n="roe__n_f"/></e>
 <e lm="verpleegster">    <i>verpleegster</i><par n="roe__n_f"/></e>
 <e lm="kast">            <i>kast</i><par n="akst__n_mf"/></e>
 <e lm="kastanje">        <i>kastanje</i><par n="led__n_m"/></e>
@@ -21360,8 +21366,10 @@
 <e lm="kim">             <i>kim</i><par n="kom__n_mf"/></e>
 <e lm="kin">             <i>kin</i><par n="horizon__n_m"/></e>
 <e lm="kind">            <i>kind</i><par n="kind__n_nt"/></e>
+<e lm="enig kind">       <i>enig<b/>kind</i><par n="kind__n_nt"/></e>
 <e lm="kinderarts">      <i>kinderarts</i><par n="zegekrans__n_m"/></e>
 <e lm="kinderboek">      <i>kinderboek</i><par n="uniform__n_nt"/></e>
+<e lm="kunstboek">       <i>kunstboek</i><par n="uniform__n_nt"/></e>
 <e lm="kinderdagverblijf"><i>kinderdagverblij</i><par n="ho/f__n_nt"/></e>
 <e lm="kinderhoek">      <i>kinderhoek</i><par n="Belg__n_m"/></e>
 <e lm="kinderkamer">     <i>kinderkamer</i><par n="hui__n_mf"/></e>
@@ -25403,6 +25411,7 @@
 <e lm="staaf">           <i>sta</i><par n="ha/af__n_mf"/></e>
 <e lm="staafmixer">      <i>staafmixer</i><par n="led__n_m"/></e>
 <e lm="staakt-het-vuren"><i>staakt-het-vuren</i><par n="topic__n_nt"/></e>
+<e lm="staal">           <i>sta</i><par n="ta/al__n_mf"/></e>
 <e lm="staalwol">        <i>staalwol</i><par n="AJC__n_mf"/></e>
 <e lm="staart">          <i>staart</i><par n="Belg__n_m"/></e>
 <e lm="staartstuk">      <i>staartstuk</i><par n="bak__n_nt"/></e>
@@ -25992,6 +26001,7 @@
 <e lm="tendersysteem">   <i>tendersyste</i><par n="ze/em__n_nt"/></e>
 <e lm="tendinitis">      <i>tendinitis</i><par n="xeres__n_f"/></e>
 <e lm="tengel">          <i>tengel</i><par n="led__n_m"/></e>
+<e lm="tennis">          <i>tennis</i><par n="nieuws__n_nt"/></e>
 <e lm="tennisracket">    <i>tennisracket</i><par n="topic__n_nt"/></e>
 <e lm="tennisschoen">    <i>tennisschoen</i><par n="Belg__n_m"/></e>
 <e lm="tennisspeler">    <i>tennisspeler</i><par n="led__n_m"/></e>
@@ -26661,6 +26671,7 @@
 <e lm="verkleuring">     <i>verkleuring</i><par n="vering__n_f"/></e>
 <e lm="verkondiging">    <i>verkondiging</i><par n="vering__n_f"/></e>
 <e lm="verkoper">        <i>verkoper</i><par n="led__n_m"/></e>
+<e lm="verkoopster">     <i>verkoopster</i><par n="roe__n_f"/></e>
 <e lm="verkorting">      <i>verkorting</i><par n="vering__n_f"/></e>
 <e lm="verkoudheid">     <i>verkoudhe</i><par n="dubbelzinnighe/id__n_f"/></e>
 <e lm="verkrachting">    <i>verkrachting</i><par n="vering__n_f"/></e>
@@ -28676,15 +28687,8 @@
 <e lm="New York">        <i>New<b/>York</i><par n="Frankrijk__np"/></e>
 <e lm="New Orleans">     <i>New<b/>Orleans</i><par n="Nederlands__np"/></e>
 <e lm="Napoleon">        <i>Napoleon</i><par n="Wynand__np"/></e>
-
-
 <e lm="Brabant">         <i>Brabant</i><par n="Frankrijk__np"/></e>
-
-
-<e lm="Lodewijk">        <i>Lodewijk</i><par n="Wynand__np"/></e>
-<e lm="Harry">           <i>Harry</i><par n="Harry__np"/></e>
-
-<e lm="Karel">           <i>Karel</i><par n="Wynand__np"/></e>
+<e lm="Tokio">           <i>Tokio</i><par n="Frankrijk__np"/></e>
 
 <e lm="Amsterdam">       <i>Amsterdam</i><par n="Frankrijk__np"/></e>
 <e lm="Vilnius">         <i>Vilnius</i><par n="Frankrijk__np"/></e>
@@ -28984,6 +28988,16 @@
 <e lm="Johannes">        <i>Johannes</i><par n="Wynand__np"/></e>
 <e lm="Louis">           <i>Louis</i><par n="Wynand__np"/></e>
 
+<e lm="Lodewijk">        <i>Lodewijk</i><par n="Wynand__np"/></e>
+<e lm="Harry">           <i>Harry</i><par n="Harry__np"/></e>
+<e lm="Karel">           <i>Karel</i><par n="Wynand__np"/></e>
+<e lm="Abbott">          <i>Abbott</i><par n="Wynand__np"/></e>
+<e lm="Abraham">         <i>Abraham</i><par n="Wynand__np"/></e>
+<e lm="Bob">             <i>Bob</i><par n="Wynand__np"/></e>
+<e lm="Jim">             <i>Jim</i><par n="Wynand__np"/></e>
+<e lm="Tom">             <i>Tom</i><par n="Wynand__np"/></e>
+
+
 <e lm="Anrie">           <i>Anrie</i><par n="Anrie__np"/></e>
 <e lm="Dima">            <i>Dima</i><par n="Anrie__np"/></e>
 <e lm="Mieke">           <i>Mieke</i><par n="Anrie__np"/></e>
@@ -29009,6 +29023,7 @@
 <e lm="Botha">           <i>Botha</i><par n="Botha__np"/></e>
 <e lm="Dalí">            <i>Dalí</i><par n="Botha__np"/></e>
 <e lm="Fischer">         <i>Fischer</i><par n="van_der_Merwe__np"/></e>
+<e lm="Hemingway">       <i>Hemingway</i><par n="van_der_Merwe__np"/></e>
 <e lm="Hitler">          <i>Hitler</i><par n="van_der_Merwe__np"/></e>
 <e lm="De Beauvoir">     <i>De<b/>Beauvoir</i><par n="van_der_Merwe__np"/></e>
 <e lm="Hughes">          <i>Hughes</i><par n="Hughes__np"/></e>
@@ -35979,7 +35994,10 @@
 <!-- SECTION: Interjections -->
 
 <e lm="Ach">             <i>Ach</i><par n="hallo__ij"/></e>
+<e lm="Bah">             <i>Bah</i><par n="hallo__ij"/></e>
+<e lm="Goedendag">       <i>Goedendag</i><par n="hallo__ij"/></e>
 <e lm="hallo">           <i>hallo</i><par n="hallo__ij"/></e>
+<e lm="hè">              <i>hè</i><par n="hallo__ij"/></e>
 <e lm="welkom">          <i>welkom</i><par n="hallo__ij"/></e>
 <!--<e lm="welkom op">       <i>welkom<b/>op</i><par n="hallo__ij"/></e>-->
 
