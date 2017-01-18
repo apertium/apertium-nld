@@ -361,6 +361,12 @@
   <e>       <p><l></l>          <r><s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/></r></p></e>
 </pardef>
 
+<pardef n="welk__prn">
+  <e>       <p><l></l>          <r><s n="prn"/><s n="itg"/><s n="nt"/><s n="sg"/></r></p></e>
+  <e>       <p><l>e</l>         <r><s n="prn"/><s n="itg"/><s n="nt"/><s n="pl"/></r></p></e>
+  <e>       <p><l>e</l>         <r><s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/></r></p></e>
+</pardef>
+
 <pardef n="wat__rel">
   <e>       <p><l></l>          <r><s n="rel"/><s n="nn"/><s n="mf"/><s n="sp"/></r></p></e>
 </pardef>
@@ -9220,11 +9226,11 @@
   <e>       <p><l>s'</l>        <r><s n="n"/><s n="m"/><s n="pl"/><j/>s<s n="gen"/></r></p></e>
 </pardef>
 
-<pardef n="aa/p__n_m">
-  <e>       <p><l>ap</l>        <r>p<s n="n"/><s n="m"/><s n="sg"/></r></p><par n="cmp"/></e>
-  <e>       <p><l>aps</l>       <r>p<s n="n"/><s n="m"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
-  <e>       <p><l>pen</l>       <r>p<s n="n"/><s n="m"/><s n="pl"/></r></p><par n="cmp-R"/></e>
-  <e>       <p><l>pens</l>      <r>p<s n="n"/><s n="m"/><s n="pl"/><j/>s<s n="gen"/></r></p></e>
+<pardef n="a/ap__n_m">
+  <e>       <p><l>ap</l>        <r>ap<s n="n"/><s n="m"/><s n="sg"/></r></p><par n="cmp"/></e>
+  <e>       <p><l>aps</l>       <r>ap<s n="n"/><s n="m"/><s n="sg"/><j/>s<s n="gen"/></r></p></e>
+  <e>       <p><l>pen</l>       <r>ap<s n="n"/><s n="m"/><s n="pl"/></r></p><par n="cmp-R"/></e>
+  <e>       <p><l>pens</l>      <r>ap<s n="n"/><s n="m"/><s n="pl"/><j/>s<s n="gen"/></r></p></e>
 </pardef>
 
 <pardef n="map__n_f">
@@ -10893,6 +10899,7 @@
 <!-- SECTION: Determiners -->
 
 <e lm="een">             <i>een</i><par n="een__det"/></e>
+<e lm="één">             <i>één</i><par n="een__det"/></e>
 <e lm="geen">            <i>geen</i><par n="een__det"/></e>
 <e lm="de">              <i></i><par n="/de__det"/></e>
 <e lm="die">             <i>d</i><par n="d/ie__det"/></e>
@@ -11003,6 +11010,7 @@
 <e lm="niks">            <i>niks</i><par n="mens__prn"/></e>
 
 <e lm="wat">             <i>wat</i><par n="wat__prn"/></e>
+<e lm="welk">            <i>welk</i><par n="welk__prn"/></e>
 
 <e lm="wat">             <i>wat</i><par n="wat__rel"/></e>
 <e lm="wie">             <i>wie</i><par n="wie__rel"/></e>
@@ -16013,7 +16021,7 @@
 <e lm="aanwinst">        <i>aanwinst</i><par n="vering__n_f"/></e>
 <e lm="aanzicht">        <i>aanzicht</i><par n="uniform__n_nt"/></e>
 <e lm="aanzoek">         <i>aanzoek</i><par n="uniform__n_nt"/></e>
-<e lm="aap">             <i>aa</i><par n="aa/p__n_m"/></e>
+<e lm="aap">             <i>a</i><par n="a/ap__n_m"/></e>
 <e lm="aapmens">         <i>aapmens</i><par n="zegekrans__n_m"/></e>
 <e lm="aar">             <i>a</i><par n="a/r__n_m"/></e>
 <e lm="aardalkalimetaal"><i>aardalkalimeta</i><par n="linia/al__n_nt"/></e>
