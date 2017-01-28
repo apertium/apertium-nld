@@ -22,16 +22,17 @@ LIST Cnjsub = cnjsub;
 LIST Cnjadv = cnjadv;
 LIST Det = det;
 LIST DetPos = (det pos);
+LIST DetDem = (det dem);
+LIST DetDef = (det def);
 LIST Vbmod = vbmod;
 LIST Vaux = vaux;
 LIST Vbhaver = vbhaver ;
 LIST Vbser = vbser ;
-LIST DetDem = (det dem);
-LIST DetDef = (det def);
 LIST Verb = vblex vbmod vaux vbhaver vbser;
 LIST Imp = imp;
 LIST DetHet = (det def nt sg);
 LIST DetDe = (det def "de"i);
+LIST Num = num;
 
 SET PrnNotPers = (prn) - PrnPers;
 SET DetNotZijn = (det) - ("zijn"i);
@@ -179,6 +180,11 @@ REMOVE Verb IF (0C N OR Verb) (-1C AdjAttr) ;
 REMOVE (vbser inf) IF (-1 (np)) ;
 REMOVE (vblex inf) IF (-1 (np)) ;
 REMOVE (det) IF (-1 (np)) ;
+
+SELECT Num IF (0 ("één"i)) ((1 Num) OR (2 Num)) ;
+SELECT Det IF (0 ("één"i)) ((1 N) OR (2 N) OR (3 N)) ;
+SELECT Det IF (0 ("een"i det)) ;
+
 
 
 SECTION
