@@ -9,10 +9,11 @@ LIST EOS = (<<<) (sent);
 LIST N = n;
 LIST Noun = n np;
 LIST Prn = prn;
-LIST PrnPers = (prn pers);
+LIST Pers = (prn pers) "prpers" (prn obj) (prn subj) ;
 LIST Inf = inf;
 LIST Sep = sep;
 LIST Pr = pr;
+LIST Pl = pl ; 
 LIST Adj = adj;
 LIST AdjAttr = (adj attr);
 LIST AdjPred = (adj pred);
@@ -34,7 +35,7 @@ LIST DetHet = (det def nt sg);
 LIST DetDe = (det def "de"i);
 LIST Num = num;
 
-SET PrnNotPers = (prn) - PrnPers;
+SET PrnNotPers = (prn) - Pers;
 SET DetNotZijn = (det) - ("zijn"i);
 SET DetPosNotZijn = DetPos - ("zijn"i);
 
@@ -42,7 +43,7 @@ SET AUX-MOD = Vaux | Vbmod | Vbhaver | Vbser ;
 
 SECTION
 
-REMOVE Inf IF (-1 PrnPers) ;
+REMOVE Inf IF (-1 Pers) ;
 
 REMOVE Adj IF (-1 Pr) (1 Pr) ;
 
@@ -197,3 +198,5 @@ REMOVE Imp IF ;
 
 # remove informal 2nd person singular reading of "heb"
 REMOVE (vbhaver pres p2 sg) IF ;
+
+"<zijn>" SELECT Pl IF (-1 Pers + Pl) ;
