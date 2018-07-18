@@ -10754,6 +10754,8 @@
 
   <section id="main" type="standard">
 
+<e><p><l>se<s n="gen"/></l><r>s<s n="gen"/></r></p></e>
+
 <!-- SECTION: Miscellaneous -->
 
 <e r="RL" lm="~">        <p><l><a/></l>      <r><a/></r></p></e>
@@ -10803,6 +10805,8 @@
 <e lm="van">             <i>van</i><par n="van__pr"/></e>
 <e lm="voor">            <i>voor</i><par n="van__pr"/></e>
 <e lm="zonder">          <i>zonder</i><par n="van__pr"/></e>
+<e lm="omstreeks">       <i>omstreeks</i><par n="van__pr"/></e>
+<e lm="daartoe">         <i>daartoe</i><par n="van__pr"/></e>
 
 <e lm="aanvullend">      <i>aanvullend</i><par n="van__pr"/></e>
 <e lm="achterna">        <i>achterna</i><par n="van__pr"/></e>
@@ -10862,6 +10866,7 @@
 <e lm="echter">          <i>echter</i><par n="en__cnjcoo"/></e>
 <e lm="maar">            <i>maar</i><par n="en__cnjcoo"/></e>
 <e lm="niettemin">       <i>niettemin</i><par n="en__cnjcoo"/></e>
+<e lm="nochtans">        <i>nochtans</i><par n="en__cnjcoo"/></e>
 
 
 <e lm="alhoewel">        <i>alhoewel</i><par n="dus__cnjadv"/></e>
@@ -11036,6 +11041,7 @@
 
 <e lm="wat">             <i>wat</i><par n="wat__rel"/></e>
 <e lm="wie">             <i>wie</i><par n="wie__rel"/></e>
+<e lm="dat">             <i>dat</i><par n="wie__rel"/></e>
 <e lm="die">             <i>d</i><par n="d/ie__rel"/></e>
 
 <e lm="waar">            <i>waar</i><par n="waar__rel"/></e>
@@ -12327,6 +12333,8 @@
 <e lm="zwakjes">         <i>zwakjes</i><par n="es__adv"/></e>
 <e lm="zwart">           <i>zwart</i><par n="es__adv"/></e>
 <e lm="zwierig">         <i>zwierig</i><par n="es__adv"/></e>
+<e lm="laatstgenoemde">  <i>laatstgenoemde</i><par n="es__adv"/></e>
+<e lm="grootschaals">    <i>grootschaals</i><par n="es__adv"/></e>
 
 <e lm="aan de andere kant"><i>aan<b/>de<b/>andere<b/>kant</i><par n="es__adv"/></e>
 <e lm="aan de grond">    <i>aan<b/>de<b/>grond</i><par n="es__adv"/></e>
@@ -14779,6 +14787,19 @@
 <e lm="zwartverdiend">   <i>zwartverdiend</i><par n="Afghaans__adj"/></e>
 <e lm="zwijgzaam">       <i>zwijgza</i><par n="minza/am__adj_sint"/></e>
 <e lm="zymogeen">        <i>zymoge</i><par n="zymoge/en__adj"/></e>
+<e lm="Scandinavisch">   <i>Scandinavisch</i><par n="fors__adj_sint"/></e>
+<e lm="Normandisch">     <i>Normandisch</i><par n="fors__adj_sint"/></e>
+<e lm="Baltisch">        <i>Baltisch</i><par n="fors__adj_sint"/></e>
+<e lm="federaal">        <i>federa</i><par n="ka/al__adj_sint"/></e>
+<e lm="apart">           <i>apart</i><par n="eng__adj_sint"/></e>
+<e lm="kerkelijk">       <i>kerkelijk</i><par n="eng__adj_sint"/></e>
+<e lm="overblijvend">    <i>overblijvend</i><par n="eng__adj_sint"/></e>
+<e lm="Schots">          <i>Schots</i><par n="fors__adj_sint"/></e>
+<e lm="godsdienstig">    <i>godsdienstig</i><par n="eng__adj_sint"/></e>
+<e lm="toekomstig">      <i>toekomstig</i><par n="eng__adj_sint"/></e>
+<e lm="daaropvolgend">   <i>daaropvolgend</i><par n="gans__adj"/></e>
+<e lm="koninklijk">      <i>koninklijk</i><par n="eng__adj_sint"/></e>
+<e lm="gereformeerd">    <i>gereformeerd</i><par n="eng__adj_sint"/></e>
 
 <!-- SECTION: Nouns -->
 
@@ -17398,7 +17419,7 @@
 <e lm="bewaker">         <i>bewaker</i><par n="led__n_m"/></e>
 <e lm="bewaking">        <i>bewaking</i><par n="opacriminaliteit__n_f"/></e>
 <e lm="bewapening">      <i>bewapening</i><par n="opacriminaliteit__n_f"/></e>
-<e lm="bewaring">        <i>bewaring</i><par n="opacriminaliteit__n_f"/></e>
+<e lm="bewaring">        <i>bewaring</i><par n="vering__n_f"/></e>
 <e lm="beweegreden">     <i>beweegreden</i><par n="akst__n_mf"/></e>
 <e lm="beweging">        <i>beweging</i><par n="vering__n_f"/></e>
 <e lm="bewering">        <i>bewering</i><par n="vering__n_f"/></e>
@@ -28518,6 +28539,20 @@
 <e lm="übermensch">      <i>übermensch</i><par n="Belg__n_m"/></e>
 <e lm="β-lactam">        <i>β-lactam</i><par n="topic__n_nt"/></e>
 <e lm="β-lactam-antibioticum"><i>β-lactam-antibiotic</i><par n="parasympathicomimetic/um__n_nt"/></e>
+<e lm="gehalte">         <i>gehalte</i><par n="lipide__n_nt"/></e>
+<e lm="spreker">         <i>spreker</i><par n="led__n_m"/></e>
+<e lm="silver">          <i>silver</i><par n="LWOO__n_nt"/></e>
+<e lm="spoorlijn">       <i>spoorlijn</i><par n="vering__n_f"/></e>
+<e lm="kiezer">          <i>kiezer</i><par n="hui__n_mf"/></e>
+<e lm="steenkool">       <i>steenkool</i><par n="LWOO__n_nt"/></e>
+<e lm="aanhanger">       <i>aanhanger</i><par n="led__n_m"/></e>
+<e lm="bouwstijl">       <i>bouwstijl</i><par n="Belg__n_m"/></e>
+<e lm="record">          <i>record</i><par n="topic__n_nt"/></e>
+<e lm="aanvang">         <i>aanvang</i><par n="Belg__n_m"/></e>
+<e lm="kerkraad">        <i>kerkra</i><par n="na/ad__n_m"/></e>
+<e lm="verloop">         <i>verloop</i><par n="LWOO__n_nt"/></e>
+<e lm="ANC">             <i>ANC</i><par n="LWOO__n_nt"/></e>
+<e lm="inkomsten">       <i>inkomsten</i><par n="Olympische Spelen__n_m"/></e>
 
 <e lm="aanhouding">      <i>aanhouding</i><par n="vering__n_f"/></e>
 <e lm="aanraking">       <i>aanraking</i><par n="vering__n_f"/></e>
@@ -29049,6 +29084,7 @@
 <e lm="Bob">             <i>Bob</i><par n="Wynand__np"/></e>
 <e lm="Jim">             <i>Jim</i><par n="Wynand__np"/></e>
 <e lm="Tom">             <i>Tom</i><par n="Wynand__np"/></e>
+<e lm="Eduard">          <i>Eduard</i><par n="Wynand__np"/></e>
 
 
 <e lm="Anrie">           <i>Anrie</i><par n="Anrie__np"/></e>
@@ -36144,7 +36180,7 @@
 <e lm="hallo">           <i>hallo</i><par n="hallo__ij"/></e>
 <e lm="hè">              <i>hè</i><par n="hallo__ij"/></e>
 <e lm="welkom">          <i>welkom</i><par n="hallo__ij"/></e>
-<!--<e lm="welkom op">       <i>welkom<b/>op</i><par n="hallo__ij"/></e>-->
+<e lm="welkom op">       <i>welkom<b/>op</i><par n="hallo__ij"/></e>
 
 <!-- SECTION: Tokenisation hacks -->
 
