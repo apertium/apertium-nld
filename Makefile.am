@@ -2,8 +2,6 @@
 ## Makefile for apertium-nld
 ###############################################################################
 
-RELEASE=0.1
-VERSION=0.1.0
 LANG1=nld
 BASENAME=apertium-$(LANG1)
 
@@ -38,11 +36,11 @@ $(LANG1).autopgen.bin: $(BASENAME).post-$(LANG1).dix
 	lt-comp lr $< $@
 
 ###############################################################################
-## Disambiguation rules 
+## Disambiguation rules
 ###############################################################################
 
-$(LANG1).rlx.bin: $(BASENAME).$(LANG1).rlx $(CGCOMP)
-	$(CGCOMP) $< $@
+$(LANG1).rlx.bin: $(BASENAME).$(LANG1).rlx
+	cg-comp $< $@
 
 ###############################################################################
 ## Distribution
